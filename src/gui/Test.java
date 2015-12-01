@@ -1,6 +1,5 @@
 package gui;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,7 +13,7 @@ import org.apache.lucene.store.RAMDirectory;
 
 public class Test {
 	
-	public static void main() {
+	public static void main(String args[]) {
 		RAMDirectory spellCheckerDir = new RAMDirectory();		
 		SpellChecker spellchecker = null;
 		try {
@@ -45,7 +44,8 @@ public class Test {
 		}
 		  try {
 			String[] suggestions = spellchecker.suggestSimilar("misspelt", 5);
-			 System.out.println(suggestions);
+			for(int i = 0; i < suggestions.length; i++)
+				System.out.println(suggestions[i]);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
