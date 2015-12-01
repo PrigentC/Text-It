@@ -3,25 +3,27 @@ package gui;
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JSplitPane;
 
-@SuppressWarnings("serial")
+@SuppressWarnings("serial")	
 public class AppFrame extends JFrame{
 	
 	//Main
     public static void main(String[] args) {
-    	EventQueue.invokeLater(new Runnable() {
-	    	public void run() {
-	    		AppFrame ex = new AppFrame();
-	    		ex.setVisible(true);
-	    	}
-    	});
+	    	EventQueue.invokeLater(new Runnable() {
+		    	public void run() {
+		    		AppFrame ex = new AppFrame();
+		    		ex.setVisible(true);
+		    	}
+	    	});
     }
     
 	public AppFrame() {
@@ -37,6 +39,7 @@ public class AppFrame extends JFrame{
 		
 		JSplitPane jSplitPane1, jSplitPane2;
         JPanel jPanel1, jPanel2Top, jPanel2Bottom;
+        JLabel jLabel1, jLabel2Top, jLabel2Bottom;
         
         //Menu Bar
 		
@@ -76,6 +79,13 @@ public class AppFrame extends JFrame{
         writeAction.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("You have clicked on the write action");
+                AppWriteFrame writeFrame = new AppWriteFrame();
+                try{
+                	writeFrame.openFrame();
+                }
+                catch(IOException e){
+                	e.printStackTrace();
+                }
             }
         });
         
@@ -98,14 +108,31 @@ public class AppFrame extends JFrame{
         //Splitting panels
         jSplitPane2 = new JSplitPane(JSplitPane.VERTICAL_SPLIT, 
                 jPanel2Top, jPanel2Bottom);
-        jSplitPane2.setOneTouchExpandable(true);
+        jSplitPane2.setOneTouchExpandable(false);
         jSplitPane2.setDividerLocation(300);
+        //jSplitPane2.setResizeWeight(0.5);
          
         jSplitPane1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, 
                 jPanel1, jSplitPane2);
-        jSplitPane1.setOneTouchExpandable(true);
+        jSplitPane1.setOneTouchExpandable(false);
         jSplitPane1.setDividerLocation(500);
+        //jSplitPane1.setResizeWeight(0.5);
          
         getContentPane().add(jSplitPane1);
+        
+        
+        //Label
+        
+        //Create SplitPane Labels
+        jLabel1 = new JLabel("Text");
+        jLabel2Top = new JLabel("Schematic");
+        jLabel2Bottom = new JLabel("Statistics");
+        
+        //Adding Labels
+        jPanel1.add(jLabel1);
+        jPanel2Top.add(jLabel2Top);
+        jPanel2Bottom.add(jLabel2Bottom);
+        
+      
 	}
 }
