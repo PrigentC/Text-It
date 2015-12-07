@@ -1,6 +1,5 @@
 package gui;
 
-import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -10,21 +9,14 @@ import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSplitPane;
 
 @SuppressWarnings("serial")	
-public class AppFrame extends JFrame{
+public class AppFrame extends JFrame implements ActionListener{
 	
-	//Main
-    public static void main(String[] args) {
-	    	EventQueue.invokeLater(new Runnable() {
-		    	public void run() {
-		    		AppFrame ex = new AppFrame();
-		    		ex.setVisible(true);
-		    	}
-	    	});
-    }
+	private JMenuItem importAction, writeAction, exitAction, copyAction;
     
 	public AppFrame() {
 		initUI();
@@ -56,10 +48,10 @@ public class AppFrame extends JFrame{
         menuBar.add(editMenu);
 
         // Create and add simple menu item to one of the drop down menu
-        JMenuItem importAction = new JMenuItem("Import");
-        JMenuItem writeAction = new JMenuItem("Write");
-        JMenuItem exitAction = new JMenuItem("Exit");
-        JMenuItem copyAction = new JMenuItem("Copy");
+        importAction = new JMenuItem("Import");
+        writeAction = new JMenuItem("Write");
+        exitAction = new JMenuItem("Exit");
+        copyAction = new JMenuItem("Copy");
 
         fileMenu.add(importAction);
         fileMenu.add(writeAction);
@@ -68,10 +60,23 @@ public class AppFrame extends JFrame{
         
         editMenu.add(copyAction);
         
+        //Actions for menu items
+        importAction.addActionListener(this);
+        writeAction.addActionListener(this);      
+        /*
         //Action for import
         importAction.addActionListener(new ActionListener() { 
+            AppImportFrame importFrame = new AppImportFrame();
             public void actionPerformed(ActionEvent arg0) {
                 System.out.println("You have clicked on the import action");
+                try{
+                	//setEnabled(false);
+                	importFrame.openFrame();
+                	
+                }
+                catch(IOException e){
+                	e.printStackTrace();
+                }
             }
         });
         
@@ -87,7 +92,7 @@ public class AppFrame extends JFrame{
                 	e.printStackTrace();
                 }
             }
-        });
+        });*/
         
         //Action for exit
         exitAction.addActionListener(new ActionListener() {
@@ -135,4 +140,29 @@ public class AppFrame extends JFrame{
         
       
 	}
+
+	public void actionPerformed(ActionEvent evt) 	
+    {
+    	Object source = evt.getSource();
+            
+		if(source==importAction){
+            AppImportFrame importFrame = new AppImportFrame();
+            try {
+            	System.out.println("You have clicked on the import action");
+            	//setEnabled(false);
+            	importFrame.openFrame();
+            } catch (IOException ex) {                    
+            	final JPanel panel = new JPanel();
+                JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
+            }
+        }else if(source==writeAction){
+        	AppWriteFrame writeFrame = new AppWriteFrame();
+            try {
+            	System.out.println("You have clicked on the write action");
+            	writeFrame.openFrame();
+            } catch (IOException ex) {                    
+                ex.printStackTrace();
+            }
+        }
+    }
 }
