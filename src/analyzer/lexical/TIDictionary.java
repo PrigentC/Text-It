@@ -1,10 +1,9 @@
-package analyzer;
+package analyzer.lexical;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-import org.apache.lucene.search.spell.Dictionary;
 import org.apache.lucene.search.spell.PlainTextDictionary;
 
 public class TIDictionary {
@@ -20,6 +19,7 @@ public class TIDictionary {
 
 	public PlainTextDictionary TIDictionnaryToPlainText() throws FileNotFoundException {
 		FileInputStream fis = new FileInputStream(data);
+		
 		return new PlainTextDictionary(fis);
 	}
 	

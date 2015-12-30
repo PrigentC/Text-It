@@ -1,4 +1,4 @@
-package analyzer;
+package analyzer.lexical;
 
 import java.io.IOException;
 
@@ -22,6 +22,10 @@ public class TISpellChecker {
 	
 	public void addDictionnary(TIDictionary d) throws IOException {
 		sc.indexDictionary(d.TIDictionnaryToPlainText(), config, true);
+	}
+	
+	public boolean isWordCorrect(String word) throws IOException {
+		return sc.exist(word);
 	}
 	
 	public String[] suggestSimilar(String word, int NSugg) throws IOException {

@@ -1,5 +1,4 @@
-a
-ab
+ï»¿ab
 abaissa
 abaissai
 abaissaient
@@ -2240,9 +2239,9 @@ accourusses
 accourussiez
 accourussions
 accourut
-accour›mes
-accour›t
-accour›tes
+accourûmes
+accourût
+accourûtes
 accoutra
 accoutrai
 accoutraient
@@ -2508,10 +2507,10 @@ accrusses
 accrussiez
 accrussions
 accrut
-accr›mes
-accr›s
-accr›t
-accr›tes
+accrûmes
+accrûs
+accrût
+accrûtes
 accu
 accueil
 accueillaient
@@ -5503,51 +5502,51 @@ affublèrent
 affubliez
 affublions
 affublons
-aff›t
-aff›ta
-aff›tage
-aff›tages
-aff›tai
-aff›taient
-aff›tais
-aff›tait
-aff›tant
-aff›tas
-aff›tasse
-aff›tassent
-aff›tasses
-aff›tassiez
-aff›tassions
-aff›tâmes
-aff›tât
-aff›tâtes
-aff›te
-aff›tent
-aff›ter
-aff›tera
-aff›terai
-aff›teraient
-aff›terais
-aff›terait
-aff›teras
-aff›terez
-aff›teriez
-aff›terions
-aff›terons
-aff›teront
-aff›tes
-aff›teur
-aff›teurs
-aff›tez
-aff›té
-aff›tée
-aff›tées
-aff›tés
-aff›tèrent
-aff›tiez
-aff›tions
-aff›tons
-aff›ts
+affût
+affûta
+affûtage
+affûtages
+affûtai
+affûtaient
+affûtais
+affûtait
+affûtant
+affûtas
+affûtasse
+affûtassent
+affûtasses
+affûtassiez
+affûtassions
+affûtâmes
+affûtât
+affûtâtes
+affûte
+affûtent
+affûter
+affûtera
+affûterai
+affûteraient
+affûterais
+affûterait
+affûteras
+affûterez
+affûteriez
+affûterions
+affûterons
+affûteront
+affûtes
+affûteur
+affûteurs
+affûtez
+affûté
+affûtée
+affûtées
+affûtés
+affûtèrent
+affûtiez
+affûtions
+affûtons
+affûts
 afghan
 afghane
 afghanes
@@ -5611,7 +5610,7 @@ agar
 agaric
 agarics
 agate
-age timon
+age-timon
 agence
 agencement
 agencements
@@ -5698,7 +5697,7 @@ agenouillions
 agenouillons
 agent
 agents
-ages timon
+ages-timon
 aggloméra
 agglomérai
 aggloméraient
@@ -6530,8 +6529,8 @@ aigrîmes
 aigrît
 aigrîtes
 aigu
-aigue marine
-aiguè adj
+aigue-marine
+aiguè-adj
 aiguès
 aiguière
 aiguières
@@ -10565,9 +10564,9 @@ aoriste
 aorte
 aortes
 aortite
-ao›t
-ao›tat
-ao›ts
+août
+aoûtat
+aoûts
 apache
 apaches
 apaisa
@@ -10658,9 +10657,9 @@ aperçues
 aperçurent
 aperçus
 aperçut
-aperç›mes
-aperç›t
-aperç›tes
+aperçûmes
+aperçût
+aperçûtes
 apesanteur
 apeuré
 apeurée
@@ -14064,7 +14063,7 @@ assidue
 assidues
 assiduité
 assidus
-assid›ment
+assidûment
 assied
 assieds
 assiette
@@ -16936,7 +16935,7 @@ aveuglâmes
 aveuglât
 aveuglâtes
 aveugle
-aveuglement nom
+aveuglement-nom
 aveuglent
 aveugler
 aveuglera
@@ -17354,7 +17353,6 @@ azurées
 azurés
 azyme
 azymes
-b
 baba
 babas
 babeurre
@@ -18510,7 +18508,7 @@ banane
 bananes
 bananier
 bananiers
-banaux vieillot
+banaux-vieillot
 banc
 bancaire
 bancaires
@@ -19444,7 +19442,7 @@ bastonnade
 bastonnades
 bastringue
 bastringues
-bat équestre
+bat-équestre
 bataclan
 batailla
 bataillai
@@ -26590,61 +26588,61 @@ bruyantes
 bruyants
 bruyère
 bruyères
-br›la
-br›lage
-br›lages
-br›lai
-br›laient
-br›lais
-br›lait
-br›lant
-br›lante
-br›lantes
-br›lants
-br›lantw
-br›las
-br›lasse
-br›lassent
-br›lasses
-br›lassiez
-br›lassions
-br›lâmes
-br›lât
-br›lâtes
-br›le
-br›lent
-br›ler
-br›lera
-br›lerai
-br›leraient
-br›lerais
-br›lerait
-br›leras
-br›lerez
-br›leriez
-br›lerions
-br›lerons
-br›leront
-br›les
-br›leur
-br›leurs
-br›leuse
-br›leuses
-br›lez
-br›lé
-br›lée
-br›lées
-br›lés
-br›lèrent
-br›liez
-br›lions
-br›loir
-br›loirs
-br›lons
-br›lot
-br›lots
-br›lure
-br›lures
+brûla
+brûlage
+brûlages
+brûlai
+brûlaient
+brûlais
+brûlait
+brûlant
+brûlante
+brûlantes
+brûlants
+brûlantw
+brûlas
+brûlasse
+brûlassent
+brûlasses
+brûlassiez
+brûlassions
+brûlâmes
+brûlât
+brûlâtes
+brûle
+brûlent
+brûler
+brûlera
+brûlerai
+brûleraient
+brûlerais
+brûlerait
+brûleras
+brûlerez
+brûleriez
+brûlerions
+brûlerons
+brûleront
+brûles
+brûleur
+brûleurs
+brûleuse
+brûleuses
+brûlez
+brûlé
+brûlée
+brûlées
+brûlés
+brûlèrent
+brûliez
+brûlions
+brûloir
+brûloirs
+brûlons
+brûlot
+brûlots
+brûlure
+brûlures
 bu
 buanderie
 buanderies
@@ -26917,64 +26915,63 @@ buvez
 buviez
 buvions
 buvons
-b›cha
-b›chai
-b›chaient
-b›chais
-b›chait
-b›chant
-b›chas
-b›chasse
-b›chassent
-b›chasses
-b›chassiez
-b›chassions
-b›châmes
-b›chât
-b›châtes
-b›che
-b›chent
-b›cher
-b›chera
-b›cherai
-b›cheraient
-b›cherais
-b›cherait
-b›cheras
-b›cherez
-b›cheriez
-b›cherions
-b›cheron
-b›cheronne
-b›cheronnes
-b›cherons
-b›cheront
-b›chers
-b›ches
-b›chette
-b›chettes
-b›cheur
-b›cheurs
-b›cheuse
-b›cheuses
-b›chez
-b›ché
-b›chée
-b›chées
-b›chés
-b›chèrent
-b›chiez
-b›chions
-b›chons
-b›mes
-b›t
-b›tes
+bûcha
+bûchai
+bûchaient
+bûchais
+bûchait
+bûchant
+bûchas
+bûchasse
+bûchassent
+bûchasses
+bûchassiez
+bûchassions
+bûchâmes
+bûchât
+bûchâtes
+bûche
+bûchent
+bûcher
+bûchera
+bûcherai
+bûcheraient
+bûcherais
+bûcherait
+bûcheras
+bûcherez
+bûcheriez
+bûcherions
+bûcheron
+bûcheronne
+bûcheronnes
+bûcherons
+bûcheront
+bûchers
+bûches
+bûchette
+bûchettes
+bûcheur
+bûcheurs
+bûcheuse
+bûcheuses
+bûchez
+bûché
+bûchée
+bûchées
+bûchés
+bûchèrent
+bûchiez
+bûchions
+bûchons
+bûmes
+bût
+bûtes
 byzance
 byzantin
 byzantine
 byzantines
 byzantins
-c
 ca
 cabale
 cabales
@@ -29064,8 +29061,8 @@ cape
 capeline
 capelines
 capes
-capharna‡m
-capharna‡ms
+capharnaüm
+capharnaüms
 capillaire
 capillaires
 capillarité
@@ -29124,7 +29121,7 @@ capitalistes
 capitaux
 capiteuse
 capiteuses
-capiteux enivrant
+capiteux-enivrant
 capitonna
 capitonnage
 capitonnages
@@ -32045,8 +32042,8 @@ chahutons
 chahuts
 chai
 chair
-chaire siège
-chaires siège
+chaire-siège
+chaires-siège
 chairs
 chaise
 chaises
@@ -33191,7 +33188,7 @@ chassieuses
 chassieux
 chassiez
 chassions
-chassis verbe
+chassis-verbe
 chassons
 chaste
 chastement
@@ -37408,7 +37405,7 @@ coïncidai
 coïncidaient
 coïncidais
 coïncidait
-coïncidant part
+coïncidant-part
 coïncidas
 coïncidasse
 coïncidassent
@@ -37421,7 +37418,7 @@ coïncidâtes
 coïncide
 coïncidence
 coïncidences
-coïncident adj
+coïncident-adj
 coïncidente
 coïncidentes
 coïncidents
@@ -37833,7 +37830,7 @@ colombiers
 colombophile
 colombophiles
 colombophilie
-colon personne
+colon-personne
 colonel
 colonels
 colonial
@@ -37894,7 +37891,7 @@ colonne
 colonnes
 colonnette
 colonnettes
-colons personne
+colons-personne
 colophane
 coloquinte
 coloquintes
@@ -38952,9 +38949,9 @@ comparussions
 comparut
 comparution
 comparutions
-compar›mes
-compar›t
-compar›tes
+comparûmes
+comparût
+comparûtes
 compas
 compassé
 compassée
@@ -39330,9 +39327,9 @@ complusses
 complussiez
 complussions
 complut
-compl›mes
-compl›t
-compl›tes
+complûmes
+complût
+complûtes
 comporta
 comportai
 comportaient
@@ -40087,9 +40084,9 @@ conclusses
 conclussiez
 conclussions
 conclut
-concl›mes
-concl›t
-concl›tes
+conclûmes
+conclût
+conclûtes
 concombre
 concombres
 concomitance
@@ -40182,9 +40179,9 @@ concourusses
 concourussiez
 concourussions
 concourut
-concour›mes
-concour›t
-concour›tes
+concourûmes
+concourût
+concourûtes
 concret
 concrets
 concrétion
@@ -40301,9 +40298,9 @@ conçusses
 conçussiez
 conçussions
 conçut
-conç›mes
-conç›t
-conç›tes
+conçûmes
+conçût
+conçûtes
 condamna
 condamnable
 condamnables
@@ -41032,9 +41029,9 @@ confondusses
 confondussiez
 confondussions
 confondut
-confond›mes
-confond›t
-confond›tes
+confondûmes
+confondût
+confondûtes
 conforma
 conformai
 conformaient
@@ -41574,9 +41571,9 @@ connusses
 connussiez
 connussions
 connut
-conn›mes
-conn›t
-conn›tes
+connûmes
+connût
+connûtes
 conque
 conquerra
 conquerrai
@@ -45658,9 +45655,9 @@ courusses
 courussiez
 courussions
 courut
-cour›mes
-cour›t
-cour›tes
+courûmes
+courût
+courûtes
 cous
 cousaient
 cousais
@@ -45807,30 +45804,30 @@ couvrîmes
 couvrît
 couvrîtes
 couvrons
-co›t
-co›ta
-co›taient
-co›tait
-co›tant
-co›tassent
-co›tât
-co›te
-co›tent
-co›ter
-co›tera
-co›teraient
-co›terait
-co›teront
-co›teuse
-co›teusement
-co›teuses
-co›teux
-co›té
-co›tée
-co›tées
-co›tés
-co›tèrent
-co›ts
+coût
+coûta
+coûtaient
+coûtait
+coûtant
+coûtassent
+coûtât
+coûte
+coûtent
+coûter
+coûtera
+coûteraient
+coûterait
+coûteront
+coûteuse
+coûteusement
+coûteuses
+coûteux
+coûté
+coûtée
+coûtées
+coûtés
+coûtèrent
+coûts
 cow
 coxalgie
 côlon
@@ -47344,7 +47341,7 @@ croulèrent
 crouliez
 croulions
 croulons
-croup maladie
+croup-maladie
 croupe
 croupes
 croupetons
@@ -47431,10 +47428,10 @@ croustillèrent
 croustilliez
 croustillions
 croustillons
-cro›te
-cro›tes
-cro›ton
-cro›tons
+croûte
+croûtes
+croûton
+croûtons
 croyaient
 croyais
 croyait
@@ -47521,20 +47518,20 @@ crussiez
 crussions
 crustacés
 crut
-cr›
-cr›e
-cr›es
-cr›ment
-cr›mes
-cr›rent
-cr›s
-cr›sse
-cr›ssent
-cr›sses
-cr›ssiez
-cr›ssions
-cr›t
-cr›tes
+crû
+crûe
+crûes
+crûment
+crûmes
+crûrent
+crûs
+crûsse
+crûssent
+crûsses
+crûssiez
+crûssions
+crût
+crûtes
 cryptage
 cryptages
 cryptant
@@ -48243,7 +48240,6 @@ cyriens
 cystite
 cytise
 cytologie
-d
 dactylo
 dactylographia
 dactylographiai
@@ -49061,7 +49057,7 @@ descriptive
 descriptives
 desiderata
 design
-designer nom
+designer-nom
 designers
 designs
 despote
@@ -49300,7 +49296,7 @@ dessertit
 dessertîmes
 dessertît
 dessertîtes
-desserts repas
+desserts-repas
 desservaient
 desservais
 desservait
@@ -49465,45 +49461,45 @@ dessinions
 dessinons
 dessins
 dessous
-desso›la
-desso›lai
-desso›laient
-desso›lais
-desso›lait
-desso›lant
-desso›las
-desso›lasse
-desso›lassent
-desso›lasses
-desso›lassiez
-desso›lassions
-desso›lâmes
-desso›lât
-desso›lâtes
-desso›le
-desso›lent
-desso›ler
-desso›lera
-desso›lerai
-desso›leraient
-desso›lerais
-desso›lerait
-desso›leras
-desso›lerez
-desso›leriez
-desso›lerions
-desso›lerons
-desso›leront
-desso›les
-desso›lez
-desso›lé
-desso›lée
-desso›lées
-desso›lés
-desso›lèrent
-desso›liez
-desso›lions
-desso›lons
+dessoûla
+dessoûlai
+dessoûlaient
+dessoûlais
+dessoûlait
+dessoûlant
+dessoûlas
+dessoûlasse
+dessoûlassent
+dessoûlasses
+dessoûlassiez
+dessoûlassions
+dessoûlâmes
+dessoûlât
+dessoûlâtes
+dessoûle
+dessoûlent
+dessoûler
+dessoûlera
+dessoûlerai
+dessoûleraient
+dessoûlerais
+dessoûlerait
+dessoûleras
+dessoûlerez
+dessoûleriez
+dessoûlerions
+dessoûlerons
+dessoûleront
+dessoûles
+dessoûlez
+dessoûlé
+dessoûlée
+dessoûlées
+dessoûlés
+dessoûlèrent
+dessoûliez
+dessoûlions
+dessoûlons
 dessus
 destin
 destina
@@ -49675,7 +49671,7 @@ devenu
 devenue
 devenues
 devenus
-devers loc
+devers-loc
 devez
 device
 deviendra
@@ -54167,19 +54163,19 @@ décrottoirs
 décrottons
 décrue
 décrues
-décr›
-décr›e
-décr›es
-décr›mes
-décr›rent
-décr›s
-décr›sse
-décr›ssent
-décr›sses
-décr›ssiez
-décr›ssions
-décr›t
-décr›tes
+décrû
+décrûe
+décrûes
+décrûmes
+décrûrent
+décrûs
+décrûsse
+décrûssent
+décrûsses
+décrûssiez
+décrûssions
+décrût
+décrûtes
 décrypta
 décryptai
 décryptaient
@@ -54313,9 +54309,9 @@ déçusses
 déçussiez
 déçussions
 déçut
-déç›mes
-déç›t
-déç›tes
+déçûmes
+déçût
+déçûtes
 dédaigna
 dédaignai
 dédaignaient
@@ -56357,50 +56353,50 @@ dégouttée
 dégouttées
 dégouttés
 dégouttèrent
-dégo›t
-dégo›ta
-dégo›tai
-dégo›taient
-dégo›tais
-dégo›tait
-dégo›tant
-dégo›tante
-dégo›tantes
-dégo›tants
-dégo›tas
-dégo›tasse
-dégo›tassent
-dégo›tasses
-dégo›tassiez
-dégo›tassions
-dégo›tâmes
-dégo›tât
-dégo›tâtes
-dégo›te
-dégo›tent
-dégo›ter
-dégo›tera
-dégo›terai
-dégo›teraient
-dégo›terais
-dégo›terait
-dégo›teras
-dégo›terez
-dégo›teriez
-dégo›terions
-dégo›terons
-dégo›teront
-dégo›tes
-dégo›tez
-dégo›té
-dégo›tée
-dégo›tées
-dégo›tés
-dégo›tèrent
-dégo›tiez
-dégo›tions
-dégo›tons
-dégo›ts
+dégoût
+dégoûta
+dégoûtai
+dégoûtaient
+dégoûtais
+dégoûtait
+dégoûtant
+dégoûtante
+dégoûtantes
+dégoûtants
+dégoûtas
+dégoûtasse
+dégoûtassent
+dégoûtasses
+dégoûtassiez
+dégoûtassions
+dégoûtâmes
+dégoûtât
+dégoûtâtes
+dégoûte
+dégoûtent
+dégoûter
+dégoûtera
+dégoûterai
+dégoûteraient
+dégoûterais
+dégoûterait
+dégoûteras
+dégoûterez
+dégoûteriez
+dégoûterions
+dégoûterons
+dégoûteront
+dégoûtes
+dégoûtez
+dégoûté
+dégoûtée
+dégoûtées
+dégoûtés
+dégoûtèrent
+dégoûtiez
+dégoûtions
+dégoûtons
+dégoûts
 dégrada
 dégradai
 dégradaient
@@ -60661,9 +60657,9 @@ déplussiez
 déplussions
 déplut
 déplšrent
-dépl›mes
-dépl›t
-dépl›tes
+déplûmes
+déplût
+déplûtes
 dépoli
 dépolie
 dépolies
@@ -66728,9 +66724,9 @@ discourusses
 discourussiez
 discourussions
 discourut
-discour›mes
-discour›t
-discour›tes
+discourûmes
+discourût
+discourûtes
 discret
 discrets
 discrédit
@@ -67101,9 +67097,9 @@ disparusses
 disparussiez
 disparussions
 disparut
-dispar›mes
-dispar›t
-dispar›tes
+disparûmes
+disparût
+disparûtes
 dispendieuse
 dispendieuses
 dispendieux
@@ -68573,7 +68569,7 @@ dodu
 dodue
 dodues
 dodus
-dog hotdog
+dog-hotdog
 doge
 doges
 dogmatique
@@ -68622,7 +68618,7 @@ dogmatismes
 dogmatisons
 dogme
 dogmes
-dogs hotdog
+dogs-hotdog
 dogue
 dogues
 doigt
@@ -68650,8 +68646,8 @@ doline
 dolines
 dollar
 dollars
-dolman veste
-dolmans veste
+dolman-veste
+dolmans-veste
 dolmen
 dolmens
 dolomie
@@ -69969,12 +69965,12 @@ duveteuse
 duveteuses
 duveteux
 duvets
-d›
-d›ment
-d›mes
-d›s
-d›t
-d›tes
+dû
+dûment
+dûmes
+dûs
+dût
+dûtes
 dynamique
 dynamiques
 dynamisme
@@ -70037,7 +70033,6 @@ dysentériques
 dysfonction
 dyslexie
 dyspesie
-e
 eau
 eaux
 ecchymose
@@ -71881,8 +71876,8 @@ embusquèrent
 embusquiez
 embusquions
 embusquons
-emb›che
-emb›ches
+embûche
+embûches
 emmagasina
 emmagasinage
 emmagasinages
@@ -72491,8 +72486,8 @@ emparèrent
 empariez
 emparions
 emparons
-empattement mécanique
-empattements mécanique
+empattement-mécanique
+empattements-mécanique
 empauma
 empaumai
 empaumaient
@@ -74609,9 +74604,9 @@ encourusses
 encourussiez
 encourussions
 encourut
-encour›mes
-encour›t
-encour›tes
+encourûmes
+encourût
+encourûtes
 encra
 encrage
 encrages
@@ -74689,47 +74684,47 @@ encrèrent
 encrier
 encriers
 encrons
-encro›ta
-encro›tai
-encro›taient
-encro›tais
-encro›tait
-encro›tant
-encro›tas
-encro›tasse
-encro›tassent
-encro›tasses
-encro›tassiez
-encro›tassions
-encro›tâmes
-encro›tât
-encro›tâtes
-encro›te
-encro›tement
-encro›tements
-encro›tent
-encro›ter
-encro›tera
-encro›terai
-encro›teraient
-encro›terais
-encro›terait
-encro›teras
-encro›terez
-encro›teriez
-encro›terions
-encro›terons
-encro›teront
-encro›tes
-encro›tez
-encro›té
-encro›tée
-encro›tées
-encro›tés
-encro›tèrent
-encro›tiez
-encro›tions
-encro›tons
+encroûta
+encroûtai
+encroûtaient
+encroûtais
+encroûtait
+encroûtant
+encroûtas
+encroûtasse
+encroûtassent
+encroûtasses
+encroûtassiez
+encroûtassions
+encroûtâmes
+encroûtât
+encroûtâtes
+encroûte
+encroûtement
+encroûtements
+encroûtent
+encroûter
+encroûtera
+encroûterai
+encroûteraient
+encroûterais
+encroûterait
+encroûteras
+encroûterez
+encroûteriez
+encroûterions
+encroûterons
+encroûteront
+encroûtes
+encroûtez
+encroûté
+encroûtée
+encroûtées
+encroûtés
+encroûtèrent
+encroûtiez
+encroûtions
+encroûtons
 encrypté
 encryptés
 encyclique
@@ -78342,17 +78337,17 @@ entent
 entente
 ententes
 enter
-entera greffer
-enterai greffer
-enteraient greffer
-enterais greffer
-enterait greffer
-enteras greffer
-enterez greffer
-enteriez greffer
-enterions greffer
-enterons greffer
-enteront greffer
+entera-greffer
+enterai-greffer
+enteraient-greffer
+enterais-greffer
+enterait-greffer
+enteras-greffer
+enterez-greffer
+enteriez-greffer
+enterions-greffer
+enterons-greffer
+enteront-greffer
 enterra
 enterrai
 enterraient
@@ -78441,7 +78436,7 @@ entérinons
 entérite
 entérites
 entés
-entèrent gref
+entèrent-gref
 entêta
 entêtai
 entêtaient
@@ -78567,11 +78562,11 @@ entichions
 entichons
 entier
 entiers
-entiez gref
+entiez-gref
 entière
 entièrement
 entières
-entions gref
+entions-gref
 entité
 entités
 entoila
@@ -78659,7 +78654,7 @@ entonnions
 entonnoir
 entonnoirs
 entonnons
-entons greffer
+entons-greffer
 entorse
 entorses
 entortilla
@@ -79896,47 +79891,47 @@ envoliez
 envolions
 envolons
 envols
-envo›ta
-envo›tai
-envo›taient
-envo›tais
-envo›tait
-envo›tant
-envo›tas
-envo›tasse
-envo›tassent
-envo›tasses
-envo›tassiez
-envo›tassions
-envo›tâmes
-envo›tât
-envo›tâtes
-envo›te
-envo›tement
-envo›tements
-envo›tent
-envo›ter
-envo›tera
-envo›terai
-envo›teraient
-envo›terais
-envo›terait
-envo›teras
-envo›terez
-envo›teriez
-envo›terions
-envo›terons
-envo›teront
-envo›tes
-envo›tez
-envo›té
-envo›tée
-envo›tées
-envo›tés
-envo›tèrent
-envo›tiez
-envo›tions
-envo›tons
+envoûta
+envoûtai
+envoûtaient
+envoûtais
+envoûtait
+envoûtant
+envoûtas
+envoûtasse
+envoûtassent
+envoûtasses
+envoûtassiez
+envoûtassions
+envoûtâmes
+envoûtât
+envoûtâtes
+envoûte
+envoûtement
+envoûtements
+envoûtent
+envoûter
+envoûtera
+envoûterai
+envoûteraient
+envoûterais
+envoûterait
+envoûteras
+envoûterez
+envoûteriez
+envoûterions
+envoûterons
+envoûteront
+envoûtes
+envoûtez
+envoûté
+envoûtée
+envoûtées
+envoûtés
+envoûtèrent
+envoûtiez
+envoûtions
+envoûtons
 envoya
 envoyai
 envoyaient
@@ -81572,9 +81567,9 @@ eut
 euthanasie
 euthanasies
 eux
-e›mes
-e›t
-e›tes
+eûmes
+eût
+eûtes
 ex
 exacerba
 exacerbai
@@ -82016,7 +82011,7 @@ excédai
 excédaient
 excédais
 excédait
-excédant particple
+excédant-particple
 excédas
 excédasse
 excédassent
@@ -82272,9 +82267,9 @@ exclusses
 exclussiez
 exclussions
 exclut
-excl›mes
-excl›t
-excl›tes
+exclûmes
+exclût
+exclûtes
 excommunia
 excommuniai
 excommuniaient
@@ -83291,7 +83286,7 @@ expédiai
 expédiaient
 expédiais
 expédiait
-expédiant particple
+expédiant-particple
 expédias
 expédiasse
 expédiassent
@@ -84413,7 +84408,6 @@ exultions
 exultons
 exutoire
 exutoires
-f
 fa
 fable
 fables
@@ -84933,7 +84927,7 @@ fallue
 fallues
 fallus
 fallut
-fall›t
+fallût
 falot
 falote
 falotes
@@ -88672,47 +88666,47 @@ fluviaux
 flux
 fluxion
 fluxions
-fl›ta
-fl›tai
-fl›taient
-fl›tais
-fl›tait
-fl›tant
-fl›tas
-fl›tasse
-fl›tassent
-fl›tasses
-fl›tassiez
-fl›tassions
-fl›tâmes
-fl›tât
-fl›tâtes
-fl›te
-fl›tent
-fl›ter
-fl›tera
-fl›terai
-fl›teraient
-fl›terais
-fl›terait
-fl›teras
-fl›terez
-fl›teriez
-fl›terions
-fl›terons
-fl›teront
-fl›tes
-fl›tez
-fl›té
-fl›tée
-fl›tées
-fl›tés
-fl›tèrent
-fl›tiez
-fl›tions
-fl›tiste
-fl›tistes
-fl›tons
+flûta
+flûtai
+flûtaient
+flûtais
+flûtait
+flûtant
+flûtas
+flûtasse
+flûtassent
+flûtasses
+flûtassiez
+flûtassions
+flûtâmes
+flûtât
+flûtâtes
+flûte
+flûtent
+flûter
+flûtera
+flûterai
+flûteraient
+flûterais
+flûterait
+flûteras
+flûterez
+flûteriez
+flûterions
+flûterons
+flûteront
+flûtes
+flûtez
+flûté
+flûtée
+flûtées
+flûtés
+flûtèrent
+flûtiez
+flûtions
+flûtiste
+flûtistes
+flûtons
 foc
 focal
 focale
@@ -89179,7 +89173,7 @@ forâmes
 forât
 forâtes
 force
-forcement nom
+forcement-nom
 forcements
 forcent
 forceps
@@ -89285,8 +89279,8 @@ forestier
 forestiers
 forestière
 forestières
-foret instrument
-forets instrument
+foret-instrument
+forets-instrument
 forez
 foré
 forée
@@ -91807,7 +91801,7 @@ froncions
 fronça
 fronçai
 fronçaient
-fronçais de froncer
+fronçais-de-froncer
 fronçait
 fronçant
 fronças
@@ -92579,11 +92573,10 @@ fuyez
 fuyiez
 fuyions
 fuyons
-f›mes
-f›t
-f›tes
-f›ts
-g
+fûmes
+fût
+fûtes
+fûts
 gabardine
 gabardines
 gabarit
@@ -93290,8 +93283,8 @@ gardénia
 gardénias
 gardés
 gardèrent
-gardian taurien
-gardians taurien
+gardian-taurien
+gardians-taurien
 gardien
 gardiennage
 gardiennages
@@ -93630,10 +93623,10 @@ gauchirions
 gauchirons
 gauchiront
 gauchis
-gauchisant politique
-gauchisante politique
-gauchisantes politique
-gauchisants politique
+gauchisant-politique
+gauchisante-politique
+gauchisantes-politique
+gauchisants-politique
 gauchisme
 gauchissaient
 gauchissais
@@ -94826,8 +94819,8 @@ gèlerions
 gèlerons
 gèleront
 gèles
-gène hérédité
-gènes hérédité
+gène-hérédité
+gènes-hérédité
 gère
 gèrent
 gères
@@ -95798,7 +95791,7 @@ goitres
 goitreuse
 goitreuses
 goitreux
-golf sport
+golf-sport
 golfe
 golfes
 golfeur
@@ -96104,7 +96097,7 @@ goulu
 goulue
 goulues
 goulus
-goul›ment
+goulûment
 goum
 goupil
 goupilla
@@ -96353,48 +96346,48 @@ gouvernèrent
 gouverniez
 gouvernions
 gouvernons
-go›t
-go›ta
-go›tai
-go›taient
-go›tais
-go›tait
-go›tant
-go›tas
-go›tasse
-go›tassent
-go›tasses
-go›tassiez
-go›tassions
-go›tâmes
-go›tât
-go›tâtes
-go›te
-go›tent
-go›ter
-go›tera
-go›terai
-go›teraient
-go›terais
-go›terait
-go›teras
-go›terez
-go›teriez
-go›terions
-go›terons
-go›teront
-go›ters
-go›tes
-go›tez
-go›té
-go›tée
-go›tées
-go›tés
-go›tèrent
-go›tiez
-go›tions
-go›tons
-go›ts
+goût
+goûta
+goûtai
+goûtaient
+goûtais
+goûtait
+goûtant
+goûtas
+goûtasse
+goûtassent
+goûtasses
+goûtassiez
+goûtassions
+goûtâmes
+goûtât
+goûtâtes
+goûte
+goûtent
+goûter
+goûtera
+goûterai
+goûteraient
+goûterais
+goûterait
+goûteras
+goûterez
+goûteriez
+goûterions
+goûterons
+goûteront
+goûters
+goûtes
+goûtez
+goûté
+goûtée
+goûtées
+goûtés
+goûtèrent
+goûtiez
+goûtions
+goûtons
+goûts
 grabat
 grabataire
 grabataires
@@ -96751,7 +96744,7 @@ grappillons
 grappin
 grappins
 gras
-grass dans ray grass
+grass-dans-ray-grass
 grasse
 grassement
 grasses
@@ -96946,7 +96939,7 @@ gravassent
 gravasses
 gravassiez
 gravassions
-gravats débris
+gravats-débris
 gravâmes
 gravât
 gravâtes
@@ -97064,10 +97057,10 @@ grec
 grecque
 grecques
 grecs
-gredin adj
+gredin-adj
 gredine
 gredines
-gredins adj
+gredins-adj
 greffa
 greffage
 greffages
@@ -97554,7 +97547,7 @@ grigoue
 grigoues
 grigous
 gril
-grill room
+grill-room
 grilla
 grillade
 grillades
@@ -98748,8 +98741,7 @@ gypseuses
 gypseux
 gyroscope
 gyroscopes
-h
-ha aspiré
+ha-aspiré
 habens
 habile
 habilement
@@ -98864,7 +98856,7 @@ habitassent
 habitasses
 habitassiez
 habitassions
-habitat nom
+habitat-nom
 habitation
 habitations
 habitats
@@ -98942,253 +98934,253 @@ habituèrent
 habituiez
 habituions
 habituons
-hacha aspiré
-hachage aspiré
-hachages aspiré
-hachai aspiré
-hachaient aspiré
-hachais aspiré
-hachait aspiré
-hachant aspiré
-hachas aspiré
-hachasse aspiré
-hachassent aspiré
-hachasses aspiré
-hachassiez aspiré
-hachassions aspiré
-hachâmes aspiré
-hachât aspiré
-hachâtes aspiré
-hache aspiré
-hachent aspiré
-hacher aspiré
-hachera aspiré
-hacherai aspiré
-hacheraient aspiré
-hacherais aspiré
-hacherait aspiré
-hacheras aspiré
-hacherez aspiré
-hacheriez aspiré
-hacherions aspiré
-hacherons aspiré
-hacheront aspiré
-haches aspiré
-hachette aspiré
-hachettes aspiré
-hachez aspiré
-haché aspiré
-hachée aspiré
-hachées aspiré
-hachés aspiré
-hachèrent aspiré
-hachich aspiré
-hachiez aspiré
-hachions aspiré
-hachis aspiré
-hachisch aspiré
-hachoir aspiré
-hachoirs aspiré
-hachons aspiré
-hachura aspiré
-hachurai aspiré
-hachuraient aspiré
-hachurais aspiré
-hachurait aspiré
-hachurant aspiré
-hachuras aspiré
-hachurasse aspiré
-hachurassent aspiré
-hachurasses aspiré
-hachurassiez aspiré
-hachurassions aspiré
-hachurâmes aspiré
-hachurât aspiré
-hachurâtes aspiré
-hachure aspiré
-hachurent aspiré
-hachurer aspiré
-hachurera aspiré
-hachurerai aspiré
-hachureraient aspiré
-hachurerais aspiré
-hachurerait aspiré
-hachureras aspiré
-hachurerez aspiré
-hachureriez aspiré
-hachurerions aspiré
-hachurerons aspiré
-hachureront aspiré
-hachures aspiré
-hachurez aspiré
-hachuré aspiré
-hachurée aspiré
-hachurées aspiré
-hachurés aspiré
-hachurèrent aspiré
-hachuriez aspiré
-hachurions aspiré
-hachurons aspiré
+hacha-aspiré
+hachage-aspiré
+hachages-aspiré
+hachai-aspiré
+hachaient-aspiré
+hachais-aspiré
+hachait-aspiré
+hachant-aspiré
+hachas-aspiré
+hachasse-aspiré
+hachassent-aspiré
+hachasses-aspiré
+hachassiez-aspiré
+hachassions-aspiré
+hachâmes-aspiré
+hachât-aspiré
+hachâtes-aspiré
+hache-aspiré
+hachent-aspiré
+hacher-aspiré
+hachera-aspiré
+hacherai-aspiré
+hacheraient-aspiré
+hacherais-aspiré
+hacherait-aspiré
+hacheras-aspiré
+hacherez-aspiré
+hacheriez-aspiré
+hacherions-aspiré
+hacherons-aspiré
+hacheront-aspiré
+haches-aspiré
+hachette-aspiré
+hachettes-aspiré
+hachez-aspiré
+haché-aspiré
+hachée-aspiré
+hachées-aspiré
+hachés-aspiré
+hachèrent-aspiré
+hachich-aspiré
+hachiez-aspiré
+hachions-aspiré
+hachis-aspiré
+hachisch-aspiré
+hachoir-aspiré
+hachoirs-aspiré
+hachons-aspiré
+hachura-aspiré
+hachurai-aspiré
+hachuraient-aspiré
+hachurais-aspiré
+hachurait-aspiré
+hachurant-aspiré
+hachuras-aspiré
+hachurasse-aspiré
+hachurassent-aspiré
+hachurasses-aspiré
+hachurassiez-aspiré
+hachurassions-aspiré
+hachurâmes-aspiré
+hachurât-aspiré
+hachurâtes-aspiré
+hachure-aspiré
+hachurent-aspiré
+hachurer-aspiré
+hachurera-aspiré
+hachurerai-aspiré
+hachureraient-aspiré
+hachurerais-aspiré
+hachurerait-aspiré
+hachureras-aspiré
+hachurerez-aspiré
+hachureriez-aspiré
+hachurerions-aspiré
+hachurerons-aspiré
+hachureront-aspiré
+hachures-aspiré
+hachurez-aspiré
+hachuré-aspiré
+hachurée-aspiré
+hachurées-aspiré
+hachurés-aspiré
+hachurèrent-aspiré
+hachuriez-aspiré
+hachurions-aspiré
+hachurons-aspiré
 hacienda
 haciendas
-haddock aspiré
-haddocks aspiré
-hagard aspiré
-hagarde aspiré
-hagardes aspiré
-hagards aspiré
+haddock-aspiré
+haddocks-aspiré
+hagard-aspiré
+hagarde-aspiré
+hagardes-aspiré
+hagards-aspiré
 hagiographie
 hagiographies
-haie aspiré
-haies aspiré
-haillon aspiré
-haillons aspiré
-haine aspiré
-haines aspiré
-haineuse aspiré
-haineuses aspiré
-haineux aspiré
-hais aspiré
-hait aspiré
-haï aspiré
-haïe aspiré
-haïes aspiré
-haïr aspiré
-haïra aspiré
-haïrai aspiré
-haïraient aspiré
-haïrais aspiré
-haïrait aspiré
-haïras aspiré
-haïrent aspiré
-haïrez aspiré
-haïriez aspiré
-haïrions aspiré
-haïrons aspiré
-haïront aspiré
-haïs aspiré
-haïssable aspiré
-haïssables aspiré
-haïssaient aspiré
-haïssais aspiré
-haïssait aspiré
-haïssant aspiré
-haïsse aspiré
-haïssent aspiré
-haïsses aspiré
-haïssez aspiré
-haïssiez aspiré
-haïssions aspiré
-haïssons aspiré
-haït aspiré
+haie-aspiré
+haies-aspiré
+haillon-aspiré
+haillons-aspiré
+haine-aspiré
+haines-aspiré
+haineuse-aspiré
+haineuses-aspiré
+haineux-aspiré
+hais-aspiré
+hait-aspiré
+haï-aspiré
+haïe-aspiré
+haïes-aspiré
+haïr-aspiré
+haïra-aspiré
+haïrai-aspiré
+haïraient-aspiré
+haïrais-aspiré
+haïrait-aspiré
+haïras-aspiré
+haïrent-aspiré
+haïrez-aspiré
+haïriez-aspiré
+haïrions-aspiré
+haïrons-aspiré
+haïront-aspiré
+haïs-aspiré
+haïssable-aspiré
+haïssables-aspiré
+haïssaient-aspiré
+haïssais-aspiré
+haïssait-aspiré
+haïssant-aspiré
+haïsse-aspiré
+haïssent-aspiré
+haïsses-aspiré
+haïssez-aspiré
+haïssiez-aspiré
+haïssions-aspiré
+haïssons-aspiré
+haït-aspiré
 haïti
 haïtien
 haïtienne
 haïtiennes
 haïtiens
-haîmes aspiré
-haît aspiré
-haîtes aspiré
-hala aspiré
-halage aspiré
-halages aspiré
-halai aspiré
-halaient aspiré
-halais aspiré
-halait aspiré
-halant aspiré
-halas aspiré
-halasse aspiré
-halassent aspiré
-halasses aspiré
-halassiez aspiré
-halassions aspiré
-halâmes aspiré
-halât aspiré
-halâtes aspiré
-hale aspiré
+haîmes-aspiré
+haît-aspiré
+haîtes-aspiré
+hala-aspiré
+halage-aspiré
+halages-aspiré
+halai-aspiré
+halaient-aspiré
+halais-aspiré
+halait-aspiré
+halant-aspiré
+halas-aspiré
+halasse-aspiré
+halassent-aspiré
+halasses-aspiré
+halassiez-aspiré
+halassions-aspiré
+halâmes-aspiré
+halât-aspiré
+halâtes-aspiré
+hale-aspiré
 haleine
 haleines
-halent aspiré
-haler aspiré
-halera aspiré
-halerai aspiré
-haleraient aspiré
-halerais aspiré
-halerait aspiré
-haleras aspiré
-halerez aspiré
-haleriez aspiré
-halerions aspiré
-halerons aspiré
-haleront aspiré
-hales aspiré
-haleta aspiré
-haletai aspiré
-haletaient aspiré
-haletais aspiré
-haletait aspiré
-haletant aspiré
-haletante aspiré
-haletantes aspiré
-haletants aspiré
-haletas aspiré
-haletasse aspiré
-haletassent aspiré
-haletasses aspiré
-haletassiez aspiré
-haletassions aspiré
-haletâmes aspiré
-haletât aspiré
-haletâtes aspiré
-haleter aspiré
-haletez aspiré
-haleté aspiré
-haletée aspiré
-haletées aspiré
-haletés aspiré
-haletèrent aspiré
-haletiez aspiré
-haletions aspiré
-haletons aspiré
-haleur aspiré
-haleurs aspiré
-haleuse aspiré
-haleuses aspiré
-halez aspiré
-halé aspiré
-halée aspiré
-halées aspiré
-halés aspiré
-halèrent aspiré
-halète aspiré
-halètement aspiré
-halètements aspiré
-halètent aspiré
-halètera aspiré
-halèterai aspiré
-halèteraient aspiré
-halèterais aspiré
-halèterait aspiré
-halèteras aspiré
-halèterez aspiré
-halèteriez aspiré
-halèterions aspiré
-halèterons aspiré
-halèteront aspiré
-haliez aspiré
-halions aspiré
-hall aspiré
+halent-aspiré
+haler-aspiré
+halera-aspiré
+halerai-aspiré
+haleraient-aspiré
+halerais-aspiré
+halerait-aspiré
+haleras-aspiré
+halerez-aspiré
+haleriez-aspiré
+halerions-aspiré
+halerons-aspiré
+haleront-aspiré
+hales-aspiré
+haleta-aspiré
+haletai-aspiré
+haletaient-aspiré
+haletais-aspiré
+haletait-aspiré
+haletant-aspiré
+haletante-aspiré
+haletantes-aspiré
+haletants-aspiré
+haletas-aspiré
+haletasse-aspiré
+haletassent-aspiré
+haletasses-aspiré
+haletassiez-aspiré
+haletassions-aspiré
+haletâmes-aspiré
+haletât-aspiré
+haletâtes-aspiré
+haleter-aspiré
+haletez-aspiré
+haleté-aspiré
+haletée-aspiré
+haletées-aspiré
+haletés-aspiré
+haletèrent-aspiré
+haletiez-aspiré
+haletions-aspiré
+haletons-aspiré
+haleur-aspiré
+haleurs-aspiré
+haleuse-aspiré
+haleuses-aspiré
+halez-aspiré
+halé-aspiré
+halée-aspiré
+halées-aspiré
+halés-aspiré
+halèrent-aspiré
+halète-aspiré
+halètement-aspiré
+halètements-aspiré
+halètent-aspiré
+halètera-aspiré
+halèterai-aspiré
+halèteraient-aspiré
+halèterais-aspiré
+halèterait-aspiré
+halèteras-aspiré
+halèterez-aspiré
+halèteriez-aspiré
+halèterions-aspiré
+halèterons-aspiré
+halèteront-aspiré
+haliez-aspiré
+halions-aspiré
+hall-aspiré
 hallali
-halle aspiré
-hallebarde aspiré
-hallebardes aspiré
-hallebardier aspiré
-hallebardiers aspiré
-halles aspiré
-hallier aspiré
-halliers aspiré
-halls aspiré
+halle-aspiré
+hallebarde-aspiré
+hallebardes-aspiré
+hallebardier-aspiré
+hallebardiers-aspiré
+halles-aspiré
+hallier-aspiré
+halliers-aspiré
+halls-aspiré
 hallucina
 hallucinai
 hallucinaient
@@ -99235,321 +99227,321 @@ hallucinèrent
 halluciniez
 hallucinions
 hallucinons
-halo aspiré
+halo-aspiré
 halons
-halos aspiré
-halte aspiré
-haltes aspiré
+halos-aspiré
+halte-aspiré
+haltes-aspiré
 haltérophile
 haltérophiles
 haltérophilie
 haltère
 haltères
-hamac aspiré
-hamacs aspiré
-hamburger aspiré
-hamburgers aspiré
-hameau aspiré
-hameaux aspiré
+hamac-aspiré
+hamacs-aspiré
+hamburger-aspiré
+hamburgers-aspiré
+hameau-aspiré
+hameaux-aspiré
 hameçon
 hameçons
-hammam aspiré
-hammams aspiré
-hampe aspiré
-hampes aspiré
-hamster aspiré
-hamsters aspiré
-han aspiré
-hanap aspiré
-hanaps aspiré
-hanche aspiré
-hanches aspiré
-handball aspiré
-handicap aspiré
-handicapa aspiré
-handicapai aspiré
-handicapaient aspiré
-handicapais aspiré
-handicapait aspiré
-handicapant aspiré
-handicapas aspiré
-handicapasse aspiré
-handicapassent aspiré
-handicapasses aspiré
-handicapassiez aspiré
-handicapassions aspiré
-handicapâmes aspiré
-handicapât aspiré
-handicapâtes aspiré
-handicape aspiré
-handicapent aspiré
-handicaper aspiré
-handicapera aspiré
-handicaperai aspiré
-handicaperaient aspiré
-handicaperais aspiré
-handicaperait aspiré
-handicaperas aspiré
-handicaperez aspiré
-handicaperiez aspiré
-handicaperions aspiré
-handicaperons aspiré
-handicaperont aspiré
-handicapes aspiré
-handicapez aspiré
-handicapé aspiré
-handicapée aspiré
-handicapées aspiré
-handicapés aspiré
-handicapèrent aspiré
-handicapiez aspiré
-handicapions aspiré
-handicapons aspiré
-handicaps aspiré
-hangar aspiré
-hangars aspiré
-hanneton aspiré
-hannetons aspiré
-hans aspiré
-hanse aspiré
-hanses aspiré
+hammam-aspiré
+hammams-aspiré
+hampe-aspiré
+hampes-aspiré
+hamster-aspiré
+hamsters-aspiré
+han-aspiré
+hanap-aspiré
+hanaps-aspiré
+hanche-aspiré
+hanches-aspiré
+handball-aspiré
+handicap-aspiré
+handicapa-aspiré
+handicapai-aspiré
+handicapaient-aspiré
+handicapais-aspiré
+handicapait-aspiré
+handicapant-aspiré
+handicapas-aspiré
+handicapasse-aspiré
+handicapassent-aspiré
+handicapasses-aspiré
+handicapassiez-aspiré
+handicapassions-aspiré
+handicapâmes-aspiré
+handicapât-aspiré
+handicapâtes-aspiré
+handicape-aspiré
+handicapent-aspiré
+handicaper-aspiré
+handicapera-aspiré
+handicaperai-aspiré
+handicaperaient-aspiré
+handicaperais-aspiré
+handicaperait-aspiré
+handicaperas-aspiré
+handicaperez-aspiré
+handicaperiez-aspiré
+handicaperions-aspiré
+handicaperons-aspiré
+handicaperont-aspiré
+handicapes-aspiré
+handicapez-aspiré
+handicapé-aspiré
+handicapée-aspiré
+handicapées-aspiré
+handicapés-aspiré
+handicapèrent-aspiré
+handicapiez-aspiré
+handicapions-aspiré
+handicapons-aspiré
+handicaps-aspiré
+hangar-aspiré
+hangars-aspiré
+hanneton-aspiré
+hannetons-aspiré
+hans-aspiré
+hanse-aspiré
+hanses-aspiré
 hanséatique
 hanséatiques
-hanta aspiré
-hantai aspiré
-hantaient aspiré
-hantais aspiré
-hantait aspiré
-hantant aspiré
-hantas aspiré
-hantasse aspiré
-hantassent aspiré
-hantasses aspiré
-hantassiez aspiré
-hantassions aspiré
-hantâmes aspiré
-hantât aspiré
-hantâtes aspiré
-hante aspiré
-hantent aspiré
-hanter aspiré
-hantera aspiré
-hanterai aspiré
-hanteraient aspiré
-hanterais aspiré
-hanterait aspiré
-hanteras aspiré
-hanterez aspiré
-hanteriez aspiré
-hanterions aspiré
-hanterons aspiré
-hanteront aspiré
-hantes aspiré
-hantez aspiré
-hanté aspiré
-hantée aspiré
-hantées aspiré
-hantés aspiré
-hantèrent aspiré
-hantiez aspiré
-hantions aspiré
-hantise aspiré
-hantises aspiré
-hantons aspiré
-happa aspiré
-happai aspiré
-happaient aspiré
-happais aspiré
-happait aspiré
-happant aspiré
-happas aspiré
-happasse aspiré
-happassent aspiré
-happasses aspiré
-happassiez aspiré
-happassions aspiré
-happâmes aspiré
-happât aspiré
-happâtes aspiré
-happe aspiré
-happening aspiré
-happenings aspiré
-happent aspiré
-happer aspiré
-happera aspiré
-happerai aspiré
-happeraient aspiré
-happerais aspiré
-happerait aspiré
-happeras aspiré
-happerez aspiré
-happeriez aspiré
-happerions aspiré
-happerons aspiré
-happeront aspiré
-happes aspiré
-happez aspiré
-happé aspiré
-happée aspiré
-happées aspiré
-happés aspiré
-happèrent aspiré
-happiez aspiré
-happions aspiré
-happons aspiré
+hanta-aspiré
+hantai-aspiré
+hantaient-aspiré
+hantais-aspiré
+hantait-aspiré
+hantant-aspiré
+hantas-aspiré
+hantasse-aspiré
+hantassent-aspiré
+hantasses-aspiré
+hantassiez-aspiré
+hantassions-aspiré
+hantâmes-aspiré
+hantât-aspiré
+hantâtes-aspiré
+hante-aspiré
+hantent-aspiré
+hanter-aspiré
+hantera-aspiré
+hanterai-aspiré
+hanteraient-aspiré
+hanterais-aspiré
+hanterait-aspiré
+hanteras-aspiré
+hanterez-aspiré
+hanteriez-aspiré
+hanterions-aspiré
+hanterons-aspiré
+hanteront-aspiré
+hantes-aspiré
+hantez-aspiré
+hanté-aspiré
+hantée-aspiré
+hantées-aspiré
+hantés-aspiré
+hantèrent-aspiré
+hantiez-aspiré
+hantions-aspiré
+hantise-aspiré
+hantises-aspiré
+hantons-aspiré
+happa-aspiré
+happai-aspiré
+happaient-aspiré
+happais-aspiré
+happait-aspiré
+happant-aspiré
+happas-aspiré
+happasse-aspiré
+happassent-aspiré
+happasses-aspiré
+happassiez-aspiré
+happassions-aspiré
+happâmes-aspiré
+happât-aspiré
+happâtes-aspiré
+happe-aspiré
+happening-aspiré
+happenings-aspiré
+happent-aspiré
+happer-aspiré
+happera-aspiré
+happerai-aspiré
+happeraient-aspiré
+happerais-aspiré
+happerait-aspiré
+happeras-aspiré
+happerez-aspiré
+happeriez-aspiré
+happerions-aspiré
+happerons-aspiré
+happeront-aspiré
+happes-aspiré
+happez-aspiré
+happé-aspiré
+happée-aspiré
+happées-aspiré
+happés-aspiré
+happèrent-aspiré
+happiez-aspiré
+happions-aspiré
+happons-aspiré
 hara
-harangua aspiré
-haranguai aspiré
-haranguaient aspiré
-haranguais aspiré
-haranguait aspiré
-haranguant aspiré
-haranguas aspiré
-haranguasse aspiré
-haranguassent aspiré
-haranguasses aspiré
-haranguassiez aspiré
-haranguassions aspiré
-haranguâmes aspiré
-haranguât aspiré
-haranguâtes aspiré
-harangue aspiré
-haranguent aspiré
-haranguer aspiré
-haranguera aspiré
-haranguerai aspiré
-harangueraient aspiré
-haranguerais aspiré
-haranguerait aspiré
-harangueras aspiré
-haranguerez aspiré
-harangueriez aspiré
-haranguerions aspiré
-haranguerons aspiré
-harangueront aspiré
-harangues aspiré
-harangueur aspiré
-harangueurs aspiré
-harangueuse aspiré
-harangueuses aspiré
-haranguez aspiré
-harangué aspiré
-haranguée aspiré
-haranguées aspiré
-harangués aspiré
-haranguèrent aspiré
-haranguiez aspiré
-haranguions aspiré
-haranguons aspiré
-haras aspiré
-harassa aspiré
-harassai aspiré
-harassaient aspiré
-harassais aspiré
-harassait aspiré
-harassant aspiré
-harassante aspiré
-harassantes aspiré
-harassants aspiré
-harassas aspiré
-harassasse aspiré
-harassassent aspiré
-harassasses aspiré
-harassassiez aspiré
-harassassions aspiré
-harassâmes aspiré
-harassât aspiré
-harassâtes aspiré
-harasse aspiré
-harassement aspiré
-harassements aspiré
-harassent aspiré
-harasser aspiré
-harassera aspiré
-harasserai aspiré
-harasseraient aspiré
-harasserais aspiré
-harasserait aspiré
-harasseras aspiré
-harasserez aspiré
-harasseriez aspiré
-harasserions aspiré
-harasserons aspiré
-harasseront aspiré
-harasses aspiré
-harassez aspiré
-harassé aspiré
-harassée aspiré
-harassées aspiré
-harassés aspiré
-harassèrent aspiré
-harassiez aspiré
-harassions aspiré
-harassons aspiré
-harcela aspiré
-harcelai aspiré
-harcelaient aspiré
-harcelais aspiré
-harcelait aspiré
-harcelant aspiré
-harcelas aspiré
-harcelasse aspiré
-harcelassent aspiré
-harcelasses aspiré
-harcelassiez aspiré
-harcelassions aspiré
-harcelâmes aspiré
-harcelât aspiré
-harcelâtes aspiré
-harceler aspiré
-harcelez aspiré
-harcelé aspiré
-harcelée aspiré
-harcelées aspiré
-harcelés aspiré
-harcelèrent aspiré
-harceliez aspiré
-harcelions aspiré
-harcelle aspiré
-harcellent aspiré
-harcellera aspiré
-harcellerai aspiré
-harcelleraient aspiré
-harcellerais aspiré
-harcellerait aspiré
-harcelleras aspiré
-harcellerez aspiré
-harcelleriez aspiré
-harcellerions aspiré
-harcellerons aspiré
-harcelleront aspiré
-harcelles aspiré
-harcelons aspiré
-harcèlement aspiré
-harcèlements aspiré
-harde aspiré
-hardes aspiré
-hardi aspiré
-hardie aspiré
-hardies aspiré
-hardiesse aspiré
-hardiesses aspiré
-hardiment aspiré
-hardis aspiré
-harem aspiré
-hareng aspiré
-harengère aspiré
-harengères aspiré
-harengs aspiré
-hargne aspiré
-hargnes aspiré
-hargneuse aspiré
-hargneuses aspiré
-hargneux aspiré
-haricot aspiré
-haricots aspiré
-haridelle aspiré
-haridelles aspiré
+harangua-aspiré
+haranguai-aspiré
+haranguaient-aspiré
+haranguais-aspiré
+haranguait-aspiré
+haranguant-aspiré
+haranguas-aspiré
+haranguasse-aspiré
+haranguassent-aspiré
+haranguasses-aspiré
+haranguassiez-aspiré
+haranguassions-aspiré
+haranguâmes-aspiré
+haranguât-aspiré
+haranguâtes-aspiré
+harangue-aspiré
+haranguent-aspiré
+haranguer-aspiré
+haranguera-aspiré
+haranguerai-aspiré
+harangueraient-aspiré
+haranguerais-aspiré
+haranguerait-aspiré
+harangueras-aspiré
+haranguerez-aspiré
+harangueriez-aspiré
+haranguerions-aspiré
+haranguerons-aspiré
+harangueront-aspiré
+harangues-aspiré
+harangueur-aspiré
+harangueurs-aspiré
+harangueuse-aspiré
+harangueuses-aspiré
+haranguez-aspiré
+harangué-aspiré
+haranguée-aspiré
+haranguées-aspiré
+harangués-aspiré
+haranguèrent-aspiré
+haranguiez-aspiré
+haranguions-aspiré
+haranguons-aspiré
+haras-aspiré
+harassa-aspiré
+harassai-aspiré
+harassaient-aspiré
+harassais-aspiré
+harassait-aspiré
+harassant-aspiré
+harassante-aspiré
+harassantes-aspiré
+harassants-aspiré
+harassas-aspiré
+harassasse-aspiré
+harassassent-aspiré
+harassasses-aspiré
+harassassiez-aspiré
+harassassions-aspiré
+harassâmes-aspiré
+harassât-aspiré
+harassâtes-aspiré
+harasse-aspiré
+harassement-aspiré
+harassements-aspiré
+harassent-aspiré
+harasser-aspiré
+harassera-aspiré
+harasserai-aspiré
+harasseraient-aspiré
+harasserais-aspiré
+harasserait-aspiré
+harasseras-aspiré
+harasserez-aspiré
+harasseriez-aspiré
+harasserions-aspiré
+harasserons-aspiré
+harasseront-aspiré
+harasses-aspiré
+harassez-aspiré
+harassé-aspiré
+harassée-aspiré
+harassées-aspiré
+harassés-aspiré
+harassèrent-aspiré
+harassiez-aspiré
+harassions-aspiré
+harassons-aspiré
+harcela-aspiré
+harcelai-aspiré
+harcelaient-aspiré
+harcelais-aspiré
+harcelait-aspiré
+harcelant-aspiré
+harcelas-aspiré
+harcelasse-aspiré
+harcelassent-aspiré
+harcelasses-aspiré
+harcelassiez-aspiré
+harcelassions-aspiré
+harcelâmes-aspiré
+harcelât-aspiré
+harcelâtes-aspiré
+harceler-aspiré
+harcelez-aspiré
+harcelé-aspiré
+harcelée-aspiré
+harcelées-aspiré
+harcelés-aspiré
+harcelèrent-aspiré
+harceliez-aspiré
+harcelions-aspiré
+harcelle-aspiré
+harcellent-aspiré
+harcellera-aspiré
+harcellerai-aspiré
+harcelleraient-aspiré
+harcellerais-aspiré
+harcellerait-aspiré
+harcelleras-aspiré
+harcellerez-aspiré
+harcelleriez-aspiré
+harcellerions-aspiré
+harcellerons-aspiré
+harcelleront-aspiré
+harcelles-aspiré
+harcelons-aspiré
+harcèlement-aspiré
+harcèlements-aspiré
+harde-aspiré
+hardes-aspiré
+hardi-aspiré
+hardie-aspiré
+hardies-aspiré
+hardiesse-aspiré
+hardiesses-aspiré
+hardiment-aspiré
+hardis-aspiré
+harem-aspiré
+hareng-aspiré
+harengère-aspiré
+harengères-aspiré
+harengs-aspiré
+hargne-aspiré
+hargnes-aspiré
+hargneuse-aspiré
+hargneuses-aspiré
+hargneux-aspiré
+haricot-aspiré
+haricots-aspiré
+haridelle-aspiré
+haridelles-aspiré
 harmonica
 harmonicas
 harmonie
@@ -99604,359 +99596,359 @@ harmonisions
 harmonisons
 harmonium
 harmoniums
-harnacha aspiré
-harnachai aspiré
-harnachaient aspiré
-harnachais aspiré
-harnachait aspiré
-harnachant aspiré
-harnachas aspiré
-harnachasse aspiré
-harnachassent aspiré
-harnachasses aspiré
-harnachassiez aspiré
-harnachassions aspiré
-harnachâmes aspiré
-harnachât aspiré
-harnachâtes aspiré
-harnache aspiré
-harnachement aspiré
-harnachements aspiré
-harnachent aspiré
-harnacher aspiré
-harnachera aspiré
-harnacherai aspiré
-harnacheraient aspiré
-harnacherais aspiré
-harnacherait aspiré
-harnacheras aspiré
-harnacherez aspiré
-harnacheriez aspiré
-harnacherions aspiré
-harnacherons aspiré
-harnacheront aspiré
-harnaches aspiré
-harnachez aspiré
-harnaché aspiré
-harnachée aspiré
-harnachées aspiré
-harnachés aspiré
-harnachèrent aspiré
-harnachiez aspiré
-harnachions aspiré
-harnachons aspiré
-harnais aspiré
-haro aspiré
-harpe aspiré
-harpes aspiré
-harpie aspiré
-harpies aspiré
-harpiste aspiré
-harpistes aspiré
-harpon aspiré
-harponna aspiré
-harponnage aspiré
-harponnages aspiré
-harponnai aspiré
-harponnaient aspiré
-harponnais aspiré
-harponnait aspiré
-harponnant aspiré
-harponnas aspiré
-harponnasse aspiré
-harponnassent aspiré
-harponnasses aspiré
-harponnassiez aspiré
-harponnassions aspiré
-harponnâmes aspiré
-harponnât aspiré
-harponnâtes aspiré
-harponne aspiré
-harponnement aspiré
-harponnements aspiré
-harponnent aspiré
-harponner aspiré
-harponnera aspiré
-harponnerai aspiré
-harponneraient aspiré
-harponnerais aspiré
-harponnerait aspiré
-harponneras aspiré
-harponnerez aspiré
-harponneriez aspiré
-harponnerions aspiré
-harponnerons aspiré
-harponneront aspiré
-harponnes aspiré
-harponneur aspiré
-harponneurs aspiré
-harponnez aspiré
-harponné aspiré
-harponnée aspiré
-harponnées aspiré
-harponnés aspiré
-harponnèrent aspiré
-harponniez aspiré
-harponnions aspiré
-harponnons aspiré
-harpons aspiré
-hasard aspiré
-hasarda aspiré
-hasardai aspiré
-hasardaient aspiré
-hasardais aspiré
-hasardait aspiré
-hasardant aspiré
-hasardas aspiré
-hasardasse aspiré
-hasardassent aspiré
-hasardasses aspiré
-hasardassiez aspiré
-hasardassions aspiré
-hasardâmes aspiré
-hasardât aspiré
-hasardâtes aspiré
-hasarde aspiré
-hasardent aspiré
-hasarder aspiré
-hasardera aspiré
-hasarderai aspiré
-hasarderaient aspiré
-hasarderais aspiré
-hasarderait aspiré
-hasarderas aspiré
-hasarderez aspiré
-hasarderiez aspiré
-hasarderions aspiré
-hasarderons asspiré
-hasarderont aspiré
-hasardes aspiré
-hasardeuse aspiré
-hasardeuses aspiré
-hasardeux aspiré
-hasardez aspiré
-hasardé aspiré
-hasardée aspiré
-hasardées aspiré
-hasardés aspiré
-hasardèrent aspiré
-hasardiez aspiré
-hasardions aspiré
-hasardons aspiré
-hasards aspiré
-haschisch aspiré
-hase aspiré
-hases aspiré
-hauban aspiré
-haubana aspiré
-haubanai aspiré
-haubanaient aspiré
-haubanais aspiré
-haubanait aspiré
-haubanant aspiré
-haubanas aspiré
-haubanasse aspiré
-haubanassent aspiré
-haubanasses aspiré
-haubanassiez aspiré
-haubanassions aspiré
-haubanâmes aspiré
-haubanât aspiré
-haubanâtes aspiré
-haubane aspiré
-haubanent aspiré
-haubaner aspiré
-haubanera aspiré
-haubanerai aspiré
-haubaneraient aspiré
-haubanerais aspiré
-haubanerait aspiré
-haubaneras aspiré
-haubanerez aspiré
-haubaneriez aspiré
-haubanerions aspiré
-haubanerons aspiré
-haubaneront aspiré
-haubanes aspiré
-haubanez aspiré
-haubané aspiré
-haubanée aspiré
-haubanées aspiré
-haubanés aspiré
-haubanèrent aspiré
-haubaniez aspiré
-haubanions aspiré
-haubanons aspiré
-haubans aspiré
-haubert aspiré
-hauberts aspiré
-haussa aspiré
-haussai aspiré
-haussaient aspiré
-haussais aspiré
-haussait aspiré
-haussant aspiré
-haussas aspiré
-haussasse aspiré
-haussassent aspiré
-haussasses aspiré
-haussassiez aspiré
-haussassions aspiré
-haussâmes aspiré
-haussât aspiré
-haussâtes aspiré
-hausse aspiré
-haussement aspiré
-haussements aspiré
-haussent aspiré
-hausser aspiré
-haussera aspiré
-hausserai aspiré
-hausseraient aspiré
-hausserais aspiré
-hausserait aspiré
-hausseras aspiré
-hausserez aspiré
-hausseriez aspiré
-hausserions aspiré
-hausserons aspiré
-hausseront aspiré
-hausses aspiré
-haussez aspiré
-haussé aspiré
-haussée aspiré
-haussées aspiré
-haussés aspiré
-haussèrent aspiré
-haussiez aspiré
-haussions aspiré
-haussons aspiré
-haut aspiré
-hautain aspiré
-hautaine aspiré
-hautainement aspiré
-hautaines aspiré
-hautains aspiré
-hautbois aspiré
-hautboïste aspiré
-hautboïstes aspiré
-haute aspiré
-hautement aspiré
-hautes aspiré
-hauteur aspiré
-hauteurs aspiré
-hauts aspiré
-hauturier aspiré
-hauturiers aspiré
-hauturière aspiré
-hauturières aspiré
-havage aspiré
-havages aspiré
-havane aspiré
-havaneau aspiré
-havaneaux aspiré
-havanes aspiré
-haveur aspiré
-haveurs aspiré
-havre aspiré
-havres aspiré
-havresac aspiré
-havresacs aspiré
-hâblerie aspiré
-hâbleries aspiré
-hâbleur aspiré
-hâbleurs aspiré
-hâbleuse aspiré
-hâbleuses aspiré
-hâla aspiré peau
-hâlai aspiré peau
-hâlaient aspiré peau
-hâlais aspiré peau
-hâlait aspiré peau
-hâlant aspiré peau
-hâlas aspiré peau
-hâlasse aspiré peau
-hâlassent aspiré peau
-hâlasses aspiré peau
-hâlassiez aspiré peau
-hâlassions aspiré peau
-hâlâmes aspiré peau
-hâlât aspiré peau
-hâlâtes aspiré peau
-hâle aspiré peau
-hâlent aspiré peau
-hâler aspiré peau
-hâlera aspiré peau
-hâlerai aspiré peau
-hâleraient aspiré peau
-hâlerais aspiré peau
-hâlerait aspiré peau
-hâleras aspiré peau
-hâlerez aspiré peau
-hâleriez aspiré peau
-hâlerions aspiré peau
-hâlerons aspiré peau
-hâleront aspiré peau
-hâles aspiré peau
-hâlez aspiré peau
-hâlé aspiré peau
-hâlée aspiré peau
-hâlées aspiré peau
-hâlés aspiré peau
-hâlèrent aspiré peau
-hâliez aspiré peau
-hâlions aspiré peau
-hâlons aspiré peau
-hâta aspiré
-hâtai aspiré
-hâtaient aspiré
-hâtais aspiré
-hâtait aspiré
-hâtant aspiré
-hâtas aspiré
-hâtasse aspiré
-hâtassent aspiré
-hâtasses aspiré
-hâtassiez aspiré
-hâtassions aspiré
-hâtâmes aspiré
-hâtât aspiré
-hâtâtes aspiré
-hâte aspiré
-hâtent aspiré
-hâter aspiré
-hâtera aspiré
-hâterai aspiré
-hâteraient aspiré
-hâterais aspiré
-hâterait aspiré
-hâteras aspiré
-hâterez aspiré
-hâteriez aspiré
-hâterions aspiré
-hâterons aspiré
-hâteront aspiré
-hâtes aspiré
-hâtez aspiré
-hâté aspiré
-hâtée aspiré
-hâtées aspiré
-hâtés aspiré
-hâtèrent aspiré
-hâtiez aspiré
-hâtif aspiré
-hâtifs aspiré
-hâtions aspiré
-hâtive aspiré
-hâtivement aspiré
-hâtives aspiré
-hâtons aspiré
-hâve aspiré
-hâvee aspiré
-hâvees aspiré
-hâves aspiré
-heaume aspiré
-heaumes aspiré
+harnacha-aspiré
+harnachai-aspiré
+harnachaient-aspiré
+harnachais-aspiré
+harnachait-aspiré
+harnachant-aspiré
+harnachas-aspiré
+harnachasse-aspiré
+harnachassent-aspiré
+harnachasses-aspiré
+harnachassiez-aspiré
+harnachassions-aspiré
+harnachâmes-aspiré
+harnachât-aspiré
+harnachâtes-aspiré
+harnache-aspiré
+harnachement-aspiré
+harnachements-aspiré
+harnachent-aspiré
+harnacher-aspiré
+harnachera-aspiré
+harnacherai-aspiré
+harnacheraient-aspiré
+harnacherais-aspiré
+harnacherait-aspiré
+harnacheras-aspiré
+harnacherez-aspiré
+harnacheriez-aspiré
+harnacherions-aspiré
+harnacherons-aspiré
+harnacheront-aspiré
+harnaches-aspiré
+harnachez-aspiré
+harnaché-aspiré
+harnachée-aspiré
+harnachées-aspiré
+harnachés-aspiré
+harnachèrent-aspiré
+harnachiez-aspiré
+harnachions-aspiré
+harnachons-aspiré
+harnais-aspiré
+haro-aspiré
+harpe-aspiré
+harpes-aspiré
+harpie-aspiré
+harpies-aspiré
+harpiste-aspiré
+harpistes-aspiré
+harpon-aspiré
+harponna-aspiré
+harponnage-aspiré
+harponnages-aspiré
+harponnai-aspiré
+harponnaient-aspiré
+harponnais-aspiré
+harponnait-aspiré
+harponnant-aspiré
+harponnas-aspiré
+harponnasse-aspiré
+harponnassent-aspiré
+harponnasses-aspiré
+harponnassiez-aspiré
+harponnassions-aspiré
+harponnâmes-aspiré
+harponnât-aspiré
+harponnâtes-aspiré
+harponne-aspiré
+harponnement-aspiré
+harponnements-aspiré
+harponnent-aspiré
+harponner-aspiré
+harponnera-aspiré
+harponnerai-aspiré
+harponneraient-aspiré
+harponnerais-aspiré
+harponnerait-aspiré
+harponneras-aspiré
+harponnerez-aspiré
+harponneriez-aspiré
+harponnerions-aspiré
+harponnerons-aspiré
+harponneront-aspiré
+harponnes-aspiré
+harponneur-aspiré
+harponneurs-aspiré
+harponnez-aspiré
+harponné-aspiré
+harponnée-aspiré
+harponnées-aspiré
+harponnés-aspiré
+harponnèrent-aspiré
+harponniez-aspiré
+harponnions-aspiré
+harponnons-aspiré
+harpons-aspiré
+hasard-aspiré
+hasarda-aspiré
+hasardai-aspiré
+hasardaient-aspiré
+hasardais-aspiré
+hasardait-aspiré
+hasardant-aspiré
+hasardas-aspiré
+hasardasse-aspiré
+hasardassent-aspiré
+hasardasses-aspiré
+hasardassiez-aspiré
+hasardassions-aspiré
+hasardâmes-aspiré
+hasardât-aspiré
+hasardâtes-aspiré
+hasarde-aspiré
+hasardent-aspiré
+hasarder-aspiré
+hasardera-aspiré
+hasarderai-aspiré
+hasarderaient-aspiré
+hasarderais-aspiré
+hasarderait-aspiré
+hasarderas-aspiré
+hasarderez-aspiré
+hasarderiez-aspiré
+hasarderions-aspiré
+hasarderons-asspiré
+hasarderont-aspiré
+hasardes-aspiré
+hasardeuse-aspiré
+hasardeuses-aspiré
+hasardeux-aspiré
+hasardez-aspiré
+hasardé-aspiré
+hasardée-aspiré
+hasardées-aspiré
+hasardés-aspiré
+hasardèrent-aspiré
+hasardiez-aspiré
+hasardions-aspiré
+hasardons-aspiré
+hasards-aspiré
+haschisch-aspiré
+hase-aspiré
+hases-aspiré
+hauban-aspiré
+haubana-aspiré
+haubanai-aspiré
+haubanaient-aspiré
+haubanais-aspiré
+haubanait-aspiré
+haubanant-aspiré
+haubanas-aspiré
+haubanasse-aspiré
+haubanassent-aspiré
+haubanasses-aspiré
+haubanassiez-aspiré
+haubanassions-aspiré
+haubanâmes-aspiré
+haubanât-aspiré
+haubanâtes-aspiré
+haubane-aspiré
+haubanent-aspiré
+haubaner-aspiré
+haubanera-aspiré
+haubanerai-aspiré
+haubaneraient-aspiré
+haubanerais-aspiré
+haubanerait-aspiré
+haubaneras-aspiré
+haubanerez-aspiré
+haubaneriez-aspiré
+haubanerions-aspiré
+haubanerons-aspiré
+haubaneront-aspiré
+haubanes-aspiré
+haubanez-aspiré
+haubané-aspiré
+haubanée-aspiré
+haubanées-aspiré
+haubanés-aspiré
+haubanèrent-aspiré
+haubaniez-aspiré
+haubanions-aspiré
+haubanons-aspiré
+haubans-aspiré
+haubert-aspiré
+hauberts-aspiré
+haussa-aspiré
+haussai-aspiré
+haussaient-aspiré
+haussais-aspiré
+haussait-aspiré
+haussant-aspiré
+haussas-aspiré
+haussasse-aspiré
+haussassent-aspiré
+haussasses-aspiré
+haussassiez-aspiré
+haussassions-aspiré
+haussâmes-aspiré
+haussât-aspiré
+haussâtes-aspiré
+hausse-aspiré
+haussement-aspiré
+haussements-aspiré
+haussent-aspiré
+hausser-aspiré
+haussera-aspiré
+hausserai-aspiré
+hausseraient-aspiré
+hausserais-aspiré
+hausserait-aspiré
+hausseras-aspiré
+hausserez-aspiré
+hausseriez-aspiré
+hausserions-aspiré
+hausserons-aspiré
+hausseront-aspiré
+hausses-aspiré
+haussez-aspiré
+haussé-aspiré
+haussée-aspiré
+haussées-aspiré
+haussés-aspiré
+haussèrent-aspiré
+haussiez-aspiré
+haussions-aspiré
+haussons-aspiré
+haut-aspiré
+hautain-aspiré
+hautaine-aspiré
+hautainement-aspiré
+hautaines-aspiré
+hautains-aspiré
+hautbois-aspiré
+hautboïste-aspiré
+hautboïstes-aspiré
+haute-aspiré
+hautement-aspiré
+hautes-aspiré
+hauteur-aspiré
+hauteurs-aspiré
+hauts-aspiré
+hauturier-aspiré
+hauturiers-aspiré
+hauturière-aspiré
+hauturières-aspiré
+havage-aspiré
+havages-aspiré
+havane-aspiré
+havaneau-aspiré
+havaneaux-aspiré
+havanes-aspiré
+haveur-aspiré
+haveurs-aspiré
+havre-aspiré
+havres-aspiré
+havresac-aspiré
+havresacs-aspiré
+hâblerie-aspiré
+hâbleries-aspiré
+hâbleur-aspiré
+hâbleurs-aspiré
+hâbleuse-aspiré
+hâbleuses-aspiré
+hâla-aspiré-peau
+hâlai-aspiré-peau
+hâlaient-aspiré-peau
+hâlais-aspiré-peau
+hâlait-aspiré-peau
+hâlant-aspiré-peau
+hâlas-aspiré-peau
+hâlasse-aspiré-peau
+hâlassent-aspiré-peau
+hâlasses-aspiré-peau
+hâlassiez-aspiré-peau
+hâlassions-aspiré-peau
+hâlâmes-aspiré-peau
+hâlât-aspiré-peau
+hâlâtes-aspiré-peau
+hâle-aspiré-peau
+hâlent-aspiré-peau
+hâler-aspiré-peau
+hâlera-aspiré-peau
+hâlerai-aspiré-peau
+hâleraient-aspiré-peau
+hâlerais-aspiré-peau
+hâlerait-aspiré-peau
+hâleras-aspiré-peau
+hâlerez-aspiré-peau
+hâleriez-aspiré-peau
+hâlerions-aspiré-peau
+hâlerons-aspiré-peau
+hâleront-aspiré-peau
+hâles-aspiré-peau
+hâlez-aspiré-peau
+hâlé-aspiré-peau
+hâlée-aspiré-peau
+hâlées-aspiré-peau
+hâlés-aspiré-peau
+hâlèrent-aspiré-peau
+hâliez-aspiré-peau
+hâlions-aspiré-peau
+hâlons-aspiré-peau
+hâta-aspiré
+hâtai-aspiré
+hâtaient-aspiré
+hâtais-aspiré
+hâtait-aspiré
+hâtant-aspiré
+hâtas-aspiré
+hâtasse-aspiré
+hâtassent-aspiré
+hâtasses-aspiré
+hâtassiez-aspiré
+hâtassions-aspiré
+hâtâmes-aspiré
+hâtât-aspiré
+hâtâtes-aspiré
+hâte-aspiré
+hâtent-aspiré
+hâter-aspiré
+hâtera-aspiré
+hâterai-aspiré
+hâteraient-aspiré
+hâterais-aspiré
+hâterait-aspiré
+hâteras-aspiré
+hâterez-aspiré
+hâteriez-aspiré
+hâterions-aspiré
+hâterons-aspiré
+hâteront-aspiré
+hâtes-aspiré
+hâtez-aspiré
+hâté-aspiré
+hâtée-aspiré
+hâtées-aspiré
+hâtés-aspiré
+hâtèrent-aspiré
+hâtiez-aspiré
+hâtif-aspiré
+hâtifs-aspiré
+hâtions-aspiré
+hâtive-aspiré
+hâtivement-aspiré
+hâtives-aspiré
+hâtons-aspiré
+hâve-aspiré
+hâvee-aspiré
+hâvees-aspiré
+hâves-aspiré
+heaume-aspiré
+heaumes-aspiré
 hebdomadaire
 hebdomadairement
 hebdomadaires
@@ -99970,7 +99962,7 @@ hectomètre
 hectomètres
 hectomètrique
 hectomètriques
-hein aspiré
+hein-aspiré
 hellénique
 helléniques
 hellénisa
@@ -100022,43 +100014,43 @@ helminthes
 helsinki
 helvétique
 helvétiques
-hem aspiré
-henné aspiré
-hennés aspiré
-henni aspiré
-hennie aspiré
-hennies aspiré
-hennin aspiré
-hennins aspiré
-hennir aspiré
-hennira aspiré
-hennirai aspiré
-henniraient aspiré
-hennirais aspiré
-hennirait aspiré
-henniras aspiré
-hennirent aspiré
-hennirez aspiré
-henniriez aspiré
-hennirions aspiré
-hennirons aspiré
-henniront aspiré
-hennis aspiré
-hennissaient aspiré
-hennissais aspiré
-hennissait aspiré
-hennissant aspiré
-hennisse aspiré
-hennissent aspiré
-hennisses aspiré
-hennissez aspiré
-hennissiez aspiré
-hennissions aspiré
-hennissons aspiré
-hennit aspiré
-hennîmes aspiré
-hennît aspiré
-hennîtes aspiré
+hem-aspiré
+henné-aspiré
+hennés-aspiré
+henni-aspiré
+hennie-aspiré
+hennies-aspiré
+hennin-aspiré
+hennins-aspiré
+hennir-aspiré
+hennira-aspiré
+hennirai-aspiré
+henniraient-aspiré
+hennirais-aspiré
+hennirait-aspiré
+henniras-aspiré
+hennirent-aspiré
+hennirez-aspiré
+henniriez-aspiré
+hennirions-aspiré
+hennirons-aspiré
+henniront-aspiré
+hennis-aspiré
+hennissaient-aspiré
+hennissais-aspiré
+hennissait-aspiré
+hennissant-aspiré
+hennisse-aspiré
+hennissent-aspiré
+hennisses-aspiré
+hennissez-aspiré
+hennissiez-aspiré
+hennissions-aspiré
+hennissons-aspiré
+hennit-aspiré
+hennîmes-aspiré
+hennît-aspiré
+hennîtes-aspiré
 heptagone
 heptagones
 herbacé
@@ -100146,107 +100138,107 @@ hermine
 hermines
 herminette
 herminettes
-herniaire aspiré
-herniaires aspiré
-hernie aspiré
-hernies aspiré
+herniaire-aspiré
+herniaires-aspiré
+hernie-aspiré
+hernies-aspiré
 herpès
-hersa aspiré
-hersage aspiré
-hersages aspiré
-hersai aspiré
-hersaient aspiré
-hersais aspiré
-hersait aspiré
-hersant aspiré
-hersas aspiré
-hersasse aspiré
-hersassent aspiré
-hersasses aspiré
-hersassiez aspiré
-hersassions aspiré
-hersâmes aspiré
-hersât aspiré
-hersâtes aspiré
-herse aspiré
-hersent aspiré
-herser aspiré
-hersera aspiré
-herserai aspiré
-herseraient aspiré
-herserais aspiré
-herserait aspiré
-herseras aspiré
-herserez aspiré
-herseriez aspiré
-herserions aspiré
-herserons aspiré
-herseront aspiré
-herses aspiré
-hersez aspiré
-hersé aspiré
-hersée aspiré
-hersées aspiré
-hersés aspiré
-hersèrent aspiré
-hersiez aspiré
-hersions aspiré
-hersons aspiré
+hersa-aspiré
+hersage-aspiré
+hersages-aspiré
+hersai-aspiré
+hersaient-aspiré
+hersais-aspiré
+hersait-aspiré
+hersant-aspiré
+hersas-aspiré
+hersasse-aspiré
+hersassent-aspiré
+hersasses-aspiré
+hersassiez-aspiré
+hersassions-aspiré
+hersâmes-aspiré
+hersât-aspiré
+hersâtes-aspiré
+herse-aspiré
+hersent-aspiré
+herser-aspiré
+hersera-aspiré
+herserai-aspiré
+herseraient-aspiré
+herserais-aspiré
+herserait-aspiré
+herseras-aspiré
+herserez-aspiré
+herseriez-aspiré
+herserions-aspiré
+herserons-aspiré
+herseront-aspiré
+herses-aspiré
+hersez-aspiré
+hersé-aspiré
+hersée-aspiré
+hersées-aspiré
+hersés-aspiré
+hersèrent-aspiré
+hersiez-aspiré
+hersions-aspiré
+hersons-aspiré
 hertz
 hertzien
 hertzienne
 hertziennes
 hertziens
-heu aspiré
+heu-aspiré
 heure
 heures
 heureuse
 heureusement
 heureuses
 heureux
-heurt aspiré
-heurta aspiré
-heurtai aspiré
-heurtaient aspiré
-heurtais aspiré
-heurtait aspiré
-heurtant aspiré
-heurtas aspiré
-heurtasse aspiré
-heurtassent aspiré
-heurtasses aspiré
-heurtassiez aspiré
-heurtassions aspiré
-heurtâmes aspiré
-heurtât aspiré
-heurtâtes aspiré
-heurte aspiré
-heurtent aspiré
-heurter aspiré
-heurtera aspiré
-heurterai aspiré
-heurteraient aspiré
-heurterais aspiré
-heurterait aspiré
-heurteras aspiré
-heurterez aspiré
-heurteriez aspiré
-heurterions aspiré
-heurterons aspiré
-heurteront aspiré
-heurtes aspiré
-heurtez aspiré
-heurté aspiré
-heurtée aspiré
-heurtées aspiré
-heurtés aspiré
-heurtèrent aspiré
-heurtiez aspiré
-heurtions aspiré
-heurtoir aspiré
-heurtoirs aspiré
-heurtons aspiré
-heurts aspiré
+heurt-aspiré
+heurta-aspiré
+heurtai-aspiré
+heurtaient-aspiré
+heurtais-aspiré
+heurtait-aspiré
+heurtant-aspiré
+heurtas-aspiré
+heurtasse-aspiré
+heurtassent-aspiré
+heurtasses-aspiré
+heurtassiez-aspiré
+heurtassions-aspiré
+heurtâmes-aspiré
+heurtât-aspiré
+heurtâtes-aspiré
+heurte-aspiré
+heurtent-aspiré
+heurter-aspiré
+heurtera-aspiré
+heurterai-aspiré
+heurteraient-aspiré
+heurterais-aspiré
+heurterait-aspiré
+heurteras-aspiré
+heurterez-aspiré
+heurteriez-aspiré
+heurterions-aspiré
+heurterons-aspiré
+heurteront-aspiré
+heurtes-aspiré
+heurtez-aspiré
+heurté-aspiré
+heurtée-aspiré
+heurtées-aspiré
+heurtés-aspiré
+heurtèrent-aspiré
+heurtiez-aspiré
+heurtions-aspiré
+heurtoir-aspiré
+heurtoirs-aspiré
+heurtons-aspiré
+heurts-aspiré
 hexadécimal
 hexadécimale
 hexadécimaux
@@ -100258,7 +100250,7 @@ hexagone
 hexagones
 hexamètre
 hexamètres
-hé aspiré
+hé-aspiré
 héberge
 hébergea
 hébergeai
@@ -100360,38 +100352,38 @@ hégéliens
 hégémonie
 hégémonies
 hégire
-héla aspiré
-hélai aspiré
-hélaient aspiré
-hélais aspiré
-hélait aspiré
-hélas aspiré comme verbe
-hélasse aspiré
-hélassent aspiré
-hélasses aspiré
-hélassiez aspiré
-hélassions aspiré
-hélâmes aspiré
-hélât aspiré
-hélâtes aspiré
-héler aspiré
-hélera aspiré
-hélerai aspiré
-héleraient aspiré
-hélerais aspiré
-hélerait aspiré
-héleras aspiré
-hélerez aspiré
-héleriez aspiré
-hélerions aspiré
-hélerons aspiré
-héleront aspiré
-hélez aspiré
-hélé aspiré
-hélée aspiré
-hélées aspiré
-hélés aspiré
-hélèrent aspiré
+héla-aspiré
+hélai-aspiré
+hélaient-aspiré
+hélais-aspiré
+hélait-aspiré
+hélas-aspiré-comme-verbe
+hélasse-aspiré
+hélassent-aspiré
+hélasses-aspiré
+hélassiez-aspiré
+hélassions-aspiré
+hélâmes-aspiré
+hélât-aspiré
+hélâtes-aspiré
+héler-aspiré
+hélera-aspiré
+hélerai-aspiré
+héleraient-aspiré
+hélerais-aspiré
+hélerait-aspiré
+héleras-aspiré
+hélerez-aspiré
+héleriez-aspiré
+hélerions-aspiré
+hélerons-aspiré
+héleront-aspiré
+hélez-aspiré
+hélé-aspiré
+hélée-aspiré
+hélées-aspiré
+hélés-aspiré
+hélèrent-aspiré
 hélianthe
 hélianthes
 hélice
@@ -100402,10 +100394,10 @@ hélicoïdales
 hélicoïdaux
 hélicoptère
 hélicoptères
-héliez aspiré
+héliez-aspiré
 héliogravure
 héliogravures
-hélions aspiré
+hélions-aspiré
 héliothérapie
 héliotrope
 héliotropes
@@ -100416,7 +100408,7 @@ héliportées
 héliportés
 hélium
 hélix
-hélons aspiré
+hélons-aspiré
 hématie
 hématies
 hématite
@@ -100462,8 +100454,8 @@ héraldique
 héraldiques
 héraldiste
 héraldistes
-héraut aspiré homme
-hérauts aspiré homme
+héraut-aspiré-homme
+hérauts-aspiré-homme
 héréditaire
 héréditairement
 héréditaires
@@ -100475,48 +100467,48 @@ hérésie
 hérésies
 hérétique
 hérétiques
-hérissa aspiré
-hérissai aspiré
-hérissaient aspiré
-hérissais aspiré
-hérissait aspiré
-hérissant aspiré
-hérissas aspiré
-hérissasse aspiré
-hérissassent aspiré
-hérissasses aspiré
-hérissassiez aspiré
-hérissassions aspiré
-hérissâmes aspiré
-hérissât aspiré
-hérissâtes aspiré
-hérisse aspiré
-hérissement aspiré
-hérissements aspiré
-hérissent aspiré
-hérisser aspiré
-hérissera aspiré
-hérisserai aspiré
-hérisseraient aspiré
-hérisserais aspiré
-hérisserait aspiré
-hérisseras aspiré
-hérisserez aspiré
-hérisseriez aspiré
-hérisserions aspiré
-hérisserons aspiré
-hérisseront aspiré
-hérisses aspiré
-hérissez aspiré
-hérissé aspiré
-hérissée aspiré
-hérissées aspiré
-hérissés aspiré
-hérissèrent aspiré
-hérissiez aspiré
-hérissions aspiré
-hérisson aspiré
-hérissons aspiré
+hérissa-aspiré
+hérissai-aspiré
+hérissaient-aspiré
+hérissais-aspiré
+hérissait-aspiré
+hérissant-aspiré
+hérissas-aspiré
+hérissasse-aspiré
+hérissassent-aspiré
+hérissasses-aspiré
+hérissassiez-aspiré
+hérissassions-aspiré
+hérissâmes-aspiré
+hérissât-aspiré
+hérissâtes-aspiré
+hérisse-aspiré
+hérissement-aspiré
+hérissements-aspiré
+hérissent-aspiré
+hérisser-aspiré
+hérissera-aspiré
+hérisserai-aspiré
+hérisseraient-aspiré
+hérisserais-aspiré
+hérisserait-aspiré
+hérisseras-aspiré
+hérisserez-aspiré
+hérisseriez-aspiré
+hérisserions-aspiré
+hérisserons-aspiré
+hérisseront-aspiré
+hérisses-aspiré
+hérissez-aspiré
+hérissé-aspiré
+hérissée-aspiré
+hérissées-aspiré
+hérissés-aspiré
+hérissèrent-aspiré
+hérissiez-aspiré
+hérissions-aspiré
+hérisson-aspiré
+hérissons-aspiré
 hérita
 héritage
 héritages
@@ -100573,9 +100565,9 @@ héroïquement
 héroïques
 héroïsme
 héroïsmes
-héron aspiré
-hérons aspiré
-héros aspiré
+héron-aspiré
+hérons-aspiré
+héros-aspiré
 hésita
 hésitai
 hésitaient
@@ -100639,15 +100631,15 @@ hétérosexuelles
 hétérosexuels
 hévéa
 hévéas
-hèle aspiré
-hèlent aspiré
-hèles aspiré
-hère aspiré
-hères aspiré
-hêtraie aspiré
-hêtraies aspiré
-hêtre aspiré
-hêtres aspiré
+hèle-aspiré
+hèlent-aspiré
+hèles-aspiré
+hère-aspiré
+hères-aspiré
+hêtraie-aspiré
+hêtraies-aspiré
+hêtre-aspiré
+hêtres-aspiré
 hiatus
 hiberna
 hibernai
@@ -100695,62 +100687,62 @@ hiberniez
 hibernions
 hibernons
 hibiscus
-hibou aspiré
-hiboux aspiré
-hic aspiré
+hibou-aspiré
+hiboux-aspiré
+hic-aspiré
 hidalgo
 hidalgos
-hideuse aspiré
-hideusement aspiré
-hideuses aspiré
-hideux aspiré
-hie aspiré
+hideuse-aspiré
+hideusement-aspiré
+hideuses-aspiré
+hideux-aspiré
+hie-aspiré
 hier
-hies aspiré
-hiérarchie aspiré
-hiérarchies aspiré
-hiérarchique aspiré
-hiérarchiquement aspiré
-hiérarchiques aspiré
-hiérarchisa aspiré
-hiérarchisai aspiré
-hiérarchisaient aspiré
-hiérarchisais aspiré
-hiérarchisait aspiré
-hiérarchisant aspiré
-hiérarchisas aspiré
-hiérarchisasse aspiré
-hiérarchisassent aspiré
-hiérarchisasses aspiré
-hiérarchisassiez aspiré
-hiérarchisassions aspiré
-hiérarchisâmes aspiré
-hiérarchisât aspiré
-hiérarchisâtes aspiré
-hiérarchise aspiré
-hiérarchisent aspiré
-hiérarchiser aspiré
-hiérarchisera aspiré
-hiérarchiserai aspiré
-hiérarchiseraient aspiré
-hiérarchiserais aspiré
-hiérarchiserait aspiré
-hiérarchiseras aspiré
-hiérarchiserez aspiré
-hiérarchiseriez aspiré
-hiérarchiserions aspiré
-hiérarchiserons aspiré
-hiérarchiseront aspiré
-hiérarchises aspiré
-hiérarchisez aspiré
-hiérarchisé aspiré
-hiérarchisée aspiré
-hiérarchisées aspiré
-hiérarchisés aspiré
-hiérarchisèrent aspiré
-hiérarchisiez aspiré
-hiérarchisions aspiré
-hiérarchisons aspiré
+hies-aspiré
+hiérarchie-aspiré
+hiérarchies-aspiré
+hiérarchique-aspiré
+hiérarchiquement-aspiré
+hiérarchiques-aspiré
+hiérarchisa-aspiré
+hiérarchisai-aspiré
+hiérarchisaient-aspiré
+hiérarchisais-aspiré
+hiérarchisait-aspiré
+hiérarchisant-aspiré
+hiérarchisas-aspiré
+hiérarchisasse-aspiré
+hiérarchisassent-aspiré
+hiérarchisasses-aspiré
+hiérarchisassiez-aspiré
+hiérarchisassions-aspiré
+hiérarchisâmes-aspiré
+hiérarchisât-aspiré
+hiérarchisâtes-aspiré
+hiérarchise-aspiré
+hiérarchisent-aspiré
+hiérarchiser-aspiré
+hiérarchisera-aspiré
+hiérarchiserai-aspiré
+hiérarchiseraient-aspiré
+hiérarchiserais-aspiré
+hiérarchiserait-aspiré
+hiérarchiseras-aspiré
+hiérarchiserez-aspiré
+hiérarchiseriez-aspiré
+hiérarchiserions-aspiré
+hiérarchiserons-aspiré
+hiérarchiseront-aspiré
+hiérarchises-aspiré
+hiérarchisez-aspiré
+hiérarchisé-aspiré
+hiérarchisée-aspiré
+hiérarchisées-aspiré
+hiérarchisés-aspiré
+hiérarchisèrent-aspiré
+hiérarchisiez-aspiré
+hiérarchisions-aspiré
+hiérarchisons-aspiré
 hiératique
 hiératiquement
 hiératiques
@@ -100766,8 +100758,8 @@ hilare
 hilares
 hilarité
 hilarités
-hile aspiré
-hiles aspiré
+hile-aspiré
+hiles-aspiré
 hindou
 hindoue
 hindoues
@@ -100799,45 +100791,45 @@ hispanisante
 hispanisantes
 hispanisants
 hispano
-hissa aspiré
-hissai aspiré
-hissaient aspiré
-hissais aspiré
-hissait aspiré
-hissant aspiré
-hissas aspiré
-hissasse aspiré
-hissassent aspiré
-hissasses aspiré
-hissassiez aspiré
-hissassions aspiré
-hissâmes aspiré
-hissât aspiré
-hissâtes aspiré
-hisse aspiré
-hissent aspiré
-hisser aspiré
-hissera aspiré
-hisserai aspiré
-hisseraient aspiré
-hisserais aspiré
-hisserait aspiré
-hisseras aspiré
-hisserez aspiré
-hisseriez aspiré
-hisserions aspiré
-hisserons aspiré
-hisseront aspiré
-hisses aspiré
-hissez aspiré
-hissé aspiré
-hissée aspiré
-hissées aspiré
-hissés aspiré
-hissèrent aspiré
-hissiez aspiré
-hissions aspiré
-hissons aspiré
+hissa-aspiré
+hissai-aspiré
+hissaient-aspiré
+hissais-aspiré
+hissait-aspiré
+hissant-aspiré
+hissas-aspiré
+hissasse-aspiré
+hissassent-aspiré
+hissasses-aspiré
+hissassiez-aspiré
+hissassions-aspiré
+hissâmes-aspiré
+hissât-aspiré
+hissâtes-aspiré
+hisse-aspiré
+hissent-aspiré
+hisser-aspiré
+hissera-aspiré
+hisserai-aspiré
+hisseraient-aspiré
+hisserais-aspiré
+hisserait-aspiré
+hisseras-aspiré
+hisserez-aspiré
+hisseriez-aspiré
+hisserions-aspiré
+hisserons-aspiré
+hisseront-aspiré
+hisses-aspiré
+hissez-aspiré
+hissé-aspiré
+hissée-aspiré
+hissées-aspiré
+hissés-aspiré
+hissèrent-aspiré
+hissiez-aspiré
+hissions-aspiré
+hissons-aspiré
 histamine
 histoire
 histoires
@@ -100916,71 +100908,71 @@ hivernions
 hivernons
 hivers
 hlm
-ho aspiré
-hobby aspiré
-hobbys aspiré
-hobereau aspiré
-hobereaux aspiré
-hocha aspiré
-hochai aspiré
-hochaient aspiré
-hochais aspiré
-hochait aspiré
-hochant aspiré
-hochas aspiré
-hochasse aspiré
-hochassent aspiré
-hochasses aspiré
-hochassiez aspiré
-hochassions aspiré
-hochâmes aspiré
-hochât aspiré
-hochâtes aspiré
-hoche aspiré
-hochement aspiré
-hochements aspiré
-hochent aspiré
-hochequeue aspiré
-hochequeues aspiré
-hocher aspiré
-hochera aspiré
-hocherai aspiré
-hocheraient aspiré
-hocherais aspiré
-hocherait aspiré
-hocheras aspiré
-hocherez aspiré
-hocheriez aspiré
-hocherions aspiré
-hocherons aspiré
-hocheront aspiré
-hoches aspiré
-hochet aspiré
-hochets aspiré
-hochez aspiré
-hoché aspiré
-hochée aspiré
-hochées aspiré
-hochés aspiré
-hochèrent aspiré
-hochiez aspiré
-hochions aspiré
-hochons aspiré
-hockey aspiré
-holè aspiré
-hold aspiré
-holding aspiré
-holdings aspiré
-hollandais aspiré
-hollandaise aspiré
-hollandaises aspiré
-hollande aspiré
+ho-aspiré
+hobby-aspiré
+hobbys-aspiré
+hobereau-aspiré
+hobereaux-aspiré
+hocha-aspiré
+hochai-aspiré
+hochaient-aspiré
+hochais-aspiré
+hochait-aspiré
+hochant-aspiré
+hochas-aspiré
+hochasse-aspiré
+hochassent-aspiré
+hochasses-aspiré
+hochassiez-aspiré
+hochassions-aspiré
+hochâmes-aspiré
+hochât-aspiré
+hochâtes-aspiré
+hoche-aspiré
+hochement-aspiré
+hochements-aspiré
+hochent-aspiré
+hochequeue-aspiré
+hochequeues-aspiré
+hocher-aspiré
+hochera-aspiré
+hocherai-aspiré
+hocheraient-aspiré
+hocherais-aspiré
+hocherait-aspiré
+hocheras-aspiré
+hocherez-aspiré
+hocheriez-aspiré
+hocherions-aspiré
+hocherons-aspiré
+hocheront-aspiré
+hoches-aspiré
+hochet-aspiré
+hochets-aspiré
+hochez-aspiré
+hoché-aspiré
+hochée-aspiré
+hochées-aspiré
+hochés-aspiré
+hochèrent-aspiré
+hochiez-aspiré
+hochions-aspiré
+hochons-aspiré
+hockey-aspiré
+holè-aspiré
+hold-aspiré
+holding-aspiré
+holdings-aspiré
+hollandais-aspiré
+hollandaise-aspiré
+hollandaises-aspiré
+hollande-aspiré
 holocauste
 holocaustes
-homard aspiré
-homards aspiré
-home aspiré
-homes aspiré
+homard-aspiré
+homards-aspiré
+home-aspiré
+homes-aspiré
 homélie
 homélies
 homéopathe
@@ -101099,49 +101091,49 @@ homosexuelles
 homosexuels
 homuncule
 homuncules
-hongre aspiré
-hongres aspiré
-hongrie aspiré
-hongroise aspiré
-hongroises aspiré
+hongre-aspiré
+hongres-aspiré
+hongrie-aspiré
+hongroise-aspiré
+hongroises-aspiré
 honneur
 honneurs
 honnête
 honnêtement
 honnêtes
 honnêteté
-honni aspiré
-honnie aspiré
-honnies aspiré
-honnir aspiré
-honnira aspiré
-honnirai aspiré
-honniraient aspiré
-honnirais aspiré
-honnirait aspiré
-honniras aspiré
-honnirent aspiré
-honnirez aspiré
-honniriez aspiré
-honnirions aspiré
-honnirons aspiré
-honniront aspiré
-honnis aspiré
-honnissaient aspiré
-honnissais aspiré
-honnissait aspiré
-honnissant aspiré
-honnisse aspiré
-honnissent aspiré
-honnisses aspiré
-honnissez aspiré
-honnissiez aspiré
-honnissions aspiré
-honnissons aspiré
-honnit aspiré
-honnîmes aspiré
-honnît aspiré
-honnîtes aspiré
+honni-aspiré
+honnie-aspiré
+honnies-aspiré
+honnir-aspiré
+honnira-aspiré
+honnirai-aspiré
+honniraient-aspiré
+honnirais-aspiré
+honnirait-aspiré
+honniras-aspiré
+honnirent-aspiré
+honnirez-aspiré
+honniriez-aspiré
+honnirions-aspiré
+honnirons-aspiré
+honniront-aspiré
+honnis-aspiré
+honnissaient-aspiré
+honnissais-aspiré
+honnissait-aspiré
+honnissant-aspiré
+honnisse-aspiré
+honnissent-aspiré
+honnisses-aspiré
+honnissez-aspiré
+honnissiez-aspiré
+honnissions-aspiré
+honnissons-aspiré
+honnit-aspiré
+honnîmes-aspiré
+honnît-aspiré
+honnîtes-aspiré
 honora
 honorabilité
 honorabilités
@@ -101192,61 +101184,61 @@ honorifique
 honorifiques
 honorions
 honorons
-honte aspiré
-hontes aspiré
-honteuse aspiré
-honteusement aspiré
-honteuses aspiré
-honteux aspiré
-hop aspiré
-hoquet aspiré
-hoqueta aspiré
-hoquetai aspiré
-hoquetaient aspiré
-hoquetais aspiré
-hoquetait aspiré
-hoquetant aspiré
-hoquetas aspiré
-hoquetasse aspiré
-hoquetassent aspiré
-hoquetasses aspiré
-hoquetassiez aspiré
-hoquetassions aspiré
-hoquetâmes aspiré
-hoquetât aspiré
-hoquetâtes aspiré
-hoquete aspiré
-hoqueter aspiré
-hoquetez aspiré
-hoqueté aspiré
-hoquetée aspiré
-hoquetées aspiré
-hoquetés aspiré
-hoquetèrent aspiré
-hoquetiez aspiré
-hoquetions aspiré
-hoquetons aspiré
-hoquets aspiré
-hoquète aspiré
-hoquètent aspiré
-hoquètera aspiré
-hoquèterai aspiré
-hoquèteraient aspiré
-hoquèterais aspiré
-hoquèterait aspiré
-hoquèteras aspiré
-hoquèterez aspiré
-hoquèteriez aspiré
-hoquèterions aspiré
-hoquèterons aspiré
-hoquèteront aspiré
-hoquètes aspiré
+honte-aspiré
+hontes-aspiré
+honteuse-aspiré
+honteusement-aspiré
+honteuses-aspiré
+honteux-aspiré
+hop-aspiré
+hoquet-aspiré
+hoqueta-aspiré
+hoquetai-aspiré
+hoquetaient-aspiré
+hoquetais-aspiré
+hoquetait-aspiré
+hoquetant-aspiré
+hoquetas-aspiré
+hoquetasse-aspiré
+hoquetassent-aspiré
+hoquetasses-aspiré
+hoquetassiez-aspiré
+hoquetassions-aspiré
+hoquetâmes-aspiré
+hoquetât-aspiré
+hoquetâtes-aspiré
+hoquete-aspiré
+hoqueter-aspiré
+hoquetez-aspiré
+hoqueté-aspiré
+hoquetée-aspiré
+hoquetées-aspiré
+hoquetés-aspiré
+hoquetèrent-aspiré
+hoquetiez-aspiré
+hoquetions-aspiré
+hoquetons-aspiré
+hoquets-aspiré
+hoquète-aspiré
+hoquètent-aspiré
+hoquètera-aspiré
+hoquèterai-aspiré
+hoquèteraient-aspiré
+hoquèterais-aspiré
+hoquèterait-aspiré
+hoquèteras-aspiré
+hoquèterez-aspiré
+hoquèteriez-aspiré
+hoquèterions-aspiré
+hoquèterons-aspiré
+hoquèteront-aspiré
+hoquètes-aspiré
 horaire
 horaires
-horde aspiré
-hordes aspiré
-horion aspiré
-horions aspiré
+horde-aspiré
+hordes-aspiré
+horion-aspiré
+horions-aspiré
 horizon
 horizons
 horizontal
@@ -101365,7 +101357,7 @@ horripilèrent
 horripiliez
 horripilions
 horripilons
-hors aspiré
+hors-aspiré
 hortensia
 hortensias
 horticole
@@ -101432,85 +101424,85 @@ hostiles
 hostilité
 hostilités
 hot
-hotte aspiré
-hottes aspiré
-hottée aspiré
-hottées aspiré
-hou aspiré
-houblon aspiré
-houblonnière aspiré
-houblonnières aspiré
-houblons aspiré
-houe aspiré
-houes aspiré
-houille aspiré
-houiller aspiré
-houillers aspiré
-houillère aspiré
-houillères aspiré
-houle aspiré
-houles aspiré
-houlette aspiré
-houlettes aspiré
-houleuse aspiré
-houleuses aspiré
-houleux aspiré
-houppe aspiré
-houppelande aspiré
-houppelandes aspiré
-houppes aspiré
-houppette aspiré
-houppettes aspiré
-hourdage aspiré
-hourdages aspiré
-hourdi aspiré
-hourdis aspiré
-hourra aspiré
-hourras aspiré
-hourvari aspiré
-hourvaris aspiré
-houspilla aspiré
-houspillai aspiré
-houspillaient aspiré
-houspillais aspiré
-houspillait aspiré
-houspillant aspiré
-houspillas aspiré
-houspillasse aspiré
-houspillassent aspiré
-houspillasses aspiré
-houspillassiez aspiré
-houspillassions aspiré
-houspillâmes aspiré
-houspillât aspiré
-houspillâtes aspiré
-houspille aspiré
-houspillent aspiré
-houspiller aspiré
-houspillera aspiré
-houspillerai aspiré
-houspilleraient aspiré
-houspillerais aspiré
-houspillerait aspiré
-houspilleras aspiré
-houspillerez aspiré
-houspilleriez aspiré
+hotte-aspiré
+hottes-aspiré
+hottée-aspiré
+hottées-aspiré
+hou-aspiré
+houblon-aspiré
+houblonnière-aspiré
+houblonnières-aspiré
+houblons-aspiré
+houe-aspiré
+houes-aspiré
+houille-aspiré
+houiller-aspiré
+houillers-aspiré
+houillère-aspiré
+houillères-aspiré
+houle-aspiré
+houles-aspiré
+houlette-aspiré
+houlettes-aspiré
+houleuse-aspiré
+houleuses-aspiré
+houleux-aspiré
+houppe-aspiré
+houppelande-aspiré
+houppelandes-aspiré
+houppes-aspiré
+houppette-aspiré
+houppettes-aspiré
+hourdage-aspiré
+hourdages-aspiré
+hourdi-aspiré
+hourdis-aspiré
+hourra-aspiré
+hourras-aspiré
+hourvari-aspiré
+hourvaris-aspiré
+houspilla-aspiré
+houspillai-aspiré
+houspillaient-aspiré
+houspillais-aspiré
+houspillait-aspiré
+houspillant-aspiré
+houspillas-aspiré
+houspillasse-aspiré
+houspillassent-aspiré
+houspillasses-aspiré
+houspillassiez-aspiré
+houspillassions-aspiré
+houspillâmes-aspiré
+houspillât-aspiré
+houspillâtes-aspiré
+houspille-aspiré
+houspillent-aspiré
+houspiller-aspiré
+houspillera-aspiré
+houspillerai-aspiré
+houspilleraient-aspiré
+houspillerais-aspiré
+houspillerait-aspiré
+houspilleras-aspiré
+houspillerez-aspiré
+houspilleriez-aspiré
 houspillerions
-houspillerons aspiré
-houspilleront aspiré
-houspilles aspiré
-houspillez aspiré
-houspillé aspiré
-houspillée aspiré
-houspillées aspiré
-houspillés aspiré
-houspillèrent aspiré
-houspilliez aspiré
-houspillions aspiré
-houspillons aspiré
-housse aspiré
-housses aspiré
-houx aspiré
+houspillerons-aspiré
+houspilleront-aspiré
+houspilles-aspiré
+houspillez-aspiré
+houspillé-aspiré
+houspillée-aspiré
+houspillées-aspiré
+houspillés-aspiré
+houspillèrent-aspiré
+houspilliez-aspiré
+houspillions-aspiré
+houspillons-aspiré
+housse-aspiré
+housses-aspiré
+houx-aspiré
 hovercraft
 hovercrafts
 hôpital
@@ -101527,52 +101519,52 @@ hôtels
 hôtes
 hôtesse
 hôtesses
-hua aspiré
-huai aspiré
-huaient aspiré
-huais aspiré
-huait aspiré
-huant aspiré
-huas aspiré
-huasse aspiré
-huassent aspiré
-huasses aspiré
-huassiez aspiré
-huassions aspiré
-huâmes aspiré
-huât aspiré
-huâtes aspiré
-hublot aspiré
-hublots aspiré
-huche aspiré
-huches aspiré
-hue aspiré
-huent aspiré
-huer aspiré
-huera aspiré
-huerai aspiré
-hueraient aspiré
-huerais aspiré
-huerait aspiré
-hueras aspiré
-huerez aspiré
-hueriez aspiré
-huerions aspiré
-huerons aspiré
-hueront aspiré
-hues aspiré
-huez aspiré
-hué aspiré
-huée aspiré
-huées aspiré
-hués aspiré
-huèrent aspiré
-huguenot aspiré
-huguenote aspiré
-huguenotes aspiré
-huguenots aspiré
+hua-aspiré
+huai-aspiré
+huaient-aspiré
+huais-aspiré
+huait-aspiré
+huant-aspiré
+huas-aspiré
+huasse-aspiré
+huassent-aspiré
+huasses-aspiré
+huassiez-aspiré
+huassions-aspiré
+huâmes-aspiré
+huât-aspiré
+huâtes-aspiré
+hublot-aspiré
+hublots-aspiré
+huche-aspiré
+huches-aspiré
+hue-aspiré
+huent-aspiré
+huer-aspiré
+huera-aspiré
+huerai-aspiré
+hueraient-aspiré
+huerais-aspiré
+huerait-aspiré
+hueras-aspiré
+huerez-aspiré
+hueriez-aspiré
+huerions-aspiré
+huerons-aspiré
+hueront-aspiré
+hues-aspiré
+huez-aspiré
+hué-aspiré
+huée-aspiré
+huées-aspiré
+hués-aspiré
+huèrent-aspiré
+huguenot-aspiré
+huguenote-aspiré
+huguenotes-aspiré
+huguenots-aspiré
 hui
-huiez aspiré
+huiez-aspiré
 huila
 huilage
 huilages
@@ -101621,33 +101613,33 @@ huiliers
 huiliez
 huilions
 huilons
-huions aspiré
+huions-aspiré
 huis
 huisserie
 huisseries
 huissier
 huissiers
-huit aspiré
-huitaine aspiré
-huitaines aspiré
-huitième aspiré
-huitièmement aspiré
-huitièmes aspiré
+huit-aspiré
+huitaine-aspiré
+huitaines-aspiré
+huitième-aspiré
+huitièmement-aspiré
+huitièmes-aspiré
 huître
 huîtres
-hulotte aspiré
-hulottes aspiré
-hum aspiré
-huma aspiré
-humai aspiré
-humaient aspiré
+hulotte-aspiré
+hulottes-aspiré
+hum-aspiré
+huma-aspiré
+humai-aspiré
+humaient-aspiré
 humain
 humaine
 humainement
 humaines
 humains
-humais aspiré
-humait aspiré
+humais-aspiré
+humait-aspiré
 humanisa
 humanisai
 humanisaient
@@ -101696,20 +101688,20 @@ humanitarisme
 humanité
 humanoïde
 humanoïdes
-humant aspiré
-humas aspiré
-humasse aspiré
-humassent aspiré
-humasses aspiré
-humassiez aspiré
-humassions aspiré
-humâmes aspiré
-humât aspiré
-humâtes aspiré
+humant-aspiré
+humas-aspiré
+humasse-aspiré
+humassent-aspiré
+humasses-aspiré
+humassiez-aspiré
+humassions-aspiré
+humâmes-aspiré
+humât-aspiré
+humâtes-aspiré
 humble
 humblement
 humbles
-hume aspiré
+hume-aspiré
 humecta
 humectage
 humectages
@@ -101751,33 +101743,33 @@ humectèrent
 humectiez
 humections
 humectons
-hument aspiré
-humer aspiré
-humera aspiré
-humerai aspiré
-humeraient aspiré
-humerais aspiré
-humerait aspiré
-humeras aspiré
-humerez aspiré
-humeriez aspiré
-humerions aspiré
-humerons aspiré
-humeront aspiré
-humes aspiré
+hument-aspiré
+humer-aspiré
+humera-aspiré
+humerai-aspiré
+humeraient-aspiré
+humerais-aspiré
+humerait-aspiré
+humeras-aspiré
+humerez-aspiré
+humeriez-aspiré
+humerions-aspiré
+humerons-aspiré
+humeront-aspiré
+humes-aspiré
 humeur
 humeurs
-humez aspiré
-humé aspiré
-humée aspiré
-humées aspiré
+humez-aspiré
+humé-aspiré
+humée-aspiré
+humées-aspiré
 huméral
 humérale
 humérales
 huméraux
 humérus
-humés aspiré
-humèrent aspiré
+humés-aspiré
+humèrent-aspiré
 humide
 humides
 humidifia
@@ -101823,7 +101815,7 @@ humidifiions
 humidifions
 humidité
 humidités
-humiez aspiré
+humiez-aspiré
 humilia
 humiliai
 humiliaient
@@ -101866,8 +101858,8 @@ humiliions
 humilions
 humilité
 humilités
-humions aspiré
-humons aspiré
+humions-aspiré
+humons-aspiré
 humoriste
 humoristes
 humoristique
@@ -101876,67 +101868,67 @@ humoristiques
 humour
 humours
 humus
-hune aspiré
-hunes aspiré
-hunier aspiré
-huniers aspiré
-huons aspiré
-huppe aspiré
-huppes aspiré
-huppé aspiré
-huppée aspiré
-huppées aspiré
-huppés aspiré
-hure aspiré
-hures aspiré
-hurla aspiré
-hurlai aspiré
-hurlaient aspiré
-hurlais aspiré
-hurlait aspiré
-hurlant aspiré
-hurlas aspiré
-hurlasse aspiré
-hurlassent aspiré
-hurlasses aspiré
-hurlassiez aspiré
-hurlassions aspiré
-hurlâmes aspiré
-hurlât aspiré
-hurlâtes aspiré
-hurle aspiré
-hurlement aspiré
-hurlements aspiré
-hurlent aspiré
-hurler aspiré
-hurlera aspiré
-hurlerai aspiré
-hurleraient aspiré
-hurlerais aspiré
-hurlerait aspiré
-hurleras aspiré
-hurlerez aspiré
-hurleriez aspiré
-hurlerions aspiré
-hurlerons aspiré
-hurleront aspiré
-hurles aspiré
-hurlez aspiré
-hurlé aspiré
-hurlée aspiré
-hurlées aspiré
-hurlés aspiré
-hurlèrent aspiré
-hurliez aspiré
-hurlions aspiré
-hurlons aspiré
+hune-aspiré
+hunes-aspiré
+hunier-aspiré
+huniers-aspiré
+huons-aspiré
+huppe-aspiré
+huppes-aspiré
+huppé-aspiré
+huppée-aspiré
+huppées-aspiré
+huppés-aspiré
+hure-aspiré
+hures-aspiré
+hurla-aspiré
+hurlai-aspiré
+hurlaient-aspiré
+hurlais-aspiré
+hurlait-aspiré
+hurlant-aspiré
+hurlas-aspiré
+hurlasse-aspiré
+hurlassent-aspiré
+hurlasses-aspiré
+hurlassiez-aspiré
+hurlassions-aspiré
+hurlâmes-aspiré
+hurlât-aspiré
+hurlâtes-aspiré
+hurle-aspiré
+hurlement-aspiré
+hurlements-aspiré
+hurlent-aspiré
+hurler-aspiré
+hurlera-aspiré
+hurlerai-aspiré
+hurleraient-aspiré
+hurlerais-aspiré
+hurlerait-aspiré
+hurleras-aspiré
+hurlerez-aspiré
+hurleriez-aspiré
+hurlerions-aspiré
+hurlerons-aspiré
+hurleront-aspiré
+hurles-aspiré
+hurlez-aspiré
+hurlé-aspiré
+hurlée-aspiré
+hurlées-aspiré
+hurlés-aspiré
+hurlèrent-aspiré
+hurliez-aspiré
+hurlions-aspiré
+hurlons-aspiré
 hurluberlu
-hussard aspiré
-hussarde aspiré
-hussardes aspiré
-hussards aspiré
-hutte aspiré
-huttes aspiré
+hussard-aspiré
+hussarde-aspiré
+hussardes-aspiré
+hussards-aspiré
+hutte-aspiré
+huttes-aspiré
 hyacinthe
 hyacinthes
 hybridation
@@ -102235,7 +102227,6 @@ hystéries
 hystérique
 hystériquement
 hystériques
-i
 ibérique
 ibériques
 ibid
@@ -104848,9 +104839,9 @@ inclusses
 inclussiez
 inclussions
 inclut
-incl›mes
-incl›t
-incl›tes
+inclûmes
+inclût
+inclûtes
 incoercible
 incoercibles
 incognito
@@ -105744,8 +105735,8 @@ indirectes
 indirects
 indiscernable
 indiscernables
-indiscipline nom
-indisciplines nom
+indiscipline-nom
+indisciplines-nom
 indiscipliné
 indisciplinée
 indisciplinées
@@ -106023,7 +106014,7 @@ industrieuse
 industrieusement
 industrieuses
 industrieux
-ind›ment
+indûment
 ineffable
 ineffablement
 ineffables
@@ -106937,8 +106928,8 @@ inhabilement
 inhabiles
 inhabileté
 inhabiletés
-inhabilité droit
-inhabilités droit
+inhabilité-droit
+inhabilités-droit
 inhabitable
 inhabitables
 inhabité
@@ -109407,7 +109398,7 @@ intégrassiez
 intégrassions
 intégration
 intégrations
-intégraux adj
+intégraux-adj
 intégrâmes
 intégrât
 intégrâtes
@@ -110759,7 +110750,7 @@ isolâmes
 isolât
 isolâtes
 isole
-isolement nom
+isolement-nom
 isolements
 isolent
 isoler
@@ -110851,7 +110842,6 @@ ivrogneries
 ivrognes
 ivrognesse
 ivrognesses
-j
 jabot
 jabota
 jabotai
@@ -111495,47 +111485,47 @@ jeunets
 jeunette
 jeunettes
 jeux
-je›na
-je›nai
-je›naient
-je›nant
-je›nas
-je›nasse
-je›nassent
-je›nasses
-je›nassiez
-je›nassions
-je›nâmes
-je›nât
-je›nâtes
-je›ne
-je›nent
-je›ner
-je›nera
-je›nerai
-je›neraient
-je›nerais
-je›nerait
-je›neras
-je›nerez
-je›neriez
-je›nerions
-je›nerons
-je›neront
-je›nes
-je›neur
-je›neurs
-je›neuse
-je›neuses
-je›nez
-je›né
-je›née
-je›nées
-je›nés
-je›nèrent
-je›niez
-je›nions
-je›nons
+jeûna
+jeûnai
+jeûnaient
+jeûnant
+jeûnas
+jeûnasse
+jeûnassent
+jeûnasses
+jeûnassiez
+jeûnassions
+jeûnâmes
+jeûnât
+jeûnâtes
+jeûne
+jeûnent
+jeûner
+jeûnera
+jeûnerai
+jeûneraient
+jeûnerais
+jeûnerait
+jeûneras
+jeûnerez
+jeûneriez
+jeûnerions
+jeûnerons
+jeûneront
+jeûnes
+jeûneur
+jeûneurs
+jeûneuse
+jeûneuses
+jeûnez
+jeûné
+jeûnée
+jeûnées
+jeûnés
+jeûnèrent
+jeûniez
+jeûnions
+jeûnons
 jéhovah
 jérémiades
 jérôme
@@ -112426,7 +112416,6 @@ juxtaposions
 juxtaposition
 juxtapositions
 juxtaposons
-k
 kabyle
 kabyles
 kafkaïen
@@ -112447,7 +112436,7 @@ karting
 karts
 kayak
 kayaks
-kermesse foire
+kermesse-foire
 kermesses
 kermès
 képi
@@ -112636,7 +112625,6 @@ kyrielles
 kyries
 kyste
 kystes
-l
 la
 label
 labels
@@ -114166,8 +114154,8 @@ lettré
 lettrée
 lettrées
 lettrés
-lettrine caligraphie
-lettrines caligraphie
+lettrine-caligraphie
+lettrines-caligraphie
 leu
 leucémie
 leucémies
@@ -115536,7 +115524,7 @@ lisant
 lise
 lisent
 liseron
-liserons plante
+liserons-plante
 lises
 liseur
 liseurs
@@ -116394,8 +116382,8 @@ lubrifiions
 lubrifions
 lubrique
 lubriques
-lucane insecte
-lucanes insecte
+lucane-insecte
+lucanes-insecte
 lucarne
 lucarnes
 lucide
@@ -116724,9 +116712,9 @@ luxurieuse
 luxurieuses
 luxurieux
 luzerne
-l›mes
-l›t
-l›tes
+lûmes
+lût
+lûtes
 lycée
 lycéen
 lycéenne
@@ -116791,7 +116779,6 @@ lyriques
 lyrisme
 lyrismes
 lys
-m
 ma
 macabre
 macabres
@@ -117608,14 +117595,14 @@ malchanceuses
 malchanceux
 maldonne
 maldonnes
-male pas bien
+male-pas-bien
 malencontreuse
 malencontreusement
 malencontreuses
 malencontreux
 malentendu
 malentendus
-males pas bien
+males-pas-bien
 malédiction
 malédictions
 maléfice
@@ -119204,7 +119191,7 @@ marrai
 marraient
 marraine
 marraines
-marrais verbe
+marrais-verbe
 marrait
 marrant
 marrante
@@ -119240,12 +119227,12 @@ marrée
 marrées
 marrés
 marrèrent
-marri faché
-marrie faché
-marries faché
-marriez rire
-marrions rire
-marris faché
+marri-faché
+marrie-faché
+marries-faché
+marriez-rire
+marrions-rire
+marris-faché
 marron
 marronne
 marronnes
@@ -119671,7 +119658,7 @@ masturbions
 masturbons
 masure
 masures
-mat écheques ou non poli
+mat-écheques-ou-non-poli
 mata
 matador
 matadors
@@ -119833,7 +119820,7 @@ mathématiques
 matiez
 matière
 matières
-matin jour
+matin-jour
 matinal
 matinale
 matinalement
@@ -119841,9 +119828,9 @@ matinales
 matinals
 matinaux
 matines
-matinée temps
-matinées temps
-matins jour
+matinée-temps
+matinées-temps
+matins-jour
 mations
 matois
 matoise
@@ -119868,7 +119855,7 @@ matrimoniales
 matrimoniaux
 matrone
 matrones
-mats non poli
+mats-non-poli
 matte
 maturation
 maturations
@@ -120416,8 +120403,8 @@ mercis
 mercredi
 mercredis
 mercure
-mercuriale nom
-mercuriales nom
+mercuriale-nom
+mercuriales-nom
 mercuriel
 mercurielle
 mercurielles
@@ -120454,7 +120441,7 @@ mesquinerie
 mesquineries
 mesquines
 mesquins
-mess militaire
+mess-militaire
 message
 messager
 messagerie
@@ -120806,9 +120793,9 @@ méconnusses
 méconnussiez
 méconnussions
 méconnut
-méconn›mes
-méconn›t
-méconn›tes
+méconnûmes
+méconnût
+méconnûtes
 mécontent
 mécontenta
 mécontentai
@@ -122577,7 +122564,7 @@ minotier
 minotiers
 minuit
 minuits
-minus habens
+minus-habens
 minuscule
 minuscules
 minuta
@@ -124886,9 +124873,9 @@ moulusses
 moulussiez
 moulussions
 moulut
-moul›mes
-moul›t
-moul›tes
+moulûmes
+moulût
+moulûtes
 mouraient
 mourais
 mourait
@@ -124921,9 +124908,9 @@ mourusses
 mourussiez
 mourussions
 mourut
-mour›mes
-mour›t
-mour›tes
+mourûmes
+mourût
+mourûtes
 mous
 mousquet
 mousquetaire
@@ -124996,12 +124983,12 @@ moustiquaire
 moustiquaires
 moustique
 moustiques
-moutard garçon
+moutard-garçon
 moutarde
 moutardes
 moutardier
 moutardiers
-moutards garçon
+moutards-garçon
 mouton
 moutonna
 moutonnai
@@ -125080,8 +125067,8 @@ mouvriez
 mouvrions
 mouvrons
 mouvront
-mo›t
-mo›ts
+moût
+moûts
 moyen
 moyenâgeux
 moyennant
@@ -125325,7 +125312,7 @@ muphtis
 muqueuse
 muqueuses
 muqueux
-mur nom
+mur-nom
 mura
 murage
 murages
@@ -125349,7 +125336,7 @@ muraux
 murâmes
 murât
 murâtes
-mure verbe
+mure-verbe
 murent
 murer
 murera
@@ -125363,7 +125350,7 @@ mureriez
 murerions
 murerons
 mureront
-mures verbe
+mures-verbe
 murex
 murez
 muré
@@ -125416,7 +125403,7 @@ murmurions
 murmurons
 murons
 muros
-murs nom
+murs-nom
 mus
 musa
 musai
@@ -125774,49 +125761,49 @@ mutuelle
 mutuellement
 mutuelles
 mutuels
-m›
-m›mes
-m›r
-m›re
-m›rement
-m›res
-m›ri
-m›rie
-m›rier
-m›riers
-m›ries
-m›rir
-m›rira
-m›rirai
-m›riraient
-m›rirais
-m›rirait
-m›riras
-m›rirent
-m›rirez
-m›ririez
-m›ririons
-m›rirons
-m›riront
-m›ris
-m›rissaient
-m›rissais
-m›rissait
-m›rissant
-m›risse
-m›rissent
-m›risses
-m›rissez
-m›rissiez
-m›rissions
-m›rissons
-m›rit
-m›rîmes
-m›rît
-m›rîtes
-m›rs
-m›t
-m›tes
+mû
+mûmes
+mûr
+mûre
+mûrement
+mûres
+mûri
+mûrie
+mûrier
+mûriers
+mûries
+mûrir
+mûrira
+mûrirai
+mûriraient
+mûrirais
+mûrirait
+mûriras
+mûrirent
+mûrirez
+mûririez
+mûririons
+mûrirons
+mûriront
+mûris
+mûrissaient
+mûrissais
+mûrissait
+mûrissant
+mûrisse
+mûrissent
+mûrisses
+mûrissez
+mûrissiez
+mûrissions
+mûrissons
+mûrit
+mûrîmes
+mûrît
+mûrîtes
+mûrs
+mût
+mûtes
 mycélium
 mycénien
 mycénienne
@@ -125916,7 +125903,6 @@ mythomanes
 mytiliculture
 mytilicultures
 myxomatose
-n
 nabab
 nababs
 nabot
@@ -127478,10 +127464,10 @@ nitreux
 nitrique
 nitriques
 nitroglycérine
-nival neige
-nivale neige
-nivales neige
-nivaux neige
+nival-neige
+nivale-neige
+nivales-neige
+nivaux-neige
 niveau
 niveaux
 nivela
@@ -127529,7 +127515,7 @@ nivernais
 nivernaise
 nivernaises
 nivôse
-nobel prix
+nobel-prix
 nobiliaire
 nobiliaires
 noble
@@ -127941,7 +127927,7 @@ notoires
 notons
 notoriété
 notoriétés
-notre adj
+notre-adj
 notule
 notules
 noua
@@ -128336,7 +128322,6 @@ nymphes
 nymphéa
 nymphéas
 nymphose
-o
 oasis
 obédience
 obédiences
@@ -129304,9 +129289,9 @@ occusses
 occussiez
 occussions
 occut
-occ›mes
-occ›t
-occ›tes
+occûmes
+occût
+occûtes
 ocelle
 ocelles
 ocellé
@@ -131359,7 +131344,7 @@ ottoman
 ottomane
 ottomanes
 ottomans
-ou conj
+ou-conj
 ouailles
 ouata
 ouatai
@@ -131669,8 +131654,8 @@ outrecuidant
 outrecuidante
 outrecuidantes
 outrecuidants
-outremer minerale
-outremers minerale
+outremer-minerale
+outremers-minerale
 outrent
 outrepassa
 outrepassai
@@ -131856,7 +131841,7 @@ ouvrîtes
 ouvroir
 ouvroirs
 ouvrons
-oš adverbe
+oš-adverbe
 ovaire
 ovaires
 ovale
@@ -132013,7 +131998,6 @@ oxyures
 oyat
 oyats
 ozone
-p
 pacage
 pacages
 pacha
@@ -132154,9 +132138,9 @@ pagayassions
 pagayâmes
 pagayât
 pagayâtes
-pagaye nom
+pagaye-nom
 pagayer
-pagayes nom
+pagayes-nom
 pagayeur
 pagayeurs
 pagayeuse
@@ -132377,8 +132361,8 @@ palabrèrent
 palabriez
 palabrions
 palabrons
-palace hotel
-palaces hotel
+palace-hotel
+palaces-hotel
 paladin
 paladins
 palafitte
@@ -132397,10 +132381,10 @@ palatinat
 palatine
 palatines
 palatins
-pale aviron
+pale-aviron
 palefrenier
 palefreniers
-pales aviron
+pales-aviron
 palestine
 palestinien
 palestinienne
@@ -132432,7 +132416,7 @@ palindrome
 palindromes
 palinodie
 palinodies
-palis nom
+palis-nom
 palissada
 palissadai
 palissadaient
@@ -133314,7 +133298,7 @@ paraissez
 paraissiez
 paraissions
 paraissons
-parait parer
+parait-parer
 paraît
 paraîtra
 paraîtrai
@@ -133632,9 +133616,9 @@ parcourusses
 parcourussiez
 parcourussions
 parcourut
-parcour›mes
-parcour›t
-parcour›tes
+parcourûmes
+parcourût
+parcourûtes
 parcs
 pardessus
 pardi
@@ -134529,9 +134513,9 @@ parussions
 parut
 parution
 parutions
-par›mes
-par›t
-par›tes
+parûmes
+parût
+parûtes
 parvenaient
 parvenais
 parvenait
@@ -136209,7 +136193,7 @@ pelvien
 pelvienne
 pelviennes
 pelviens
-penalty football
+penalty-football
 penaltys
 penaud
 penaude
@@ -136679,9 +136663,9 @@ perçusses
 perçussiez
 perçussions
 perçut
-perç›mes
-perç›t
-perç›tes
+perçûmes
+perçût
+perçûtes
 perd
 perdai
 perdaient
@@ -137513,7 +137497,7 @@ perturbiez
 perturbions
 perturbons
 pervenche
-pervenches nom
+pervenches-nom
 pervers
 perverse
 perverses
@@ -139468,53 +139452,53 @@ pignochions
 pignochons
 pignon
 pignons
-pila broyer
+pila-broyer
 pilage
 pilages
-pilai broyer
-pilaient broyer
-pilais broyer
-pilait broyer
-pilant broyer
-pilas broyer
-pilasse broyer
-pilassent broyer
-pilasses broyer
-pilassiez broyer
-pilassions broyer
+pilai-broyer
+pilaient-broyer
+pilais-broyer
+pilait-broyer
+pilant-broyer
+pilas-broyer
+pilasse-broyer
+pilassent-broyer
+pilasses-broyer
+pilassiez-broyer
+pilassions-broyer
 pilastre
 pilastres
-pilâmes broyer
-pilât broyer
-pilâtes broyer
+pilâmes-broyer
+pilât-broyer
+pilâtes-broyer
 pile
-pilent broyer
-piler broyer
-pilera broyer
-pilerai broyer
-pileraient broyer
-pilerais broyer
-pilerait broyer
-pileras broyer
-pilerez broyer
-pileriez broyer
-pilerions broyer
-pilerons broyer
-pileront broyer
+pilent-broyer
+piler-broyer
+pilera-broyer
+pilerai-broyer
+pileraient-broyer
+pilerais-broyer
+pilerait-broyer
+pileras-broyer
+pilerez-broyer
+pileriez-broyer
+pilerions-broyer
+pilerons-broyer
+pileront-broyer
 piles
 pileuse
 pileuses
 pileux
-pilez broyer
-pilé broyer
-pilée broyer
-pilées broyer
-pilés broyer
-pilèrent broyer
+pilez-broyer
+pilé-broyer
+pilée-broyer
+pilées-broyer
+pilés-broyer
+pilèrent-broyer
 pilier
 piliers
-piliez broyer
-pilions broyer
+piliez-broyer
+pilions-broyer
 pilla
 pillage
 pillai
@@ -140096,8 +140080,8 @@ piquèrent
 piquiez
 piquions
 piquons
-piq›re
-piq›res
+piqûre
+piqûres
 piranha
 piranhas
 pirate
@@ -140951,7 +140935,7 @@ plaquons
 plasma
 plasmatique
 plasmatiques
-plastic explosif
+plastic-explosif
 plasticage
 plasticages
 plasticité
@@ -141706,7 +141690,7 @@ pluviomètres
 pluviosité
 pluviosités
 pluviôse
-pl›t
+plût
 pneu
 pneumatique
 pneumatiques
@@ -143699,7 +143683,7 @@ pourboire
 pourboires
 pourceau
 pourceaux
-pourcent deux mots
+pourcent-deux-mots
 pourcentage
 pourcentages
 pourchassa
@@ -143963,9 +143947,9 @@ pourvusses
 pourvussiez
 pourvussions
 pourvut
-pourv›mes
-pourv›t
-pourv›tes
+pourvûmes
+pourvût
+pourvûtes
 poussa
 poussai
 poussaient
@@ -145537,7 +145521,7 @@ prépuce
 prépuces
 prérogative
 prérogatives
-prés champs
+prés-champs
 présage
 présagea
 présageai
@@ -145938,9 +145922,9 @@ prévalusses
 prévalussiez
 prévalussions
 prévalut
-préval›mes
-préval›t
-préval›tes
+prévalûmes
+prévalût
+prévalûtes
 prévaricateur
 prévaricateurs
 prévarication
@@ -149217,9 +149201,9 @@ puy
 puys
 puzzle
 puzzles
-p›mes
-p›t
-p›tes
+pûmes
+pût
+pûtes
 pygmée
 pygmées
 pyjama
@@ -149258,7 +149242,6 @@ python
 pythonisse
 pythonisses
 pythons
-q
 qu
 qua
 quadragénaire
@@ -149890,7 +149873,6 @@ quotient
 quotients
 quotité
 quotités
-r
 rabais
 rabaissa
 rabaissai
@@ -150475,8 +150457,8 @@ racisme
 racismes
 raciste
 racistes
-racket extorsion
-rackets extorsion
+racket-extorsion
+rackets-extorsion
 racketteur
 racketteurs
 racla
@@ -151273,8 +151255,8 @@ raglan
 raglans
 ragot
 ragots
-rago›t
-rago›ts
+ragoût
+ragoûts
 rahat
 rai
 raid
@@ -154658,45 +154640,45 @@ recèperont
 recèpes
 rechange
 rechanges
-rechapa pneu
-rechapai pneu
-rechapaient pneu
-rechapais pneu
-rechapait pneu
-rechapant pneu
-rechapas pneu
-rechapasse pneu
-rechapassent pneu
-rechapasses pneu
-rechapassiez pneu
-rechapassions pneu
-rechapâmes pneu
-rechapât pneu
-rechapâtes pneu
-rechape pneu
-rechapent pneu
-rechaper pneu
-rechapera pneu
-rechaperai pneu
-rechaperaient pneu
-rechaperais pneu
-rechaperait pneu
-rechaperas pneu
-rechaperez pneu
-rechaperiez pneu
-rechaperions pneu
-rechaperons pneu
-rechaperont pneu
-rechapes pneu
-rechapez pneu
-rechapé pneu
-rechapée pneu
-rechapées pneu
-rechapés pneu
-rechapèrent pneu
-rechapiez oneu
-rechapions pneu
-rechapons pneu
+rechapa-pneu
+rechapai-pneu
+rechapaient-pneu
+rechapais-pneu
+rechapait-pneu
+rechapant-pneu
+rechapas-pneu
+rechapasse-pneu
+rechapassent-pneu
+rechapasses-pneu
+rechapassiez-pneu
+rechapassions-pneu
+rechapâmes-pneu
+rechapât-pneu
+rechapâtes-pneu
+rechape-pneu
+rechapent-pneu
+rechaper-pneu
+rechapera-pneu
+rechaperai-pneu
+rechaperaient-pneu
+rechaperais-pneu
+rechaperait-pneu
+rechaperas-pneu
+rechaperez-pneu
+rechaperiez-pneu
+rechaperions-pneu
+rechaperons-pneu
+rechaperont-pneu
+rechapes-pneu
+rechapez-pneu
+rechapé-pneu
+rechapée-pneu
+rechapées-pneu
+rechapés-pneu
+rechapèrent-pneu
+rechapiez-oneu
+rechapions-pneu
+rechapons-pneu
 recharge
 rechargea
 rechargeai
@@ -155194,9 +155176,9 @@ reconnusses
 reconnussiez
 reconnussions
 reconnut
-reconn›mes
-reconn›t
-reconn›tes
+reconnûmes
+reconnût
+reconnûtes
 reconquerra
 reconquerrai
 reconquerraient
@@ -155527,9 +155509,9 @@ recourusses
 recourussiez
 recourussions
 recourut
-recour›mes
-recour›t
-recour›tes
+recourûmes
+recourût
+recourûtes
 recousaient
 recousais
 recousait
@@ -156007,8 +155989,8 @@ reçues
 reçurent
 reçus
 reçut
-reç›mes
-reç›tes
+reçûmes
+reçûtes
 redan
 redans
 reddition
@@ -156706,45 +156688,45 @@ refondues
 refondus
 refont
 refonte
-reforma de nouveau
-reformai de nouveau
-reformaient de nouveau
-reformais de nouveau
-reformait de nouveau
-reformant de nouveau
-reformas de nouveau
-reformasse de nouveau
-reformassent de nouveau
-reformasses de nouveau
-reformassiez de nouveau
-reformassions de nouveau
-reformâmes de nouveau
-reformât de nouveau
-reformâtes de nouveau
-reforme de nouveau
-reforment de nouveau
-reformer de nouveau
-reformera de nouveau
-reformerai de nouveau
-reformeraient de nouveau
-reformerais de nouveau
-reformerait de nouveau
-reformeras de nouveau
-reformerez de nouveau
-reformeriez de nouveau
-reformerions de nouveau
-reformerons de nouveau
-reformeront de nouveau
-reformes de nouveau
-reformez de nouveau
-reformé de nouveau
-reformée de nouveau
-reformées de nouveau
-reformés de nouveau
-reformèrent de nouveau
-reformiez de nouveau
-reformions de nouveau
-reformons de nouveau
+reforma-de-nouveau
+reformai-de-nouveau
+reformaient-de-nouveau
+reformais-de-nouveau
+reformait-de-nouveau
+reformant-de-nouveau
+reformas-de-nouveau
+reformasse-de-nouveau
+reformassent-de-nouveau
+reformasses-de-nouveau
+reformassiez-de-nouveau
+reformassions-de-nouveau
+reformâmes-de-nouveau
+reformât-de-nouveau
+reformâtes-de-nouveau
+reforme-de-nouveau
+reforment-de-nouveau
+reformer-de-nouveau
+reformera-de-nouveau
+reformerai-de-nouveau
+reformeraient-de-nouveau
+reformerais-de-nouveau
+reformerait-de-nouveau
+reformeras-de-nouveau
+reformerez-de-nouveau
+reformeriez-de-nouveau
+reformerions-de-nouveau
+reformerons-de-nouveau
+reformeront-de-nouveau
+reformes-de-nouveau
+reformez-de-nouveau
+reformé-de-nouveau
+reformée-de-nouveau
+reformées-de-nouveau
+reformés-de-nouveau
+reformèrent-de-nouveau
+reformiez-de-nouveau
+reformions-de-nouveau
+reformons-de-nouveau
 refoula
 refoulai
 refoulaient
@@ -157954,9 +157936,9 @@ relusses
 relussiez
 relussions
 relut
-rel›mes
-rel›t
-rel›tes
+relûmes
+relût
+relûtes
 remaillai
 remaillaient
 remaillais
@@ -160438,38 +160420,38 @@ repart
 repartaient
 repartais
 repartait
-reparti è nouveau
-repartie è nouveau
-reparties è nouveau
-repartir è nouveau
-repartira è nouveau
-repartirai è nouveau
-repartiraient è nouveau
-repartirais è nouveau
-repartirait è nouveau
-repartiras è nouveau
-repartirent è nouveau
-repartirez è nouveau
-repartiriez è nouveau
-repartirions è nouveau
-repartirons è nouveau
-repartiront è nouveau
-repartis è nouveau
-repartissaient è nouveau
-repartissais è nouveau
-repartissait è nouveau
-repartissant è nouveau
-repartisse è nouveau
-repartissent è nouveau
-repartisses è nouveau
-repartissez è nouveau
-repartissiez è nouveau
-repartissions è nouveau
-repartissons è nouveau
-repartit è nouveau
-repartîmes è nouveau
-repartît è nouveau
-repartîtes è nouveau
+reparti-è-nouveau
+repartie-è-nouveau
+reparties-è-nouveau
+repartir-è-nouveau
+repartira-è-nouveau
+repartirai-è-nouveau
+repartiraient-è-nouveau
+repartirais-è-nouveau
+repartirait-è-nouveau
+repartiras-è-nouveau
+repartirent-è-nouveau
+repartirez-è-nouveau
+repartiriez-è-nouveau
+repartirions-è-nouveau
+repartirons-è-nouveau
+repartiront-è-nouveau
+repartis-è-nouveau
+repartissaient-è-nouveau
+repartissais-è-nouveau
+repartissait-è-nouveau
+repartissant-è-nouveau
+repartisse-è-nouveau
+repartissent-è-nouveau
+repartisses-è-nouveau
+repartissez-è-nouveau
+repartissiez-è-nouveau
+repartissions-è-nouveau
+repartissons-è-nouveau
+repartit-è-nouveau
+repartîmes-è-nouveau
+repartît-è-nouveau
+repartîtes-è-nouveau
 reparu
 reparue
 reparues
@@ -160481,9 +160463,9 @@ reparusses
 reparussiez
 reparussions
 reparut
-repar›mes
-repar›t
-repar›tes
+reparûmes
+reparût
+reparûtes
 repas
 repassa
 repassage
@@ -161298,9 +161280,9 @@ repusses
 repussiez
 repussions
 reput
-rep›mes
-rep›t
-rep›tes
+repûmes
+repût
+repûtes
 requerra
 requerrai
 requerraient
@@ -162973,9 +162955,9 @@ revalusses
 revalussiez
 revalussions
 revalut
-reval›mes
-reval›t
-reval›tes
+revalûmes
+revalût
+revalûtes
 revanche
 revanches
 revaudra
@@ -163195,9 +163177,9 @@ revécusses
 revécussiez
 revécussions
 revécut
-revéc›mes
-revéc›t
-revéc›tes
+revécûmes
+revécût
+revécûtes
 revêche
 revêches
 revêt
@@ -163779,9 +163761,9 @@ réapparusses
 réapparussiez
 réapparussions
 réapparut
-réappar›mes
-réappar›t
-réappar›tes
+réapparûmes
+réapparût
+réapparûtes
 réapprenaient
 réapprenais
 réapprenait
@@ -165214,9 +165196,9 @@ réélusses
 réélussiez
 réélussions
 réélut
-réél›mes
-réél›t
-réél›tes
+réélûmes
+réélût
+réélûtes
 réémploi
 réémplois
 rééxporta
@@ -167240,7 +167222,7 @@ résidai
 résidaient
 résidais
 résidait
-résidant participe
+résidant-participe
 résidas
 résidasse
 résidassent
@@ -167443,9 +167425,9 @@ résolussions
 résolut
 résolution
 résolutions
-résol›mes
-résol›t
-résol›tes
+résolûmes
+résolût
+résolûtes
 résolvaient
 résolvais
 résolvait
@@ -171346,7 +171328,6 @@ rythmées
 rythmés
 rythmique
 rythmiques
-s
 sa
 sabbat
 sabbatique
@@ -171545,8 +171526,8 @@ sabriez
 sabrions
 sabrons
 sac
-saccade nom
-saccades nom
+saccade-nom
+saccades-nom
 saccadé
 saccadée
 saccadées
@@ -171782,7 +171763,7 @@ sacripant
 sacripants
 sacristain
 sacristains
-sacristi interj
+sacristi-interj
 sacristie
 sacristies
 sacristine
@@ -171862,7 +171843,7 @@ saignerions
 saignerons
 saigneront
 saignes
-saigneur vétérinaire
+saigneur-vétérinaire
 saigneurs
 saignez
 saigné
@@ -171873,14 +171854,14 @@ saignèrent
 saigniez
 saignions
 saignons
-saillait architecture
+saillait-architecture
 saillant
 saillante
 saillantes
 saillants
-saille architecture
-saillera architecture
-saillerait architecture
+saille-architecture
+saillera-architecture
+saillerait-architecture
 sailli
 saillie
 saillies
@@ -172020,7 +172001,7 @@ salariassent
 salariasses
 salariassiez
 salariassions
-salariat nom
+salariat-nom
 salariats
 salariaux
 salariâmes
@@ -173016,8 +172997,8 @@ saturnisme
 saturons
 satyre
 satyres
-satyrique des sytres
-satyriques des sytres
+satyrique-des-sytres
+satyriques-des-sytres
 sauce
 saucent
 saucer
@@ -174295,9 +174276,9 @@ secourusses
 secourussiez
 secourussions
 secourut
-secour›mes
-secour›t
-secour›tes
+secourûmes
+secourût
+secourûtes
 secousse
 secousses
 secret
@@ -174926,15 +174907,15 @@ serpillère
 serpillères
 serpolet
 serpolets
-serra de serrer
+serra-de-serrer
 serrage
 serrages
-serrai de serrer
-serraient de serrer
-serrais de serrer
-serrait de serrer
+serrai-de-serrer
+serraient-de-serrer
+serrais-de-serrer
+serrait-de-serrer
 serrant
-serras de serrer
+serras-de-serrer
 serrasse
 serrassent
 serrasses
@@ -174960,15 +174941,15 @@ serrerions
 serrerons
 serreront
 serres
-serrez de serrer
+serrez-de-serrer
 serré
 serrée
 serrées
 serrés
 serrèrent
-serriez de serrer
-serrions de serrer
-serrons de serrer
+serriez-de-serrer
+serrions-de-serrer
+serrons-de-serrer
 serrure
 serrurerie
 serrureries
@@ -178026,10 +178007,10 @@ soufra
 soufrage
 soufrages
 soufrai
-soufraient de soufre
-soufrais de soufre
-soufrait de soufre
-soufrant de soufre
+soufraient-de-soufre
+soufrais-de-soufre
+soufrait-de-soufre
+soufrant-de-soufre
 soufras
 soufrasse
 soufrassent
@@ -178040,7 +178021,7 @@ soufrâmes
 soufrât
 soufrâtes
 soufre
-soufrent de soufre
+soufrent-de-soufre
 soufrer
 soufrera
 soufrerai
@@ -178053,22 +178034,22 @@ soufreriez
 soufrerions
 soufrerons
 soufreront
-soufres de soufre
+soufres-de-soufre
 soufreur
 soufreurs
 soufreuse
 soufreuses
-soufrez de soufre
+soufrez-de-soufre
 soufré
 soufrée
 soufrées
 soufrés
 soufrèrent
-soufriez de soufre
+soufriez-de-soufre
 soufrière
 soufrières
-soufrions de soufre
-soufrons de soufre
+soufrions-de-soufre
+soufrons-de-soufre
 souhait
 souhaita
 souhaitable
@@ -178886,57 +178867,57 @@ souvirent
 souvînmes
 souvînt
 souvîntes
-so›l
-so›la
-so›lai
-so›laient
-so›lais
-so›lait
-so›lant
-so›las
-so›lasse
-so›lassent
-so›lasses
-so›lassiez
-so›lassions
-so›laud
-so›laude
-so›laudes
-so›lauds
-so›lâmes
-so›lât
-so›lâtes
-so›le
-so›lent
-so›ler
-so›lera
-so›lerai
-so›leraient
-so›lerais
-so›lerait
-so›leras
-so›lerez
-so›lerie
-so›leries
-so›leriez
-so›lerions
-so›lerons
-so›leront
-so›les
-so›lez
-so›lé
-so›lée
-so›lées
-so›lés
-so›lèrent
-so›liez
-so›lions
-so›lons
-so›lot
-so›lots
-so›lotte
-so›lottes
-so›ls
+soûl
+soûla
+soûlai
+soûlaient
+soûlais
+soûlait
+soûlant
+soûlas
+soûlasse
+soûlassent
+soûlasses
+soûlassiez
+soûlassions
+soûlaud
+soûlaude
+soûlaudes
+soûlauds
+soûlâmes
+soûlât
+soûlâtes
+soûle
+soûlent
+soûler
+soûlera
+soûlerai
+soûleraient
+soûlerais
+soûlerait
+soûleras
+soûlerez
+soûlerie
+soûleries
+soûleriez
+soûlerions
+soûlerons
+soûleront
+soûles
+soûlez
+soûlé
+soûlée
+soûlées
+soûlés
+soûlèrent
+soûliez
+soûlions
+soûlons
+soûlot
+soûlots
+soûlotte
+soûlottes
+soûls
 soviet
 soviets
 soviétique
@@ -182315,7 +182296,7 @@ suprématies
 suprême
 suprêmement
 suprêmes
-sur prep ou aigre
+sur-prep-ou-aigre
 surabonda
 surabondai
 surabondaient
@@ -182620,7 +182601,7 @@ surdoué
 surdouée
 surdouées
 surdoués
-sure prep ou aigre
+sure-prep-ou-aigre
 sureau
 sureaux
 surenchéri
@@ -182658,7 +182639,7 @@ surenchérîtes
 surenchère
 surenchères
 surent
-sures prep ou aigre
+sures-prep-ou-aigre
 surestima
 surestimai
 surestimaient
@@ -183388,7 +183369,7 @@ surrénal
 surrénale
 surrénales
 surrénaux
-surs prep ou aigre
+surs-prep-ou-aigre
 sursatura
 sursaturai
 sursaturaient
@@ -183615,8 +183596,8 @@ survécues
 survécurent
 survécus
 survécut
-survéc›mes
-survéc›tes
+survécûmes
+survécûtes
 survêtement
 survêtements
 survie
@@ -184031,16 +184012,16 @@ suzeraines
 suzeraineté
 suzerainetés
 suzerains
-s›mes
-s›r
-s›re
-s›rement
-s›res
-s›reté
-s›retés
-s›rs
-s›t
-s›tes
+sûmes
+sûr
+sûre
+sûrement
+sûres
+sûreté
+sûretés
+sûrs
+sût
+sûtes
 svastika
 svastikas
 svelte
@@ -184399,7 +184380,6 @@ systole
 systoles
 systolique
 systoliques
-t
 ta
 tabac
 tabacs
@@ -184492,36 +184472,36 @@ tabulatrices
 tac
 tacaud
 tacauds
-tacha marquer
-tachai marquer
-tachaient marquer
-tachais marquer
-tachait marquer
-tachant marquer
-tachas marquer
-tachasse marquer
-tachassent marquer
-tachasses marquer
-tachassiez marquer
-tachassions marquer
-tachâmes marquer
-tachât marquer
-tachâtes marquer
-tache marque
-tachent marquer
-tacher marquer
-tachera marquer
-tacherai marquer
-tacheraient marquer
-tacherais marquer
-tacherait marquer
-tacheras marquer
-tacherez marquer
-tacheriez marquer
-tacherions marquer
-tacherons marquer
-tacheront marquer
-taches marque
+tacha-marquer
+tachai-marquer
+tachaient-marquer
+tachais-marquer
+tachait-marquer
+tachant-marquer
+tachas-marquer
+tachasse-marquer
+tachassent-marquer
+tachasses-marquer
+tachassiez-marquer
+tachassions-marquer
+tachâmes-marquer
+tachât-marquer
+tachâtes-marquer
+tache-marque
+tachent-marquer
+tacher-marquer
+tachera-marquer
+tacherai-marquer
+tacheraient-marquer
+tacherais-marquer
+tacherait-marquer
+tacheras-marquer
+tacherez-marquer
+tacheriez-marquer
+tacherions-marquer
+tacherons-marquer
+tacheront-marquer
+taches-marque
 tacheta
 tachetai
 tachetaient
@@ -184547,12 +184527,12 @@ tachetèrent
 tachetiez
 tachetions
 tachetons
-tachez marquer
-taché marqué
-tachée marqué
-tachées marqué
-tachés marqués
-tachèrent marquer
+tachez-marquer
+taché-marqué
+tachée-marqué
+tachées-marqué
+tachés-marqués
+tachèrent-marquer
 tachète
 tachètent
 tachètera
@@ -184567,9 +184547,9 @@ tachèterions
 tachèterons
 tachèteront
 tachètes
-tachiez marquer
-tachions marquer
-tachons marquer
+tachiez-marquer
+tachions-marquer
+tachons-marquer
 tachycardie
 tachycardies
 tachymètre
@@ -185950,7 +185930,7 @@ tâchassions
 tâchâmes
 tâchât
 tâchâtes
-tâche devoir
+tâche-devoir
 tâchent
 tâcher
 tâchera
@@ -185964,7 +185944,7 @@ tâcherions
 tâcheron
 tâcherons
 tâcheront
-tâches devoir
+tâches-devoir
 tâchez
 tâché
 tâchée
@@ -186523,10 +186503,10 @@ tentions
 tentons
 tenture
 tentures
-tenu de tenir
-tenue de tenir
-tenues de tenir
-tenus de tenir
+tenu-de-tenir
+tenue-de-tenir
+tenues-de-tenir
+tenus-de-tenir
 ter
 tercet
 tercets
@@ -191039,9 +191019,9 @@ transparusses
 transparussiez
 transparussions
 transparut
-transpar›mes
-transpar›t
-transpar›tes
+transparûmes
+transparût
+transparûtes
 transperce
 transpercent
 transpercer
@@ -191456,7 +191436,7 @@ travaillisme
 travailliste
 travaillistes
 travaillons
-travails pour soigner des animaux
+travails-pour-soigner-des-animaux
 travaux
 travelling
 travellings
@@ -193995,9 +193975,9 @@ tuyautons
 tuyaux
 tuyère
 tuyères
-t›mes
-t›t
-t›tes
+tûmes
+tût
+tûtes
 tweed
 tympan
 tympanique
@@ -194080,7 +194060,6 @@ tzar
 tzars
 tzigane
 tziganes
-u
 ubac
 ubacs
 ubiquité
@@ -194708,7 +194687,6 @@ uvulaire
 uvulaires
 uvule
 uvules
-v
 va
 vacance
 vacances
@@ -195208,9 +195186,9 @@ valusses
 valussiez
 valussions
 valut
-val›mes
-val›t
-val›tes
+valûmes
+valût
+valûtes
 valve
 valves
 valvulaire
@@ -196575,9 +196553,9 @@ vécusses
 vécussiez
 vécussions
 vécut
-véc›mes
-véc›t
-véc›tes
+vécûmes
+vécût
+vécûtes
 végéta
 végétai
 végétaient
@@ -198336,7 +198314,7 @@ voici
 voie
 voient
 voies
-voila verbe
+voila-verbe
 voilage
 voilages
 voilai
@@ -198806,7 +198784,7 @@ votive
 votives
 voto
 votons
-votre adj
+votre-adj
 voua
 vouai
 vouaient
@@ -198877,9 +198855,9 @@ voulusses
 voulussiez
 voulussions
 voulut
-voul›mes
-voul›t
-voul›tes
+voulûmes
+voulût
+voulûtes
 vouons
 vous
 vousseau
@@ -198931,45 +198909,45 @@ vouvoyèrent
 vouvoyiez
 vouvoyions
 vouvoyons
-vo›ta
-vo›tai
-vo›taient
-vo›tais
-vo›tait
-vo›tant
-vo›tas
-vo›tasse
-vo›tassent
-vo›tasses
-vo›tassiez
-vo›tassions
-vo›tâmes
-vo›tât
-vo›tâtes
-vo›te
-vo›tent
-vo›ter
-vo›tera
-vo›terai
-vo›teraient
-vo›terais
-vo›terait
-vo›teras
-vo›terez
-vo›teriez
-vo›terions
-vo›terons
-vo›teront
-vo›tes
-vo›tez
-vo›té
-vo›tée
-vo›tées
-vo›tés
-vo›tèrent
-vo›tiez
-vo›tions
-vo›tons
+voûta
+voûtai
+voûtaient
+voûtais
+voûtait
+voûtant
+voûtas
+voûtasse
+voûtassent
+voûtasses
+voûtassiez
+voûtassions
+voûtâmes
+voûtât
+voûtâtes
+voûte
+voûtent
+voûter
+voûtera
+voûterai
+voûteraient
+voûterais
+voûterait
+voûteras
+voûterez
+voûteriez
+voûterions
+voûterons
+voûteront
+voûtes
+voûtez
+voûté
+voûtée
+voûtées
+voûtés
+voûtèrent
+voûtiez
+voûtions
+voûtons
 voyage
 voyagea
 voyageai
@@ -199220,7 +199198,6 @@ vulnérables
 vulve
 vulves
 vus
-w
 wagon
 wagonnet
 wagonnets
@@ -199251,7 +199228,6 @@ whisky
 whist
 window
 windows
-x
 xénophile
 xénophiles
 xénophobe
@@ -199275,7 +199251,6 @@ xylophage
 xylophages
 xylophone
 xylophones
-y
 yacht
 yachting
 yachtman
@@ -199312,7 +199287,6 @@ ypérite
 yucca
 yuccas
 yvette
-z
 zaïre
 zaïrois
 zaïroise
@@ -204012,9 +203986,9 @@ zygomatiques
 élussiez
 élussions
 élut
-él›mes
-él›t
-él›tes
+élûmes
+élût
+élûtes
 élytre
 élytres
 émacié
@@ -204624,9 +204598,9 @@ zygomatiques
 émoulussiez
 émoulussions
 émoulut
-émoul›mes
-émoul›t
-émoul›tes
+émoulûmes
+émoulût
+émoulûtes
 émoussa
 émoussai
 émoussaient
@@ -206120,7 +206094,7 @@ zygomatiques
 épouvantions
 épouvantons
 époux
-épre nions
+épre-nions
 éprenaient
 éprenais
 éprenait
@@ -206477,9 +206451,9 @@ zygomatiques
 équivalussiez
 équivalussions
 équivalut
-équival›mes
-équival›t
-équival›tes
+équivalûmes
+équivalût
+équivalûtes
 équivaudra
 équivaudrai
 équivaudraient
@@ -208570,7 +208544,7 @@ zygomatiques
 évidât
 évidâtes
 évide
-évidement nom
+évidement
 évidements
 évidemment
 évidence
@@ -208778,11 +208752,8 @@ zygomatiques
 évoquiez
 évoquions
 évoquons
-ç
-ça pronom
+ça
 çè
-è
-â
 âcre
 âcrement
 âcres
@@ -208856,12 +208827,10 @@ zygomatiques
 âpretés
 âtre
 âtres
-è
 ère
 ères
 ès
 ève
-ê
 êtes
 être
 êtres
@@ -208871,7 +208840,6 @@ zygomatiques
 îles
 îlot
 îlots
-ô
 ôta
 ôtai
 ôtaient
