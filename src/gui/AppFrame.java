@@ -63,45 +63,7 @@ public class AppFrame extends JFrame implements ActionListener{
         //Actions for menu items
         importAction.addActionListener(this);
         writeAction.addActionListener(this);      
-        /*
-        //Action for import
-        importAction.addActionListener(new ActionListener() { 
-            AppImportFrame importFrame = new AppImportFrame();
-            public void actionPerformed(ActionEvent arg0) {
-                System.out.println("You have clicked on the import action");
-                try{
-                	//setEnabled(false);
-                	importFrame.openFrame();
-                	
-                }
-                catch(IOException e){
-                	e.printStackTrace();
-                }
-            }
-        });
-        
-        //Action for write
-        writeAction.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                System.out.println("You have clicked on the write action");
-                AppWriteFrame writeFrame = new AppWriteFrame();
-                try{
-                	writeFrame.openFrame();
-                }
-                catch(IOException e){
-                	e.printStackTrace();
-                }
-            }
-        });*/
-        
-        //Action for exit
-        exitAction.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                System.out.println("You have clicked on the exit action");
-            	System.exit(0);
-            }
-        });
-        
+        exitAction.addActionListener(this);        
         
         //Panel
         
@@ -125,7 +87,6 @@ public class AppFrame extends JFrame implements ActionListener{
          
         getContentPane().add(jSplitPane1);
         
-        
         //Label
         
         //Create SplitPane Labels
@@ -137,8 +98,6 @@ public class AppFrame extends JFrame implements ActionListener{
         jPanel1.add(jLabel1);
         jPanel2Top.add(jLabel2Top);
         jPanel2Bottom.add(jLabel2Bottom);
-        
-      
 	}
 
 	public void actionPerformed(ActionEvent evt) 	
@@ -149,7 +108,7 @@ public class AppFrame extends JFrame implements ActionListener{
             AppImportFrame importFrame = new AppImportFrame();
             try {
             	System.out.println("You have clicked on the import action");
-            	//setEnabled(false);
+            	setEnabled(false);
             	importFrame.openFrame();
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();
@@ -163,6 +122,9 @@ public class AppFrame extends JFrame implements ActionListener{
             } catch (IOException ex) {                    
                 ex.printStackTrace();
             }
+        }else if(source==exitAction){
+        	 System.out.println("You have clicked on the exit action");
+             System.exit(0);
         }
     }
 }

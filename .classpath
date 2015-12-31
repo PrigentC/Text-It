@@ -10,5 +10,7 @@
 	<classpathentry kind="lib" path="lib/pdfbox-app-2.0.0-RC2.jar"/>
 	<classpathentry kind="lib" path="lib/affectr-java-1.0.2.jar"/>
 	<classpathentry kind="lib" path="lib/poi-scratchpad-3.7.jar"/>
+	<classpathentry kind="lib" path="lib/tika-app-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/odfdom-java-0.8.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

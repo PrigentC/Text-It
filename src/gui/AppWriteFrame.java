@@ -11,7 +11,6 @@ import javax.swing.JTextArea;
 @SuppressWarnings("serial")
 public class AppWriteFrame extends JFrame {
 	
-private String text;
 private JPanel jPanel1;
 private JLabel jLabel1;
 private JTextArea jArea1;

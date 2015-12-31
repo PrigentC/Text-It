@@ -11,32 +11,38 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.filechooser.FileFilter;
 
+import extract.ExtractText;
+
 
 @SuppressWarnings("serial")
-public class AppImportFrame extends JFrame{
-	
-	private JPanel jPanel;
-	private JLabel jLabel;
+public class AppImportFrame extends JFrame implements ActionListener{
 	private JTextField jField;
-	private JButton jButton1;
-	private JButton jButton2;
 	
 	private JFileChooser fileChooser;
 	private int mode;
 	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
+	
+	private JButton jButton1;
+	private JButton jButton2;
 
 	public void openFrame() throws IOException{
+		
+		JPanel jPanel;
+		JLabel jLabel;
+		
 		//Frame Settings
 		setTitle("Import Text");
 		setSize(520, 120);
 		setLocationRelativeTo(null);
 		setVisible(true);
+		//setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		//Create Elements        
 		jPanel = new JPanel(new FlowLayout());
@@ -53,11 +59,16 @@ public class AppImportFrame extends JFrame{
 
 		jPanel.add(jButton2);
 		
+        jButton1.addActionListener(this);      
+        jButton2.addActionListener(this);
+		
 		Container contentPane = getContentPane();
 		contentPane.add(jPanel);
 		
+		/*
 		jButton1.addActionListener(new ActionListener() { 
             public void actionPerformed(ActionEvent evt) {
+            	System.out.println("You have clicked on the browse action");
             	mode = MODE_OPEN;
                 try {
 					button1ActionPerformed(evt);
@@ -66,7 +77,52 @@ public class AppImportFrame extends JFrame{
 				}
             }
         });
+		
+		jButton2.addActionListener(new ActionListener() { 
+        	PdfExtract pdf = new PdfExtract();
+            public void actionPerformed(ActionEvent evt) {
+	            System.out.println("You have clicked on the analyze action");
+	            System.out.println("---------------------------------------------");
+	            if(!fileChooser.getSelectedFile().toString().isEmpty()){
+		           pdf.PdfExtractText(fileChooser.getSelectedFile().toString());
+	            } else {
+	            	final JPanel panel = new JPanel();
+	                JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
+	            }
+            }
+        });*/
 	}
+	
+	public void actionPerformed(ActionEvent evt) 	
+    {
+    	Object source = evt.getSource();
+            
+		if(source==jButton1){
+			System.out.println("You have clicked on the browse action");
+        	mode = MODE_OPEN;
+            try {
+				button1ActionPerformed(evt);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+        }else if(source==jButton2){
+        	System.out.println(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()));
+        	System.out.println("You have clicked on the analyze action");
+        	if(!jField.getText().equals("")){
+        		ExtractText exText = new ExtractText();
+	            System.out.println("---------------------------------------------");
+	            exText.ExtractAllText(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()), fileChooser.getSelectedFile().toString());
+	            if(exText.enab == true){
+	    			this.setVisible(false);
+	            }else{
+	            	this.setVisible(true);
+	            }
+        	}else{
+        		final JPanel panel = new JPanel();
+        		JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
+        	}
+        }
+    }
 	
 	public void button1ActionPerformed(ActionEvent evt) throws FileNotFoundException, IOException {
 	    fileChooser = new JFileChooser();
@@ -74,7 +130,6 @@ public class AppImportFrame extends JFrame{
 		addFileTypeFilter(".txt", "Text File");
 		addFileTypeFilter(".doc", "Document File");
 		addFileTypeFilter(".docx", "XML Format Document File");
-		addFileTypeFilter(".odt", "Word Processing Document");
 		addFileTypeFilter(".pdf", "Portable Document Format"); 
 		
 		if (mode == MODE_OPEN) {
@@ -95,9 +150,5 @@ public class AppImportFrame extends JFrame{
 	     fileChooser.addChoosableFileFilter(filter);
 	     fileChooser.setFileFilter(filter);
 	 }
-
-	 public void setMode(int mode) {
-	     this.mode = mode;
-     } 
 
 }
