@@ -43,7 +43,10 @@ public class Test {
 		
 		TISyntaxAnalyzer syntax = new TISyntaxAnalyzer("cathie.prigent@uha.fr", "ahg5Awodu8ga");
 		
-		System.out.println(syntax.launchAnalysis("I like trains"));
+		syntax.launchAnalysis("I would be interesed applying for a job");
+		System.out.println(syntax.getResult());
+		
+		System.out.println("Bye !");
 	}
 	
 }
