@@ -33,6 +33,14 @@ public class TISyntaxAnalyzer {
 		}
 	}
 	
+	public HashMap<String, String> getHashResult() {
+		return result;
+	}
+	
+	public ArrayList<String> getSvgdText() {
+		return svgdText;
+	}
+
 	public ArrayList<Pair<String,String>> getResult() {
 		ArrayList<Pair<String,String>> r = new ArrayList<Pair<String,String>>();
 		

@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import analyzer.lexical.TIDictionary;
 import analyzer.lexical.TISpellChecker;
+import analyzer.statistics.TIENStats;
 import analyzer.syntaxical.TISyntaxAnalyzer;
 
 public class Test {
@@ -36,17 +37,29 @@ public class Test {
 		}
 	}
 	
-	public static void main(String args[]) {
-		//Test test = new Test();
-		
-		//test.spellCheckTest();
-		
+	public void syntaxTest() {
 		TISyntaxAnalyzer syntax = new TISyntaxAnalyzer("cathie.prigent@uha.fr", "ahg5Awodu8ga");
 		
 		syntax.launchAnalysis("I would be interesed applying for a job");
 		System.out.println(syntax.getResult());
 		
+		TIENStats tis = new TIENStats();
+		
+		tis.numberWordPerClass(syntax.getResult());
+		
 		System.out.println("Bye !");
+	}
+	
+	
+	
+	public static void main(String args[]) {
+		Test test = new Test();
+		
+		//test.spellCheckTest();
+		
+		test.syntaxTest();
+				
+		
 	}
 	
 }
