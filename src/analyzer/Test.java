@@ -12,12 +12,10 @@ public class Test {
 	public void spellCheckTest() {
 		try {
 			TIDictionary tid = new TIDictionary("DIC_EN.txt");
-			TISpellChecker tisc = new TISpellChecker();
+			TISpellChecker tisc = new TISpellChecker("raisponse");
 			tisc.addDictionnary(tid);
 			
-			String testWord = "raisponse";
-			
-			if(!tisc.isWordCorrect(testWord)) {
+			/*if(!tisc.isWordCorrect(testWord)) {
 				System.out.println("This word doesn't exist in our dictionary !");
 				System.out.println("Here are some words suggestions : ");
 				
@@ -27,7 +25,7 @@ public class Test {
 				}
 			} else {
 				System.out.println("This word exists in our dictionary !");
-			}
+			}*/
 			
 			System.out.println("Bye !");
 			
