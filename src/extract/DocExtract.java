@@ -21,7 +21,7 @@ import org.xml.sax.SAXException;
 
 public class DocExtract {
 
-	private String st;
+	public String st;
 	private OutputStream outputstream;
 	private ParseContext context;
 	private Detector detector;

@@ -9,7 +9,7 @@ import org.apache.pdfbox.text.PDFTextStripperByArea;
 public class PdfExtract {
 	
 	protected PDDocument document;
-	private String st;
+	public String st;
 	
 	public PdfExtract (){
 		document = null;

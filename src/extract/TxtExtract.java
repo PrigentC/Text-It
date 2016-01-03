@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class TxtExtract {
-	private String st;
+	public String st;
 	
 	public TxtExtract (){
 		st = null;

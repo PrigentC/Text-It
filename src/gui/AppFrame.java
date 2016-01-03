@@ -1,5 +1,7 @@
 package gui;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -11,12 +13,16 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JSeparator;
 import javax.swing.JSplitPane;
+import javax.swing.JTextArea;
+import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")	
 public class AppFrame extends JFrame implements ActionListener{
 	
 	private JMenuItem importAction, writeAction, exitAction, copyAction;
+	private JTextArea jText;
     
 	public AppFrame() {
 		initUI();
@@ -25,12 +31,23 @@ public class AppFrame extends JFrame implements ActionListener{
 		setSize(1000, 700); //resize the window to be 1000px wide and 700px
 		setLocationRelativeTo(null); //center the window on the screen
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+
+		Font font = new Font("Verdana", Font.BOLD, 12);
+		jText.setFont(font);
+	}
+	
+	public void printText(String text){        
+		jText = new JTextArea(38,45);
+		jText.setText(text);
+		//jText.setBackground(Color.DARK_GRAY);
+		jText.setEnabled(false);
 	}
 
 	public final void initUI() {
 		
 		JSplitPane jSplitPane1, jSplitPane2;
-        JPanel jPanel1, jPanel2Top, jPanel2Bottom;
+        JPanel jPanel1 = null, jPanel2Top, jPanel2Bottom;
         JLabel jLabel1, jLabel2Top, jLabel2Bottom;
         
         //Menu Bar
@@ -94,8 +111,13 @@ public class AppFrame extends JFrame implements ActionListener{
         jLabel2Top = new JLabel("Schematic");
         jLabel2Bottom = new JLabel("Statistics");
         
+        printText("cvdskhvlblscfdsssssssssssnsdklblvjdblvbsbmsssssssdfsssssssssdqoqskùôjdmncjgsodgblsdsssssssvkfvqkshdlfhvqslfvl");
+        jText.setLineWrap(true);
+        jText.setWrapStyleWord(true);
         //Adding Labels
         jPanel1.add(jLabel1);
+        jPanel1.add(new JSeparator(SwingConstants.VERTICAL));
+        jPanel1.add(jText);
         jPanel2Top.add(jLabel2Top);
         jPanel2Bottom.add(jLabel2Bottom);
 	}
@@ -108,7 +130,7 @@ public class AppFrame extends JFrame implements ActionListener{
             AppImportFrame importFrame = new AppImportFrame();
             try {
             	System.out.println("You have clicked on the import action");
-            	setEnabled(false);
+            	//setEnabled(false);
             	importFrame.openFrame();
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();

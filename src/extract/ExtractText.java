@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class ExtractText extends JFrame {
 	
+	public String st;
 	public Boolean enab;
 
 	public ExtractText (){
@@ -17,21 +18,25 @@ public class ExtractText extends JFrame {
 		case ".pdf":
 			PdfExtract pdf = new PdfExtract();
 			pdf.PdfExtractText(exFile);
+			st = pdf.st;
 			enab = true;
 			break;
 		case ".doc":
 			DocExtract doc = new DocExtract();
 			doc.DocExtractText(exFile);
+			st = doc.st;
 			enab = true;
 			break;			
 		case ".docx":
 			DocExtract docx = new DocExtract();
 			docx.DocExtractText(exFile);
+			st = docx.st;
 			enab = true;
 			break;
 		case ".txt":
 			TxtExtract txt = new TxtExtract();
 			txt.TxtExtractText(exFile);
+			st = txt.st;
 			enab = true;
 			break;
 		default:
