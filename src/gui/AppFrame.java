@@ -49,8 +49,8 @@ public class AppFrame extends JFrame implements ActionListener{
         JPanel jPanel1 = null, jPanel2Top, jPanel2Bottom;
         JLabel jLabel1, jLabel2Top, jLabel2Bottom;
         
-        ImageDraftman img = new ImageDraftman();
-        img.createWhiteImage();
+        //ImageDraftman img = new ImageDraftman();
+        //img.createWhiteImage();
         
         //Menu Bar
 		
@@ -119,7 +119,7 @@ public class AppFrame extends JFrame implements ActionListener{
         jPanel1.add(jText);
         jPanel2Top.add(jLabel2Top);
         jPanel2Top.add(new JSeparator(SwingConstants.VERTICAL));
-        jPanel2Top.add(img);
+        //jPanel2Top.add(img);
         jPanel2Bottom.add(jLabel2Bottom);
 	}
 
