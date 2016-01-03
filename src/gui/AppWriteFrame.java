@@ -18,7 +18,8 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 	private JTextArea sourcePane = null;
 
 	private JButton jButton = null;
-
+	
+	public String completeText;
 	
 	public void openFrame() throws IOException{
 
@@ -55,8 +56,14 @@ public class AppWriteFrame extends JFrame implements ActionListener {
         		JOptionPane.showMessageDialog(panel, "No input!", "Error", JOptionPane.ERROR_MESSAGE);
             }
             else{
-            	
-            	this.setVisible(false);
+            	TISpellChecker spellCheck = new TISpellChecker(sourcePane.getText());
+	            while(!spellCheck.isTextCorrect()){
+	            	SpellCheckFrame spellFrame = new SpellCheckFrame();
+	            	spellFrame.openFrame(spellCheck.getContext(), (Object)spellCheck.check());
+	            }
+	            completeText = spellCheck.returnCompleteText();
+	            this.setVisible(false);
+	            
             }
         }
 	}

@@ -85,11 +85,19 @@ public class SpellCheckFrame extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent evt) {
 		if (evt.getSource() == jButton) {
             System.out.println("You have clicked on the ok action");
-            if((correctText.getText() == null) || (correctText.getText().trim().equals("")) || liste.getSelectedIndex() <= -1){
+            if((correctText.getText() == null) || (correctText.getText().trim().equals("")) || liste.getSelectedIndex() <= 0){
         		final JPanel panel = new JPanel();
         		JOptionPane.showMessageDialog(panel, "Correct the word!", "Error", JOptionPane.ERROR_MESSAGE);
             }
             else{
+            	TISpellChecker tiSpell;
+            	if((correctText.getText() != null) || (!correctText.getText().trim().equals("")) || liste.getSelectedIndex() > -1){
+            		tiSpell.correct(correctText.getText());
+            	}else if((correctText.getText() != null) || (!correctText.getText().trim().equals("")) || liste.getSelectedIndex() <= 0){
+            		tiSpell.correct(correctText.getText());
+            	}else if((correctText.getText() == null) || (correctText.getText().trim().equals("")) || liste.getSelectedIndex() > 0){
+            		tiSpell.correct(liste.getSelectedItem().toString());
+            	}
             	
             	this.setVisible(false);
             }

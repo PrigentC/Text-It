@@ -22,7 +22,6 @@ import extract.ExtractText;
 @SuppressWarnings("serial")
 public class AppImportFrame extends JFrame implements ActionListener{
 	private JTextField jField;
-	
 	private JFileChooser fileChooser;
 	private int mode;
 	
@@ -31,6 +30,8 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	
 	private JButton jButton1;
 	private JButton jButton2;
+	
+	public String completeText;
 
 	public void openFrame() throws IOException{
 		
@@ -115,8 +116,16 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	            System.out.println("---------------------------------------------");
 	            System.out.println(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()));
 	            exText.ExtractAllText(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()), fileChooser.getSelectedFile().toString());
+	            
 	            System.out.println("Text : " + exText.st);
-	            TISpellChecker spellCheck = TISpellChecker(exText.st);
+	            TISpellChecker spellCheck = new TISpellChecker(exText.st);
+	            while(!spellCheck.isTextCorrect()){
+	            	SpellCheckFrame spellFrame = new SpellCheckFrame();
+	            	spellFrame.openFrame(spellCheck.getContext(), (Object)spellCheck.check());
+	            }
+	            
+	            completeText = spellCheck.returnCompleteText();
+	            
 	            if(exText.enab == true){
 	    			this.setVisible(false);
 	            }else{

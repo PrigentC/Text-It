@@ -1,6 +1,5 @@
 package gui;
 
-import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -49,6 +48,9 @@ public class AppFrame extends JFrame implements ActionListener{
 		JSplitPane jSplitPane1, jSplitPane2;
         JPanel jPanel1 = null, jPanel2Top, jPanel2Bottom;
         JLabel jLabel1, jLabel2Top, jLabel2Bottom;
+        
+        ImageDraftman img = new ImageDraftman();
+        img.createWhiteImage();
         
         //Menu Bar
 		
@@ -111,14 +113,13 @@ public class AppFrame extends JFrame implements ActionListener{
         jLabel2Top = new JLabel("Schematic");
         jLabel2Bottom = new JLabel("Statistics");
         
-        printText("cvdskhvlblscfdsssssssssssnsdklblvjdblvbsbmsssssssdfsssssssssdqoqskùôjdmncjgsodgblsdsssssssvkfvqkshdlfhvqslfvl");
-        jText.setLineWrap(true);
-        jText.setWrapStyleWord(true);
         //Adding Labels
         jPanel1.add(jLabel1);
         jPanel1.add(new JSeparator(SwingConstants.VERTICAL));
         jPanel1.add(jText);
         jPanel2Top.add(jLabel2Top);
+        jPanel2Top.add(new JSeparator(SwingConstants.VERTICAL));
+        jPanel2Top.add(img);
         jPanel2Bottom.add(jLabel2Bottom);
 	}
 
@@ -132,6 +133,13 @@ public class AppFrame extends JFrame implements ActionListener{
             	System.out.println("You have clicked on the import action");
             	//setEnabled(false);
             	importFrame.openFrame();
+            	
+            	printText(importFrame.completeText);
+                jText.setLineWrap(true);
+                jText.setWrapStyleWord(true);
+                
+                this.validate();
+                this.repaint();
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();
                 JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
@@ -141,6 +149,13 @@ public class AppFrame extends JFrame implements ActionListener{
             try {
             	System.out.println("You have clicked on the write action");
             	writeFrame.openFrame();
+            	
+            	printText(writeFrame.completeText);
+                jText.setLineWrap(true);
+                jText.setWrapStyleWord(true);
+                
+                this.validate();
+                this.repaint();
             } catch (IOException ex) {                    
                 ex.printStackTrace();
             }
