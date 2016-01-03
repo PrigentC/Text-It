@@ -89,7 +89,7 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	            	final JPanel panel = new JPanel();
 	                JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
 	            }
-            }
+            }!jField.getText().equals("")
         });*/
 	}
 	
@@ -106,20 +106,22 @@ public class AppImportFrame extends JFrame implements ActionListener{
 				e.printStackTrace();
 			}
         }else if(source==jButton2){
-        	System.out.println(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()));
         	System.out.println("You have clicked on the analyze action");
-        	if(!jField.getText().equals("")){
+        	if((jField.getText() == null) || (jField.getText().trim().equals(""))){
+        		final JPanel panel = new JPanel();
+        		JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
+        	}else{
         		ExtractText exText = new ExtractText();
 	            System.out.println("---------------------------------------------");
+	            System.out.println(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()));
 	            exText.ExtractAllText(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()), fileChooser.getSelectedFile().toString());
+	            System.out.println("Text : " + exText.st);
+	            TISpellChecker spellCheck = TISpellChecker(exText.st);
 	            if(exText.enab == true){
 	    			this.setVisible(false);
 	            }else{
 	            	this.setVisible(true);
 	            }
-        	}else{
-        		final JPanel panel = new JPanel();
-        		JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
         	}
         }
     }
