@@ -113,6 +113,8 @@ public class AppFrame extends JFrame implements ActionListener{
         jLabel2Top = new JLabel("Schematic");
         jLabel2Bottom = new JLabel("Statistics");
         
+        printText("fqvshkfvqldvbfl");
+        
         //Adding Labels
         jPanel1.add(jLabel1);
         jPanel1.add(new JSeparator(SwingConstants.VERTICAL));
@@ -130,7 +132,8 @@ public class AppFrame extends JFrame implements ActionListener{
 		if(source==importAction){
             AppImportFrame importFrame = new AppImportFrame();
             try {
-            	System.out.println("You have clicked on the import action");
+
+
             	//setEnabled(false);
             	importFrame.openFrame();
             	

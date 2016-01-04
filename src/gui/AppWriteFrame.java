@@ -13,6 +13,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
+import analyzer.lexical.TISpellChecker;
+
 @SuppressWarnings("serial")
 public class AppWriteFrame extends JFrame implements ActionListener {
 	private JTextArea sourcePane = null;
@@ -20,6 +22,7 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 	private JButton jButton = null;
 	
 	public String completeText;
+	public TISpellChecker spellCheck;
 	
 	public void openFrame() throws IOException{
 
@@ -56,12 +59,23 @@ public class AppWriteFrame extends JFrame implements ActionListener {
         		JOptionPane.showMessageDialog(panel, "No input!", "Error", JOptionPane.ERROR_MESSAGE);
             }
             else{
-            	TISpellChecker spellCheck = new TISpellChecker(sourcePane.getText());
-	            while(!spellCheck.isTextCorrect()){
-	            	SpellCheckFrame spellFrame = new SpellCheckFrame();
-	            	spellFrame.openFrame(spellCheck.getContext(), (Object)spellCheck.check());
-	            }
-	            completeText = spellCheck.returnCompleteText();
+				try {
+					spellCheck = new TISpellChecker(sourcePane.getText());
+					
+		            try {
+						while(!spellCheck.isTextCorrect()){
+							SpellCheckFrame spellFrame = new SpellCheckFrame();
+							spellFrame.openFrame(spellCheck.getContext(), (Object[])spellCheck.check());
+						}
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		            completeText = spellCheck.returnCompleteText();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 	            this.setVisible(false);
 	            
             }

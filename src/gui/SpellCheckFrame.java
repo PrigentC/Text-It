@@ -16,6 +16,8 @@ import javax.swing.JSeparator;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
+import analyzer.lexical.TISpellChecker;
+
 @SuppressWarnings("serial")
 public class SpellCheckFrame extends JFrame implements ActionListener{
 	
@@ -90,15 +92,15 @@ public class SpellCheckFrame extends JFrame implements ActionListener{
         		JOptionPane.showMessageDialog(panel, "Correct the word!", "Error", JOptionPane.ERROR_MESSAGE);
             }
             else{
-            	TISpellChecker tiSpell;
-            	if((correctText.getText() != null) || (!correctText.getText().trim().equals("")) || liste.getSelectedIndex() > -1){
-            		tiSpell.correct(correctText.getText());
-            	}else if((correctText.getText() != null) || (!correctText.getText().trim().equals("")) || liste.getSelectedIndex() <= 0){
-            		tiSpell.correct(correctText.getText());
-            	}else if((correctText.getText() == null) || (correctText.getText().trim().equals("")) || liste.getSelectedIndex() > 0){
-            		tiSpell.correct(liste.getSelectedItem().toString());
-            	}
-            	
+            	AppWriteFrame appW = new AppWriteFrame();
+				if((correctText.getText() != null) || (!correctText.getText().trim().equals("")) || liste.getSelectedIndex() > -1){
+					appW.spellCheck.correct(correctText.getText());
+				}else if((correctText.getText() != null) || (!correctText.getText().trim().equals("")) || liste.getSelectedIndex() <= 0){
+					appW.spellCheck.correct(correctText.getText());
+				}else if((correctText.getText() == null) || (correctText.getText().trim().equals("")) || liste.getSelectedIndex() > 0){
+					appW.spellCheck.correct(liste.getSelectedItem().toString());
+				}
+            	            	
             	this.setVisible(false);
             }
         }

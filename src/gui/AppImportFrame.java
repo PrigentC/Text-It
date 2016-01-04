@@ -16,6 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.filechooser.FileFilter;
 
+import analyzer.lexical.TISpellChecker;
 import extract.ExtractText;
 
 
@@ -24,6 +25,8 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	private JTextField jField;
 	private JFileChooser fileChooser;
 	private int mode;
+	
+	public TISpellChecker spellCheck;
 	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
@@ -118,13 +121,25 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	            exText.ExtractAllText(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()), fileChooser.getSelectedFile().toString());
 	            
 	            System.out.println("Text : " + exText.st);
-	            TISpellChecker spellCheck = new TISpellChecker(exText.st);
-	            while(!spellCheck.isTextCorrect()){
-	            	SpellCheckFrame spellFrame = new SpellCheckFrame();
-	            	spellFrame.openFrame(spellCheck.getContext(), (Object)spellCheck.check());
-	            }
-	            
-	            completeText = spellCheck.returnCompleteText();
+				try {
+					spellCheck = new TISpellChecker(exText.st);
+					
+
+		            try {
+						while(!spellCheck.isTextCorrect()){
+							SpellCheckFrame spellFrame = new SpellCheckFrame();
+							spellFrame.openFrame(spellCheck.getContext(), (Object[])spellCheck.check());
+						}
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		            
+		            completeText = spellCheck.returnCompleteText();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 	            
 	            if(exText.enab == true){
 	    			this.setVisible(false);
