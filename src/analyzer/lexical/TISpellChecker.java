@@ -39,7 +39,7 @@ public class TISpellChecker {
 	}
 	
 	public boolean isTextCorrect() throws IOException {
-		for(int i = 0 ; i < svgdText.length ;) {
+		for(int i = 0 ; i < svgdText.length ; i++) {
 			if(isWordCorrect(svgdText[i])){
 				return false;
 			}
@@ -76,10 +76,10 @@ public class TISpellChecker {
 	}
 	
 	public String returnCompleteText() {
-		String text = null;
+		String text = "";
 		
 		for(int i = 0 ; i < svgdText.length ; i++) {
-			text += svgdText[i];
+			text += svgdText[i] + " ";
 		}
 		
 		return text;
