@@ -18,30 +18,32 @@ public class ImageDraftman {
 	private int x = 0;
 	private int y = 0;
 	private int width = 0;
-	private int height = 0;
-	private int separator = 0;
-	private String lang;
+	private int height = 14;
+	private int separator = 4;
+	private String lang = "EN";
+	private int lineNumber = 1;
 
 	
 	public ImageDraftman() {
 	}
-
-	public ImageDraftman(BufferedImage img, int height,int separator, String lang) {
-		super();
-		this.img = img;
-		this.imgBoundx = img.getWidth();
-		this.height = height;
-		this.separator = separator;
-		this.lang = lang;
-	}
 	
-	public void switchLang(String type){
+	public void switchLang(ArrayList<Pair<String,String>> a){
 		switch (lang){
 			case "EN" : 
-				g.setColor(switchEN(type));
+				for(Pair<String, String> p : a){
+					g.setColor(switchEN(p.getValue()));
+					setDim(p.getKey());
+					g.drawRect(x, y, width, height);
+					}
+				g.dispose();
 			break;
-			case "FR" : 
-				g.setColor(switchFR(type));;
+			case "FR" :  
+				for(Pair<String, String> p : a){
+					g.setColor(switchFR(p.getValue()));
+					setDim(p.getKey());
+					g.drawRect(x, y, width, height);
+					}
+				g.dispose();
 			break;
 		}
 	}
@@ -231,6 +233,15 @@ public class ImageDraftman {
 	public void setLang(String lang) {
 		this.lang = lang;
 	}
+	
+	public int getLineNumber() {
+		return lineNumber;
+	}
+
+	public void setLineNumber(int lineNumber) {
+		this.lineNumber = lineNumber;
+	}
+
 
 	public void setDim(String s){
 		if(imgBoundx > x + width + separator + 5*s.length()){
@@ -242,21 +253,31 @@ public class ImageDraftman {
 		}
 		width = 5*s.length();
 	}
-  
-	public void drawSchematics(ArrayList<Pair<String,String>> a) {
+	
+	public void createWhiteImage(){
+		img = new BufferedImage(300, lineNumber*18, BufferedImage.TYPE_INT_RGB);
 		g=img.createGraphics();
 		g.setColor(Color.white);
 		g.fillRect(0, 0, img.getWidth(), img.getHeight());
+		imgBoundx = img.getWidth();
+	}
+  
+	/*public void drawSchematics(ArrayList<Pair<String,String>> a) {
 		for(Pair<String, String> p : a){
 			switchLang(p.getValue());
 			setDim(p.getKey());
 			g.drawRect(x, y, width, height);
 	  		}
-	  	}
-	
-	public void generateImage(String name, String extension) throws IOException{
 		g.dispose();
-		File file = new File(name+"."+	extension);
-		ImageIO.write(img, extension, file);
+	  	}*/
+	
+	public void generateImage() throws IOException{
+		File file = new File("img.png");
+		ImageIO.write(img, "png", file);
+	}
+	
+	public void doTheThing(ArrayList<Pair<String,String>> a) throws IOException{
+		switchLang(a);
+		generateImage();
 	}
 }
