@@ -40,7 +40,7 @@ public class TISpellChecker {
 	
 	public boolean isTextCorrect() throws IOException {
 		for(int i = 0 ; i < svgdText.length ; i++) {
-			if(isWordCorrect(svgdText[i])){
+			if(!isWordCorrect(svgdText[i])){
 				return false;
 			}
 		}

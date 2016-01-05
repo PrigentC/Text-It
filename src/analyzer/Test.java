@@ -18,6 +18,7 @@ public class Test {
 			while(!tisc.isTextCorrect()) {
 				String[] suggestions = tisc.check();
 				tisc.correct("has");
+				tisc.correct("year");
 				
 				System.out.println(suggestions);
 			}
