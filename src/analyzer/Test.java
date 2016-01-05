@@ -12,14 +12,21 @@ public class Test {
 	public void spellCheckTest() {
 		try {
 			TIDictionary tid = new TIDictionary("DIC_EN.txt");
-			TISpellChecker tisc = new TISpellChecker("raisponse");
+			TISpellChecker tisc = new TISpellChecker("elephant utd an example");
 			tisc.addDictionnary(tid);
 			
-			/*if(!tisc.isWordCorrect(testWord)) {
+			while(!tisc.isTextCorrect()) {
+				String[] suggestions = tisc.check();
+				tisc.correct("has");
+				
+				System.out.println(suggestions);
+			}
+			
+			/*if(!tisc.isWordCorrect("elephant utd an example")) {
 				System.out.println("This word doesn't exist in our dictionary !");
 				System.out.println("Here are some words suggestions : ");
 				
-				String[] suggestions = tisc.suggestSimilar(testWord, 5);
+				String[] suggestions = tisc.suggestSimilar("elephant utd an example", 5);
 				for(int i = 0; i < suggestions.length; i++) {
 					System.out.println(suggestions[i]);
 				}
@@ -53,9 +60,9 @@ public class Test {
 	public static void main(String args[]) {
 		Test test = new Test();
 		
-		//test.spellCheckTest();
+		test.spellCheckTest();
 		
-		test.syntaxTest();
+		//test.syntaxTest();
 				
 		
 	}
