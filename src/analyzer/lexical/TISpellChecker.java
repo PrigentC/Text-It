@@ -39,8 +39,8 @@ public class TISpellChecker {
 	}
 	
 	public boolean isTextCorrect() throws IOException {
-		for(int i = 0 ; i < svgdText.length ;) {
-			if(isWordCorrect(svgdText[i])){
+		for(int i = 0 ; i < svgdText.length ; i++) {
+			if(!isWordCorrect(svgdText[i])){
 				return false;
 			}
 		}
@@ -61,6 +61,8 @@ public class TISpellChecker {
 					context = returnCompleteText();
 				} else if(i > svgdText.length-1) {
 					context = svgdText[i-2] + svgdText[i-1] + svgdText[i];
+				} else if(i < 2) {
+					context = svgdText[i] + svgdText[i+1] + svgdText[i+2];
 				} else {
 					context = svgdText[i-2] + svgdText[i-1] + svgdText[i] + svgdText[i+1] + svgdText[i+2];
 				}

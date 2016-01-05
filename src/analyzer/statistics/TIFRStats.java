@@ -79,5 +79,18 @@ public class TIFRStats extends TIStats {
 			percent.put(s, Double.valueOf(number.get(s)/number.get("total")));
 		}
 	}
+	
+	public String toString() {
+		StringBuilder tmp = new StringBuilder();
+		
+		for (String s : FRWordClass) {
+			tmp.append(s);
+			tmp.append(" (");
+			tmp.append(number.get(s).toString());
+			tmp.append(") ");
+		}
+		
+		return tmp.toString();
+	}
 
 }

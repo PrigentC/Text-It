@@ -6,8 +6,8 @@ import java.util.HashMap;
 import javafx.util.Pair;
 
 public abstract class TIStats {
-	HashMap<String,Integer> number;
-	HashMap<String, Double> percent;
+	protected HashMap<String,Integer> number = new HashMap<String,Integer>();
+	protected HashMap<String, Double> percent = new HashMap<String, Double>();
 	
 	public abstract void numberWordPerClass(ArrayList<Pair<String,String>> result);
 	public abstract void percentWordPerClass();
@@ -20,5 +20,13 @@ public abstract class TIStats {
 		} else {
 			number.put("foreign", 1);
 		}
+	}
+	
+	public HashMap<String, Integer> getNumber() {
+		return number;
+	}
+	
+	public HashMap<String, Double> getPercent() {
+		return percent;
 	}
 }

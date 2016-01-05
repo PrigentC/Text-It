@@ -21,6 +21,15 @@ public class TISyntaxAnalyzer {
 		api = new Api(ad);
 	}
 	
+	
+	public HashMap<String, String> getHashResult() {
+		return result;
+	}
+	
+	public ArrayList<String> getSvgdText() {
+		return svgdText;
+	}
+	
 	public void launchAnalysis(String text) {
 		String[] p;
 		
@@ -31,14 +40,6 @@ public class TISyntaxAnalyzer {
 			result.put(p[0], p[1]);
 			System.out.println(result.get(p[0]));
 		}
-	}
-	
-	public HashMap<String, String> getHashResult() {
-		return result;
-	}
-	
-	public ArrayList<String> getSvgdText() {
-		return svgdText;
 	}
 
 	public ArrayList<Pair<String,String>> getResult() {

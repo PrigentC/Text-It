@@ -12,14 +12,17 @@ public class Test {
 	public void spellCheckTest() {
 		try {
 			TIDictionary tid = new TIDictionary("DIC_EN.txt");
-			TISpellChecker tisc = new TISpellChecker("elephant utd an example");
+			TISpellChecker tisc = new TISpellChecker("udt");
 			tisc.addDictionnary(tid);
 			
 			while(!tisc.isTextCorrect()) {
 				String[] suggestions = tisc.check();
 				tisc.correct("has");
 				
-				System.out.println(suggestions);
+				for(int i = 0 ; i < suggestions.length ; i++) {
+					System.out.println(suggestions[i]);
+				}
+				
 			}
 			
 			/*if(!tisc.isWordCorrect("elephant utd an example")) {
@@ -51,6 +54,7 @@ public class Test {
 		TIENStats tis = new TIENStats();
 		
 		tis.numberWordPerClass(syntax.getResult());
+		tis.percentWordPerClass();
 		
 		System.out.println("Bye !");
 	}
@@ -62,7 +66,7 @@ public class Test {
 		
 		test.spellCheckTest();
 		
-		//test.syntaxTest();
+		test.syntaxTest();
 				
 		
 	}
