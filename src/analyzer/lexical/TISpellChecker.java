@@ -53,8 +53,18 @@ public class TISpellChecker {
 	
 	public String[] check() throws IOException {
 		for(int i = 0 ; i < svgdText.length ; i++) {
+			System.out.println(svgdText.length);
 			if (!isWordCorrect(svgdText[i])) {
-				context = svgdText[i-2] + svgdText[i-1] + svgdText[i] + svgdText[i+1] + svgdText[i+2];
+				
+				
+				if(svgdText.length <= 4) {
+					context = returnCompleteText();
+				} else if(i > svgdText.length-1) {
+					context = svgdText[i-2] + svgdText[i-1] + svgdText[i];
+				} else {
+					context = svgdText[i-2] + svgdText[i-1] + svgdText[i] + svgdText[i+1] + svgdText[i+2];
+				}
+				
 				index = i;
 				
 				ArrayList<String> result = new ArrayList<String>();
@@ -65,7 +75,7 @@ public class TISpellChecker {
 					result.add(sugg[j]);
 				}
 				
-				return (String[]) result.toArray();
+				return (String[]) result.toArray(new String[0]);
 			}
 		}
 		return null;
