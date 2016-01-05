@@ -16,8 +16,6 @@ import javax.swing.JSeparator;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import analyzer.lexical.TISpellChecker;
-
 @SuppressWarnings("serial")
 public class SpellCheckFrame extends JFrame implements ActionListener{
 	

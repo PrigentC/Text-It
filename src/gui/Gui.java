@@ -9,6 +9,15 @@ public class Gui {
 	    	public void run() {
 	    		AppFrame ex = new AppFrame();
 	    		ex.setVisible(true);
+	    		/*
+	    		SpellCheckFrame sp = new SpellCheckFrame();
+	    		Object[] elements = new Object[]{"", "a", "an"};
+	    		try {
+					sp.openFrame("This is a test ex", elements);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}*/
 	    	}
     	});
 }
