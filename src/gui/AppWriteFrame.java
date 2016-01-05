@@ -55,21 +55,19 @@ public class AppWriteFrame extends JFrame implements ActionListener {
         if (evt.getSource() == jButton) {
             System.out.println("You have clicked on the analyze action");
             if((sourcePane.getText() == null) || (sourcePane.getText().trim().equals(""))){
+				System.out.println("Test");
         		final JPanel panel = new JPanel();
         		JOptionPane.showMessageDialog(panel, "No input!", "Error", JOptionPane.ERROR_MESSAGE);
             }
             else{
 				try {
 					spellCheck = new TISpellChecker(sourcePane.getText());
-					
-		            try {
-						while(!spellCheck.isTextCorrect()){
+
+					System.out.println("Test2");
+		            while(!spellCheck.isTextCorrect()){
 							SpellCheckFrame spellFrame = new SpellCheckFrame();
+							System.out.println("Test1");
 							spellFrame.openFrame(spellCheck.getContext(), (Object[])spellCheck.check());
-						}
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
 					}
 		            completeText = spellCheck.returnCompleteText();
 				} catch (IOException e) {
