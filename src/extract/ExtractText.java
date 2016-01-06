@@ -15,28 +15,28 @@ public class ExtractText extends JFrame {
 		
 		case ".pdf":
 			PdfExtract pdf = new PdfExtract();
-			pdf.PdfExtractText(exFile);
+			pdf.extractText(exFile);
 			setSt(pdf.getSt());
 			setEnab(true);
 			break;
 		
 		case ".doc":
 			DocExtract doc = new DocExtract();
-			doc.DocExtractText(exFile);
+			doc.extractText(exFile);
 			setSt(doc.getSt());
 			setEnab(true);
 			break;			
 		
 		case ".docx":
 			DocExtract docx = new DocExtract();
-			docx.DocExtractText(exFile);
+			docx.extractText(exFile);
 			setSt(docx.getSt());
 			setEnab(true);
 			break;
 		
 		case ".txt":
 			TxtExtract txt = new TxtExtract();
-			txt.TxtExtractText(exFile);
+			txt.extractText(exFile);
 			setSt(txt.getSt());
 			setEnab(true);
 			break;

@@ -3,8 +3,7 @@ package extract;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class TxtExtract {
-	private String st;
+public class TxtExtract extends Extractor{
 	
 	public String getSt() {
 		return st;
@@ -18,7 +17,8 @@ public class TxtExtract {
 		st = null;
 	}
 	
-	public void TxtExtractText(String fileName) {
+	@Override
+	public void extractText(String fileName) {
         String fileContent = "";
          
         StringBuilder contents = new StringBuilder();

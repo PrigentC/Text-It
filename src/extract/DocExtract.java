@@ -19,9 +19,8 @@ import org.apache.tika.sax.BodyContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
-public class DocExtract {
+public class DocExtract extends Extractor {
 
-	private String st;
 	private OutputStream outputstream;
 	private ParseContext context;
 	private Detector detector;
@@ -40,7 +39,8 @@ public class DocExtract {
 	    
 	}
 
-	public void DocExtractText(String filename) {
+	@Override
+	public void extractText(String filename) {
 		try{
 		
 			URL url;
