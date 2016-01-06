@@ -21,7 +21,7 @@ import org.xml.sax.SAXException;
 
 public class DocExtract {
 
-	public String st;
+	private String st;
 	private OutputStream outputstream;
 	private ParseContext context;
 	private Detector detector;
@@ -29,6 +29,7 @@ public class DocExtract {
 	private Metadata metadata;
 
 	public DocExtract() {
+		
 		st = null;
 	    context = new ParseContext();
 	    detector = new DefaultDetector();
@@ -36,52 +37,42 @@ public class DocExtract {
 	    context.set(Parser.class, parser);
 	    outputstream = new ByteArrayOutputStream();
 	    metadata = new Metadata();
+	    
 	}
 
 	public void DocExtractText(String filename) {
 		try{
-		    URL url;
+		
+			URL url;
 		    File file = new File(filename);
+		    
 		    if (file.isFile()) {
-		        url = file.toURI().toURL();
+		    	url = file.toURI().toURL();
 		    } else {
 		        url = new URL(filename);
 		    }
+		    
 		    InputStream input = TikaInputStream.get(url, metadata);
 		    ContentHandler handler = new BodyContentHandler(outputstream);
 		    parser.parse(input, handler, metadata, context); 
 		    input.close();
 	
 		    st = outputstream.toString();
-	        System.out.println("Text:"+st);
+
 	    }catch(IOException e){
 			e.printStackTrace();
 		} catch (SAXException e) {
 			e.printStackTrace();
 		} catch (TikaException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
-/*
-	public void DocExtractText(String fileName) {
-		try{
-			InputStream inputstream = new FileInputStream(fileName); 
-			//read the file 
-			XWPFDocument adoc= new XWPFDocument(inputstream);
-			//and place it in a xwpf format
+	public String getSt() {
+		return st;
+	}
 
-			st = new XWPFWordExtractor(adoc).getText();           
-			//gets the full text
-	        /*WordDocument wd = new WordDocument(fileName);
-	        StringWriter docTextWriter = new StringWriter();
-	        wd.writeAllText(new PrintWriter(docTextWriter));
-	        docTextWriter.close();
-	        st = docTextWriter.toString();
-	        System.out.println("Text:"+st);
-		 }catch(Exception e){
-		        e.printStackTrace();
-		 }
-    }*/
+	public void setSt(String st) {
+		this.st = st;
+	}
 }

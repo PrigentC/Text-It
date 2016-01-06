@@ -16,7 +16,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.filechooser.FileFilter;
 
-import analyzer.lexical.TISpellChecker;
 import extract.ExtractText;
 
 
@@ -26,15 +25,12 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	private JFileChooser fileChooser;
 	private int mode;
 	
-	public TISpellChecker spellCheck;
-	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
 	
 	private JButton jButton1;
 	private JButton jButton2;
 	
-	public String completeText;
 
 	public void openFrame() throws IOException{
 		
@@ -46,7 +42,7 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		setSize(520, 120);
 		setLocationRelativeTo(null);
 		setVisible(true);
-		//setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		//Create Elements        
 		jPanel = new JPanel(new FlowLayout());
@@ -68,33 +64,6 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		
 		Container contentPane = getContentPane();
 		contentPane.add(jPanel);
-		
-		/*
-		jButton1.addActionListener(new ActionListener() { 
-            public void actionPerformed(ActionEvent evt) {
-            	System.out.println("You have clicked on the browse action");
-            	mode = MODE_OPEN;
-                try {
-					button1ActionPerformed(evt);
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-            }
-        });
-		
-		jButton2.addActionListener(new ActionListener() { 
-        	PdfExtract pdf = new PdfExtract();
-            public void actionPerformed(ActionEvent evt) {
-	            System.out.println("You have clicked on the analyze action");
-	            System.out.println("---------------------------------------------");
-	            if(!fileChooser.getSelectedFile().toString().isEmpty()){
-		           pdf.PdfExtractText(fileChooser.getSelectedFile().toString());
-	            } else {
-	            	final JPanel panel = new JPanel();
-	                JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
-	            }
-            }!jField.getText().equals("")
-        });*/
 	}
 	
 	public void actionPerformed(ActionEvent evt) 	
@@ -103,45 +72,33 @@ public class AppImportFrame extends JFrame implements ActionListener{
             
 		if(source==jButton1){
 			System.out.println("You have clicked on the browse action");
+			
         	mode = MODE_OPEN;
             try {
+            	
 				button1ActionPerformed(evt);
+				
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
         }else if(source==jButton2){
         	System.out.println("You have clicked on the analyze action");
+        	
         	if((jField.getText() == null) || (jField.getText().trim().equals(""))){
+        		
         		final JPanel panel = new JPanel();
         		JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
+        		
         	}else{
         		ExtractText exText = new ExtractText();
-	            System.out.println("---------------------------------------------");
-	            System.out.println(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()));
 	            exText.ExtractAllText(fileChooser.getSelectedFile().toString().substring(fileChooser.getSelectedFile().toString().lastIndexOf('.'), fileChooser.getSelectedFile().toString().length()), fileChooser.getSelectedFile().toString());
 	            
-	            System.out.println("Text : " + exText.st);
-				try {
-					spellCheck = new TISpellChecker(exText.st);
-					
-
-		            try {
-						while(!spellCheck.isTextCorrect()){
-							SpellCheckFrame spellFrame = new SpellCheckFrame();
-							spellFrame.openFrame(spellCheck.getContext(), (Object[])spellCheck.check());
-						}
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-		            
-		            completeText = spellCheck.returnCompleteText();
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+	            SpellCheckFrame spellFrame = new SpellCheckFrame();
+				spellFrame.setFullText(exText.getSt());
+				this.setVisible(false);
+				spellFrame.spellCheckFrameExecute();
 	            
-	            if(exText.enab == true){
+	            if(exText.getEnab() == true){
 	    			this.setVisible(false);
 	            }else{
 	            	this.setVisible(true);
@@ -161,7 +118,6 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		if (mode == MODE_OPEN) {
 	        if (fileChooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
 	            jField.setText(fileChooser.getSelectedFile().getAbsolutePath());
-                System.out.printf("%s", fileChooser.getSelectedFile().toString());
 	        }
 	     }	    
 	     else if (mode == MODE_SAVE) {

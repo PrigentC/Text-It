@@ -16,7 +16,7 @@ public class Test {
 			tisc.addDictionnary(tid);
 			
 			while(!tisc.isTextCorrect()) {
-				String[] suggestions = tisc.check();
+				Object[] suggestions = tisc.check();
 				tisc.correct("has");
 				tisc.correct("year");
 				

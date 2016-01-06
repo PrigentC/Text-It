@@ -9,29 +9,41 @@ import org.apache.pdfbox.text.PDFTextStripperByArea;
 public class PdfExtract {
 	
 	protected PDDocument document;
-	public String st;
+	private String st;
 	
 	public PdfExtract (){
 		document = null;
-		st = null;
+		setSt(null);
 	}
 		
 	public void PdfExtractText(String fileName){
 		try{
+			
 		    PDDocument document = null; 
 		    document = PDDocument.load(new File(fileName));
 		    document.getClass();
+		    
 		    if( !document.isEncrypted() ){
+		    	
 		        PDFTextStripperByArea stripper = new PDFTextStripperByArea();
 		        stripper.setSortByPosition( true );
 		        PDFTextStripper Tstripper = new PDFTextStripper();
-		        st = Tstripper.getText(document);
-		        //System.out.println("Text:"+st);
+		        setSt(Tstripper.getText(document));
+		        document.close();
+		    
 		    }
 		 }catch(Exception e){
 		        e.printStackTrace();
 		 }
-	
+
+	}
+
+	public String getSt() {
+		return st;
+	}
+
+	public void setSt(String st) {
+		this.st = st;
 	}
 
 }

@@ -4,8 +4,16 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class TxtExtract {
-	public String st;
+	private String st;
 	
+	public String getSt() {
+		return st;
+	}
+
+	public void setSt(String st) {
+		this.st = st;
+	}
+
 	public TxtExtract (){
 		st = null;
 	}
@@ -36,6 +44,5 @@ public class TxtExtract {
                 System.err.println(ex.getMessage()); }
         }
         st = fileContent;
-        System.out.println("Text:"+st);
     }
 }

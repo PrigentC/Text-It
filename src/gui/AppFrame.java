@@ -22,8 +22,11 @@ public class AppFrame extends JFrame implements ActionListener{
 	
 	private JMenuItem importAction, writeAction, exitAction, copyAction;
 	private JTextArea jText;
+	
+	private String fullText;
+
     
-	public AppFrame() {
+	public void AppFrameInit() {
 		initUI();
 		
 		setTitle("Text It!");
@@ -39,7 +42,6 @@ public class AppFrame extends JFrame implements ActionListener{
 	public void printText(String text){        
 		jText = new JTextArea(38,45);
 		jText.setText(text);
-		//jText.setBackground(Color.DARK_GRAY);
 		jText.setEnabled(false);
 	}
 
@@ -113,7 +115,7 @@ public class AppFrame extends JFrame implements ActionListener{
         jLabel2Top = new JLabel("Schematic");
         jLabel2Bottom = new JLabel("Statistics");
         
-        printText("fqvshkfvqldvbfl");
+        printText("");
         
         //Adding Labels
         jPanel1.add(jLabel1);
@@ -128,37 +130,24 @@ public class AppFrame extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent evt) 	
     {
     	Object source = evt.getSource();
-            
 		if(source==importAction){
+        	System.out.println("You have clicked on the import action");
+			
             AppImportFrame importFrame = new AppImportFrame();
             try {
-
-
-            	//setEnabled(false);
             	importFrame.openFrame();
             	
-            	printText(importFrame.completeText);
-                jText.setLineWrap(true);
-                jText.setWrapStyleWord(true);
-                
-                this.validate();
-                this.repaint();
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();
                 JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
             }
         }else if(source==writeAction){
+        	System.out.println("You have clicked on the write action");
+        	
         	AppWriteFrame writeFrame = new AppWriteFrame();
             try {
-            	System.out.println("You have clicked on the write action");
             	writeFrame.openFrame();
-            	
-            	printText(writeFrame.completeText);
-                jText.setLineWrap(true);
-                jText.setWrapStyleWord(true);
-                
-                this.validate();
-                this.repaint();
+
             } catch (IOException ex) {                    
                 ex.printStackTrace();
             }
@@ -167,4 +156,14 @@ public class AppFrame extends JFrame implements ActionListener{
              System.exit(0);
         }
     }
+
+	public String getFullText() {
+		SpellCheckFrame spellcheck = new SpellCheckFrame();
+		fullText = spellcheck.getFullText();
+		return fullText;
+	}
+
+	public void setFullText(String fullText) {
+		this.fullText = fullText;
+	}
 }

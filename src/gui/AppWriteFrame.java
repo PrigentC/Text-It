@@ -13,16 +13,11 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import analyzer.lexical.TISpellChecker;
-
 @SuppressWarnings("serial")
 public class AppWriteFrame extends JFrame implements ActionListener {
 	private JTextArea sourcePane = null;
 
 	private JButton jButton = null;
-	
-	public String completeText;
-	public TISpellChecker spellCheck;
 	
 	public void openFrame() throws IOException{
 
@@ -31,6 +26,7 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 		setSize(500, 400);
 		setLocationRelativeTo(null);
 		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 				
 		Container contentPane = getContentPane();
 	       
@@ -53,29 +49,19 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent evt) {
         if (evt.getSource() == jButton) {
+        	
             System.out.println("You have clicked on the analyze action");
             if((sourcePane.getText() == null) || (sourcePane.getText().trim().equals(""))){
-				System.out.println("Test");
+            	
         		final JPanel panel = new JPanel();
         		JOptionPane.showMessageDialog(panel, "No input!", "Error", JOptionPane.ERROR_MESSAGE);
             }
             else{
-				try {
-					spellCheck = new TISpellChecker(sourcePane.getText());
-
-					System.out.println("Test2");
-		            while(!spellCheck.isTextCorrect()){
-							SpellCheckFrame spellFrame = new SpellCheckFrame();
-							System.out.println("Test1");
-							spellFrame.openFrame(spellCheck.getContext(), (Object[])spellCheck.check());
-					}
-		            completeText = spellCheck.returnCompleteText();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-	            this.setVisible(false);
-	            
+            	
+				SpellCheckFrame spellFrame = new SpellCheckFrame();
+				spellFrame.setFullText(sourcePane.getText());
+				this.setVisible(false);
+				spellFrame.spellCheckFrameExecute();
             }
         }
 	}

@@ -16,7 +16,6 @@ public class TISpellChecker {
 	private String context;
 	private int index;
 	
-	
 	public TISpellChecker(String text) throws IOException {
 		RAMDirectory spellCheckerDir = new RAMDirectory();
 		this.dict = new TIDictionary("DIC_EN.txt");
@@ -30,6 +29,13 @@ public class TISpellChecker {
 		return context;
 	}
 	
+	public TIDictionary getDict() {
+		return dict;
+	}
+
+	public void setDict(TIDictionary dict) {
+		this.dict = dict;
+	}
 	public void addDictionnary(TIDictionary d) throws IOException {
 		sc.indexDictionary(d.TIDictionnaryToPlainText(), config, true);
 	}
@@ -51,18 +57,18 @@ public class TISpellChecker {
 		return sc.suggestSimilar(word, NSugg);
 	}
 	
-	public String[] check() throws IOException {
+	public Object[] check() throws IOException {
 		for(int i = 0 ; i < svgdText.length ; i++) {
-			System.out.println(svgdText.length);
-			if (!isWordCorrect(svgdText[i])) {
-				
+			if (!isWordCorrect(svgdText[i])) {				
 				
 				if(svgdText.length <= 4) {
 					context = returnCompleteText();
 				} else if(i > svgdText.length-1) {
-					context = svgdText[i-2] + svgdText[i-1] + svgdText[i];
+					context = svgdText[i-2] + " " + svgdText[i-1] + " " + svgdText[i];
+				} else if(i < 2) {
+					context = svgdText[i] + " " + svgdText[i+1] + " " + svgdText[i+2];
 				} else {
-					context = svgdText[i-2] + svgdText[i-1] + svgdText[i] + svgdText[i+1] + svgdText[i+2];
+					context = svgdText[i-2] + " " + svgdText[i-1] + " " + svgdText[i] + " " + svgdText[i+1] + " " + svgdText[i+2];
 				}
 				
 				index = i;
@@ -75,7 +81,7 @@ public class TISpellChecker {
 					result.add(sugg[j]);
 				}
 				
-				return (String[]) result.toArray(new String[0]);
+				return result.toArray();
 			}
 		}
 		return null;
