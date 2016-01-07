@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -20,6 +21,7 @@ import javax.swing.SwingConstants;
 import analyzer.lexical.TISpellChecker;
 import analyzer.syntaxical.TISyntaxAnalyzer;
 import javafx.util.Pair;
+import representation.image.ImageDraftman;
 
 @SuppressWarnings("serial")
 public class SpellCheckFrame extends JDialog implements ActionListener{
@@ -38,6 +40,8 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 	private JComboBox liste;
 	private TISpellChecker spellCheck;
 	private TISyntaxAnalyzer synataxAnalyzer;
+	private ImageDraftman imageDraft;
+	private BufferedImage buffImage;
 	
 	public void spellCheckFrameExecute(){
 		text = new JTextField(10);
@@ -61,6 +65,15 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 		synataxAnalyzer = new TISyntaxAnalyzer("cathie.prigent@uha.fr", "ahg5Awodu8ga");
 		synataxAnalyzer.launchAnalysis(fullText);
 		syntaxResult = synataxAnalyzer.getResult();
+		
+		imageDraft = new ImageDraftman();
+		imageDraft.createWhiteImage(fullText.length());
+		try {
+			imageDraft.draw(syntaxResult);
+			buffImage = imageDraft.getImg();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 
@@ -174,6 +187,16 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 
 	public void setSyntaxResult(ArrayList<Pair<String,String>> syntaxResult) {
 		this.syntaxResult = syntaxResult;
+	}
+
+
+	public BufferedImage getBuffImage() {
+		return buffImage;
+	}
+
+
+	public void setBuffImage(BufferedImage buffImage) {
+		this.buffImage = buffImage;
 	}
 
 }

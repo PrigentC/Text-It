@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 import javax.swing.JButton;
@@ -19,6 +20,7 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 
 	private JButton jButton = null;
 	private String fullText;
+	private BufferedImage buffImg;
 	
 	public void openFrame() throws IOException{
 
@@ -67,6 +69,7 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 				spellFrame.spellCheckFrameExecute();
 				
 				setFullText(spellFrame.getFullText());
+				setBuffImg(spellFrame.getBuffImage());
             }
         }
 	}
@@ -77,5 +80,13 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 
 	public void setFullText(String fullTexte) {
 		this.fullText = fullTexte;
+	}
+
+	public BufferedImage getBuffImg() {
+		return buffImg;
+	}
+
+	public void setBuffImg(BufferedImage buffImg) {
+		this.buffImg = buffImg;
 	}
 }

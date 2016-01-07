@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
@@ -22,9 +23,7 @@ public class AppFrame extends JFrame implements ActionListener{
 	
 	private JMenuItem importAction, writeAction, exitAction, copyAction;
 	private JTextArea jText;
-	
-	private String fullText;
-
+	private JLabel jImageLabel;
     
 	public void AppFrameInit() {
 		initUI();
@@ -121,8 +120,12 @@ public class AppFrame extends JFrame implements ActionListener{
         jPanel1.add(jLabel1);
         jPanel1.add(new JSeparator(SwingConstants.VERTICAL));
         jPanel1.add(jText);
+        
         jPanel2Top.add(jLabel2Top);
         jPanel2Top.add(new JSeparator(SwingConstants.VERTICAL));
+        
+        jImageLabel = new JLabel();
+        jPanel2Top.add(jImageLabel);
         //jPanel2Top.add(img);
         jPanel2Bottom.add(jLabel2Bottom);
 	}
@@ -141,6 +144,10 @@ public class AppFrame extends JFrame implements ActionListener{
         		jText.update(jText.getGraphics());
         		revalidate();
         		repaint();
+        		
+        		jImageLabel.setIcon(new ImageIcon(importFrame.getBuffImg()));
+        		revalidate();
+        		repaint();
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();
                 JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
@@ -156,6 +163,10 @@ public class AppFrame extends JFrame implements ActionListener{
         		jText.update(jText.getGraphics());
         		revalidate();
         		repaint();
+
+        		jImageLabel.setIcon(new ImageIcon(writeFrame.getBuffImg()));
+        		revalidate();
+        		repaint();
             } catch (IOException ex) {                    
                 ex.printStackTrace();
             }
@@ -164,14 +175,4 @@ public class AppFrame extends JFrame implements ActionListener{
              System.exit(0);
         }
     }
-
-	public String getFullText() {
-		SpellCheckFrame spellcheck = new SpellCheckFrame();
-		fullText = spellcheck.getFullText();
-		return fullText;
-	}
-
-	public void setFullText(String fullText) {
-		this.fullText = fullText;
-	}
 }

@@ -4,6 +4,7 @@ import java.awt.Container;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
@@ -25,6 +26,7 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	private JFileChooser fileChooser;
 	private int mode;
 	private String fullText;
+	private BufferedImage buffImg;
 	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
@@ -108,6 +110,7 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	            }
 	            
 	            setFullText(spellFrame.getFullText());
+	            setBuffImg(spellFrame.getBuffImage());
         	}
         }
     }
@@ -144,6 +147,14 @@ public class AppImportFrame extends JDialog implements ActionListener{
 
 	public void setFullText(String fullText) {
 		this.fullText = fullText;
+	}
+
+	public BufferedImage getBuffImg() {
+		return buffImg;
+	}
+
+	public void setBuffImg(BufferedImage buffImg) {
+		this.buffImg = buffImg;
 	}
 
 }
