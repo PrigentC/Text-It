@@ -24,6 +24,7 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	private JTextField jField;
 	private JFileChooser fileChooser;
 	private int mode;
+	private String fullText;
 	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
@@ -105,6 +106,8 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	            }else{
 	            	this.setVisible(true);
 	            }
+	            
+	            setFullText(spellFrame.getFullText());
         	}
         }
     }
@@ -134,5 +137,13 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	     fileChooser.addChoosableFileFilter(filter);
 	     fileChooser.setFileFilter(filter);
 	 }
+
+	public String getFullText() {
+		return fullText;
+	}
+
+	public void setFullText(String fullText) {
+		this.fullText = fullText;
+	}
 
 }

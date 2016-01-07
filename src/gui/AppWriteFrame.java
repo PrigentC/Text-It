@@ -18,6 +18,7 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 	private JTextArea sourcePane = null;
 
 	private JButton jButton = null;
+	private String fullText;
 	
 	public void openFrame() throws IOException{
 
@@ -64,7 +65,17 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 				spellFrame.setFullText(sourcePane.getText());
 				this.setVisible(false);
 				spellFrame.spellCheckFrameExecute();
+				
+				setFullText(spellFrame.getFullText());
             }
         }
+	}
+
+	public String getFullText() {
+		return fullText;
+	}
+
+	public void setFullText(String fullTexte) {
+		this.fullText = fullTexte;
 	}
 }

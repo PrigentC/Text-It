@@ -40,7 +40,7 @@ public class AppFrame extends JFrame implements ActionListener{
 	}
 	
 	public void printText(String text){        
-		jText = new JTextArea(38,45);
+		jText = new JTextArea(38,40);
 		jText.setText(text);
 		jText.setEnabled(false);
 	}
@@ -137,6 +137,10 @@ public class AppFrame extends JFrame implements ActionListener{
             try {
             	importFrame.openFrame();
             	
+        		jText.setText(importFrame.getFullText());
+        		jText.update(jText.getGraphics());
+        		revalidate();
+        		repaint();
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();
                 JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
@@ -148,6 +152,10 @@ public class AppFrame extends JFrame implements ActionListener{
             try {
             	writeFrame.openFrame();
 
+            	jText.setText(writeFrame.getFullText());
+        		jText.update(jText.getGraphics());
+        		revalidate();
+        		repaint();
             } catch (IOException ex) {                    
                 ex.printStackTrace();
             }
