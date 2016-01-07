@@ -1,4 +1,4 @@
-package representation.image;
+package representation;
 
 import java.awt.Color;
 import java.awt.Graphics2D;

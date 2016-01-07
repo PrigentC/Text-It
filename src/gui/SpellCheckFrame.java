@@ -21,7 +21,7 @@ import javax.swing.SwingConstants;
 import analyzer.lexical.TISpellChecker;
 import analyzer.syntaxical.TISyntaxAnalyzer;
 import javafx.util.Pair;
-import representation.image.ImageDraftman;
+import representation.ImageDraftman;
 
 @SuppressWarnings("serial")
 public class SpellCheckFrame extends JDialog implements ActionListener{
