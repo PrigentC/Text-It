@@ -21,6 +21,11 @@ public abstract class TIStats {
 		return percent;
 	}
 	
+	public void clean() {
+		number.clear();
+		percent.clear();
+	}
+	
 	protected void updateMap(String key) {
 		number.put("total", number.get("total") + 1);
 		

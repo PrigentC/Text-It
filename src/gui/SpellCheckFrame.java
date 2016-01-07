@@ -50,39 +50,47 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 	public void spellCheckFrameExecute(){
 		text = new JTextField(10);
 		correctText = new JTextField(10);
-
-		try {
-			spellCheck = new TISpellChecker(fullText);
-			spellCheck.addDictionnary(spellCheck.getDict());
-
-			if(!spellCheck.isTextCorrect()){
-				
-				elements = spellCheck.check();
-				contexte = spellCheck.getContext();
-
-				openFrame(contexte, elements);
+		
+		if(fullText.length() > 10 && fullText.length() < 60){
+			try {
+				spellCheck = new TISpellChecker(fullText);
+				spellCheck.addDictionnary(spellCheck.getDict());
+	
+				if(!spellCheck.isTextCorrect()){
+					
+					elements = spellCheck.check();
+					contexte = spellCheck.getContext();
+	
+					openFrame(contexte, elements);
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
-		} catch (IOException e) {
-			e.printStackTrace();
+	
+			synataxAnalyzer = new TISyntaxAnalyzer("clement.chambat@gmail.com", "Neeboqu2aez0");
+			synataxAnalyzer.launchAnalysis(fullText);
+			syntaxResult = synataxAnalyzer.getResult();
+			
+			imageDraft = new ImageDraftman();
+			imageDraft.createWhiteImage(fullText.length());
+			try {
+				imageDraft.draw(syntaxResult);
+				buffImage = imageDraft.getImg();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			tiStat = new TIENStats();
+			tiStat.numberWordPerClass(syntaxResult);
+			tiStat.percentWordPerClass();
+			setStats(tiStat.toString());
+			
+			syntaxResult.clear();
+			tiStat.clean();
+		}else{
+			final JPanel panel = new JPanel();
+            JOptionPane.showMessageDialog(panel, "Text length must be between 10 and 60 characters !", "Error", JOptionPane.ERROR_MESSAGE);
 		}
-
-		synataxAnalyzer = new TISyntaxAnalyzer("cathie.prigent@uha.fr", "ahg5Awodu8ga");
-		synataxAnalyzer.launchAnalysis(fullText);
-		syntaxResult = synataxAnalyzer.getResult();
-		
-		imageDraft = new ImageDraftman();
-		imageDraft.createWhiteImage(fullText.length());
-		try {
-			imageDraft.draw(syntaxResult);
-			buffImage = imageDraft.getImg();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-		tiStat = new TIENStats();
-		tiStat.numberWordPerClass(syntaxResult);
-		tiStat.percentWordPerClass();
-		setStats(tiStat.toString());
 	}
 
 
@@ -156,26 +164,28 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 			
             System.out.println("You have clicked on the ok action");
             
-            if((correctText.getText() == null) || liste.getSelectedIndex() <= 0){
+            if((correctText.getText() == null) && liste.getSelectedIndex() <= 0){
             	
         		final JPanel panel = new JPanel();
         		JOptionPane.showMessageDialog(panel, "Correct the word!", "Error", JOptionPane.ERROR_MESSAGE);
             
             }
             else{
-				if((correctText.getText() == null) || liste.getSelectedIndex() > 0){
+				if((correctText.getText() != null) || liste.getSelectedIndex() > 0){
+					
+					spellCheck.correct(correctText.getText());
+					setFullText(spellCheck.returnCompleteText());
+				}else if((correctText.getText() != null) || liste.getSelectedIndex() <= 0){
+					
+					spellCheck.correct(correctText.getText());
+					setFullText(spellCheck.returnCompleteText());
+				}else if((correctText.getText() == null) || liste.getSelectedIndex() > 0){
 					
 					spellCheck.correct(liste.getSelectedItem().toString());
 					setFullText(spellCheck.returnCompleteText());
-				}else if((correctText.getText() != null) || liste.getSelectedIndex() <= 0){
-					spellCheck.correct(correctText.getText());
-					setFullText(spellCheck.returnCompleteText());
-				}else if((correctText.getText() != null) || liste.getSelectedIndex() > 0){
-					spellCheck.correct(correctText.getText());
-					setFullText(spellCheck.returnCompleteText());
 				}
 				
-				setVisible(false);
+				dispose();
             }
         }
 	}

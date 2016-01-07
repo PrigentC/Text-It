@@ -44,16 +44,14 @@ public class TISpellChecker {
 		return sc.exist(word);
 	}
 	
-	public int isTextCorrect() throws IOException {
-		int e = 0;
-		
+	public boolean isTextCorrect() throws IOException {
 		for(int i = 0 ; i < svgdText.length ; i++) {
 			if(!isWordCorrect(svgdText[i])){
-				e++;
+				return false;
 			}
 		}
 		
-		return e;
+		return true;
 	}
 	
 	public String[] suggestSimilar(String word, int NSugg) throws IOException {

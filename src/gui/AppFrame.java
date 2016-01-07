@@ -25,13 +25,14 @@ public class AppFrame extends JDialog implements ActionListener{
 	private JTextArea jText, jStat;
 	private JLabel jImageLabel;
     
+	@SuppressWarnings("static-access")
 	public void AppFrameInit() {
 		initUI();
 		
 		setTitle("Text It!");
 		setSize(1000, 700); //resize the window to be 1000px wide and 700px
 		setLocationRelativeTo(null); //center the window on the screen
-		setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
 		
 
 		Font font = new Font("Verdana", Font.BOLD, 12);
