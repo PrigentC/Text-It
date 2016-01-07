@@ -21,6 +21,7 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 	private JButton jButton = null;
 	private String fullText;
 	private BufferedImage buffImg;
+	private String stat;
 	
 	public void openFrame() throws IOException{
 
@@ -70,6 +71,7 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 				
 				setFullText(spellFrame.getFullText());
 				setBuffImg(spellFrame.getBuffImage());
+	            setStat(spellFrame.getStats());
             }
         }
 	}
@@ -88,5 +90,13 @@ public class AppWriteFrame extends JDialog implements ActionListener {
 
 	public void setBuffImg(BufferedImage buffImg) {
 		this.buffImg = buffImg;
+	}
+
+	public String getStat() {
+		return stat;
+	}
+
+	public void setStat(String stat) {
+		this.stat = stat;
 	}
 }

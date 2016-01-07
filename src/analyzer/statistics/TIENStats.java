@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import javafx.util.Pair;
 
 public class TIENStats extends TIStats {
-	String[] ENWordClass = { "det", "noun", "p_noun", "pronoun", "wh_pronoun", "verb", "mod", "adj", "adv", "wh_adv", "prep", "poss_mark", "inf_mark", "conj_coord", "foreign", "total" };
+	public String[] ENWordClass = { "det", "noun", "p_noun", "pronoun", "wh_pronoun", "verb", "mod", "adj", "adv", "wh_adv", "prep", "poss_mark", "inf_mark", "conj_coord", "foreign", "total" };
 	
 	public TIENStats() {
 		for (String s : ENWordClass) {
@@ -109,7 +109,18 @@ public class TIENStats extends TIStats {
 	
 	public void percentWordPerClass() {
 		for(String s : ENWordClass) {
-			percent.put(s, Double.valueOf(number.get(s)/number.get("total")));
+			percent.put(s, Double.valueOf(number.get(s)*100/Double.valueOf(number.get("total"))));
 		}
+	}
+	
+	public String toString(){
+		StringBuffer sb = new StringBuffer();
+		
+		for(String s : ENWordClass) {
+			sb.append(s + " : " + number.get(s).toString() + " (" + percent.get(s).toString() + "%)");
+			sb.append(System.getProperty("line.separator"));
+		}
+		
+		return sb.toString();		
 	}
 }

@@ -27,6 +27,7 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	private int mode;
 	private String fullText;
 	private BufferedImage buffImg;
+	private String stat;
 	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
@@ -111,6 +112,7 @@ public class AppImportFrame extends JDialog implements ActionListener{
 	            
 	            setFullText(spellFrame.getFullText());
 	            setBuffImg(spellFrame.getBuffImage());
+	            setStat(spellFrame.getStats());
         	}
         }
     }
@@ -155,6 +157,14 @@ public class AppImportFrame extends JDialog implements ActionListener{
 
 	public void setBuffImg(BufferedImage buffImg) {
 		this.buffImg = buffImg;
+	}
+
+	public String getStat() {
+		return stat;
+	}
+
+	public void setStat(String stat) {
+		this.stat = stat;
 	}
 
 }

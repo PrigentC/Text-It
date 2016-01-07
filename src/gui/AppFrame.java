@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
+import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -19,10 +19,10 @@ import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")	
-public class AppFrame extends JFrame implements ActionListener{
+public class AppFrame extends JDialog implements ActionListener{
 	
-	private JMenuItem importAction, writeAction, exitAction, copyAction;
-	private JTextArea jText;
+	private JMenuItem importAction, writeAction, exitAction, statAction, schematicAction;
+	private JTextArea jText, jStat;
 	private JLabel jImageLabel;
     
 	public void AppFrameInit() {
@@ -31,17 +31,20 @@ public class AppFrame extends JFrame implements ActionListener{
 		setTitle("Text It!");
 		setSize(1000, 700); //resize the window to be 1000px wide and 700px
 		setLocationRelativeTo(null); //center the window on the screen
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		
 
 		Font font = new Font("Verdana", Font.BOLD, 12);
 		jText.setFont(font);
 	}
 	
-	public void printText(String text){        
-		jText = new JTextArea(38,40);
-		jText.setText(text);
-		jText.setEnabled(false);
+	public void printText(){        
+		jText = new JTextArea(37,40);
+		jText.setText("");
+		jText.setEditable(false);
+		jStat = new JTextArea(18, 40);
+		jStat.setText("");
+		jStat.setEditable(false);
 	}
 
 	public final void initUI() {
@@ -49,9 +52,6 @@ public class AppFrame extends JFrame implements ActionListener{
 		JSplitPane jSplitPane1, jSplitPane2;
         JPanel jPanel1 = null, jPanel2Top, jPanel2Bottom;
         JLabel jLabel1, jLabel2Top, jLabel2Bottom;
-        
-        //ImageDraftman img = new ImageDraftman();
-        //img.createWhiteImage();
         
         //Menu Bar
 		
@@ -63,27 +63,32 @@ public class AppFrame extends JFrame implements ActionListener{
         
         // Define and add two drop down menu to the menu bar
         JMenu fileMenu = new JMenu("File");
-        JMenu editMenu = new JMenu("Edit");
+        JMenu downloadMenu = new JMenu("Download");
         menuBar.add(fileMenu);
-        menuBar.add(editMenu);
+        menuBar.add(downloadMenu);
 
         // Create and add simple menu item to one of the drop down menu
         importAction = new JMenuItem("Import");
         writeAction = new JMenuItem("Write");
         exitAction = new JMenuItem("Exit");
-        copyAction = new JMenuItem("Copy");
+        statAction = new JMenuItem("Satistics");
+        schematicAction = new JMenuItem("Schematic");
 
         fileMenu.add(importAction);
         fileMenu.add(writeAction);
         fileMenu.addSeparator();
         fileMenu.add(exitAction);
         
-        editMenu.add(copyAction);
+        downloadMenu.add(statAction);
+        downloadMenu.add(schematicAction);
         
         //Actions for menu items
         importAction.addActionListener(this);
         writeAction.addActionListener(this);      
-        exitAction.addActionListener(this);        
+        exitAction.addActionListener(this); 
+        
+        statAction.addActionListener(this);
+        schematicAction.addActionListener(this);
         
         //Panel
         
@@ -97,13 +102,13 @@ public class AppFrame extends JFrame implements ActionListener{
                 jPanel2Top, jPanel2Bottom);
         jSplitPane2.setOneTouchExpandable(false);
         jSplitPane2.setDividerLocation(300);
-        //jSplitPane2.setResizeWeight(0.5);
+        jSplitPane2.setEnabled(false);
          
         jSplitPane1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, 
                 jPanel1, jSplitPane2);
         jSplitPane1.setOneTouchExpandable(false);
         jSplitPane1.setDividerLocation(500);
-        //jSplitPane1.setResizeWeight(0.5);
+        jSplitPane1.setEnabled(false);
          
         getContentPane().add(jSplitPane1);
         
@@ -114,7 +119,7 @@ public class AppFrame extends JFrame implements ActionListener{
         jLabel2Top = new JLabel("Schematic");
         jLabel2Bottom = new JLabel("Statistics");
         
-        printText("");
+        printText();
         
         //Adding Labels
         jPanel1.add(jLabel1);
@@ -126,8 +131,10 @@ public class AppFrame extends JFrame implements ActionListener{
         
         jImageLabel = new JLabel();
         jPanel2Top.add(jImageLabel);
-        //jPanel2Top.add(img);
+
         jPanel2Bottom.add(jLabel2Bottom);
+        jPanel2Bottom.add(new JSeparator(SwingConstants.VERTICAL));
+        jPanel2Bottom.add(jStat);
 	}
 
 	public void actionPerformed(ActionEvent evt) 	
@@ -141,13 +148,17 @@ public class AppFrame extends JFrame implements ActionListener{
             	importFrame.openFrame();
             	
         		jText.setText(importFrame.getFullText());
-        		jText.update(jText.getGraphics());
         		revalidate();
         		repaint();
         		
         		jImageLabel.setIcon(new ImageIcon(importFrame.getBuffImg()));
         		revalidate();
         		repaint();
+        		
+        		jStat.setText(importFrame.getStat());
+        		revalidate();
+        		repaint();
+        		
             } catch (IOException ex) {                    
             	final JPanel panel = new JPanel();
                 JOptionPane.showMessageDialog(panel, "Choose a File!", "Error", JOptionPane.ERROR_MESSAGE);
@@ -160,19 +171,35 @@ public class AppFrame extends JFrame implements ActionListener{
             	writeFrame.openFrame();
 
             	jText.setText(writeFrame.getFullText());
-        		jText.update(jText.getGraphics());
+        		//jText.update(jText.getGraphics());
         		revalidate();
         		repaint();
 
         		jImageLabel.setIcon(new ImageIcon(writeFrame.getBuffImg()));
         		revalidate();
         		repaint();
+        		
+        		jStat.setText(writeFrame.getStat());
+        		revalidate();
+        		repaint();
             } catch (IOException ex) {                    
                 ex.printStackTrace();
             }
         }else if(source==exitAction){
+        	
         	 System.out.println("You have clicked on the exit action");
              System.exit(0);
+             
+        }else if(source==schematicAction){
+        	
+        	final JPanel panel = new JPanel();
+            JOptionPane.showMessageDialog(panel, "Unimplemented function!", "Download Schematic", JOptionPane.INFORMATION_MESSAGE);
+         
+        }else if(source==statAction){
+        	
+        	final JPanel panel = new JPanel();
+            JOptionPane.showMessageDialog(panel, "Unimplemented function!", "Download Statistics", JOptionPane.INFORMATION_MESSAGE);
+      
         }
     }
 }

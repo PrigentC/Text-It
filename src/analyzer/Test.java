@@ -1,6 +1,7 @@
 package analyzer;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 import analyzer.lexical.TIDictionary;
 import analyzer.lexical.TISpellChecker;
@@ -52,6 +53,18 @@ public class Test {
 		TIENStats tis = new TIENStats();
 		
 		tis.numberWordPerClass(syntax.getResult());
+		tis.percentWordPerClass();
+		
+		System.out.println(tis.toString());
+		
+		/*HashMap<String, Integer> test = tis.getNumber();
+		HashMap<String, Double> test2 = tis.getPercent();
+
+		
+		for(String s : tis.ENWordClass) {
+			System.out.println(s + " " + test.get(s));
+			System.out.println(s + " " + test2.get(s));
+		}*/
 		
 		System.out.println("Bye !");
 	}
@@ -61,9 +74,9 @@ public class Test {
 	public static void main(String args[]) {
 		Test test = new Test();
 		
-		test.spellCheckTest();
+		//test.spellCheckTest();
 		
-		//test.syntaxTest();
+		test.syntaxTest();
 				
 		
 	}

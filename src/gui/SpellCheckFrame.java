@@ -19,6 +19,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 import analyzer.lexical.TISpellChecker;
+import analyzer.statistics.TIENStats;
 import analyzer.syntaxical.TISyntaxAnalyzer;
 import javafx.util.Pair;
 import representation.ImageDraftman;
@@ -34,14 +35,17 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 	
 	private ArrayList<Pair<String,String>> syntaxResult;
 	private String fullText;
+	private BufferedImage buffImage;
+	private String stats;
 
 
 	@SuppressWarnings("rawtypes")
 	private JComboBox liste;
+	
 	private TISpellChecker spellCheck;
 	private TISyntaxAnalyzer synataxAnalyzer;
 	private ImageDraftman imageDraft;
-	private BufferedImage buffImage;
+	private TIENStats tiStat;
 	
 	public void spellCheckFrameExecute(){
 		text = new JTextField(10);
@@ -74,6 +78,11 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		tiStat = new TIENStats();
+		tiStat.numberWordPerClass(syntaxResult);
+		tiStat.percentWordPerClass();
+		setStats(tiStat.toString());
 	}
 
 
@@ -197,6 +206,14 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 
 	public void setBuffImage(BufferedImage buffImage) {
 		this.buffImage = buffImage;
+	}
+
+	public String getStats() {
+		return stats;
+	}
+
+	public void setStats(String stats) {
+		this.stats = stats;
 	}
 
 }

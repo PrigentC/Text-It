@@ -30,7 +30,7 @@ public class ImageDraftman {
 				for(Pair<String, String> p : a){
 					g.setColor(enProp.colorChooser(p.getValue()));
 					setDim(p.getKey());
-					g.drawRect(x, y, width, 14);
+					g.fillRect(x, y, width, 14);
 					}
 				g.dispose();
 				enProp.drawLegend();
@@ -84,7 +84,7 @@ public class ImageDraftman {
 	}
 	
 	public void createWhiteImage(int i){
-		img = new BufferedImage(300, i*18, BufferedImage.TYPE_INT_RGB);
+		img = new BufferedImage(450, 255, BufferedImage.TYPE_INT_RGB);
 		g=img.createGraphics();
 		g.setColor(Color.white);
 		g.fillRect(0, 0, img.getWidth(), img.getHeight());
