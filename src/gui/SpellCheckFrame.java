@@ -5,6 +5,7 @@ import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -17,6 +18,8 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 import analyzer.lexical.TISpellChecker;
+import analyzer.syntaxical.TISyntaxAnalyzer;
+import javafx.util.Pair;
 
 @SuppressWarnings("serial")
 public class SpellCheckFrame extends JDialog implements ActionListener{
@@ -27,12 +30,14 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 	private String contexte;
 	private Object [] elements;
 	
+	private ArrayList<Pair<String,String>> syntaxResult;
 	private String fullText;
 
 
 	@SuppressWarnings("rawtypes")
 	private JComboBox liste;
 	private TISpellChecker spellCheck;
+	private TISyntaxAnalyzer synataxAnalyzer;
 	
 	public void spellCheckFrameExecute(){
 		text = new JTextField(10);
@@ -52,7 +57,10 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
+		synataxAnalyzer = new TISyntaxAnalyzer("cathie.prigent@uha.fr", "ahg5Awodu8ga");
+		synataxAnalyzer.launchAnalysis(fullText);
+		syntaxResult = synataxAnalyzer.getResult();
 	}
 
 
@@ -156,6 +164,16 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 
 	public void setFullText(String fullText) {
 		this.fullText = fullText;
+	}
+
+
+	public ArrayList<Pair<String,String>> getSyntaxResult() {
+		return syntaxResult;
+	}
+
+
+	public void setSyntaxResult(ArrayList<Pair<String,String>> syntaxResult) {
+		this.syntaxResult = syntaxResult;
 	}
 
 }
