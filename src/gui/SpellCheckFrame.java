@@ -63,9 +63,7 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 		setTitle("Spell Checker");
 		setSize(300, 150);
 		setLocationRelativeTo(null);
-		setVisible(true);
 
-		setModal(true);
 		Container contentPane = getContentPane();
 		
 		JPanel elementsPanel = new JPanel();
@@ -118,6 +116,9 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
         contentPane.add(buttonPanel,BorderLayout.SOUTH);
         revalidate();
         repaint();
+        
+		setModal(true);
+		setVisible(true);
 	}
 
 	public void actionPerformed(ActionEvent evt) {

@@ -8,8 +8,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -20,7 +20,7 @@ import extract.ExtractText;
 
 
 @SuppressWarnings("serial")
-public class AppImportFrame extends JFrame implements ActionListener{
+public class AppImportFrame extends JDialog implements ActionListener{
 	private JTextField jField;
 	private JFileChooser fileChooser;
 	private int mode;
@@ -41,8 +41,7 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		setTitle("Import Text");
 		setSize(520, 120);
 		setLocationRelativeTo(null);
-		setVisible(true);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		//setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		//Create Elements        
 		jPanel = new JPanel(new FlowLayout());
@@ -61,9 +60,12 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		
         jButton1.addActionListener(this);      
         jButton2.addActionListener(this);
-		
+        
 		Container contentPane = getContentPane();
 		contentPane.add(jPanel);
+
+        setModal(true);
+		setVisible(true);
 	}
 	
 	public void actionPerformed(ActionEvent evt) 	
