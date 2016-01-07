@@ -4,12 +4,13 @@ import java.awt.Container;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -20,10 +21,12 @@ import extract.ExtractText;
 
 
 @SuppressWarnings("serial")
-public class AppImportFrame extends JFrame implements ActionListener{
+public class AppImportFrame extends JDialog implements ActionListener{
 	private JTextField jField;
 	private JFileChooser fileChooser;
 	private int mode;
+	private String fullText;
+	private BufferedImage buffImg;
 	
 	public static final int MODE_OPEN = 1;
 	public static final int MODE_SAVE = 2;
@@ -41,8 +44,7 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		setTitle("Import Text");
 		setSize(520, 120);
 		setLocationRelativeTo(null);
-		setVisible(true);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		//setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		//Create Elements        
 		jPanel = new JPanel(new FlowLayout());
@@ -61,9 +63,12 @@ public class AppImportFrame extends JFrame implements ActionListener{
 		
         jButton1.addActionListener(this);      
         jButton2.addActionListener(this);
-		
+        
 		Container contentPane = getContentPane();
 		contentPane.add(jPanel);
+
+        setModal(true);
+		setVisible(true);
 	}
 	
 	public void actionPerformed(ActionEvent evt) 	
@@ -103,6 +108,9 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	            }else{
 	            	this.setVisible(true);
 	            }
+	            
+	            setFullText(spellFrame.getFullText());
+	            setBuffImg(spellFrame.getBuffImage());
         	}
         }
     }
@@ -132,5 +140,21 @@ public class AppImportFrame extends JFrame implements ActionListener{
 	     fileChooser.addChoosableFileFilter(filter);
 	     fileChooser.setFileFilter(filter);
 	 }
+
+	public String getFullText() {
+		return fullText;
+	}
+
+	public void setFullText(String fullText) {
+		this.fullText = fullText;
+	}
+
+	public BufferedImage getBuffImg() {
+		return buffImg;
+	}
+
+	public void setBuffImg(BufferedImage buffImg) {
+		this.buffImg = buffImg;
+	}
 
 }

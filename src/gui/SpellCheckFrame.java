@@ -4,7 +4,9 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -17,6 +19,9 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 import analyzer.lexical.TISpellChecker;
+import analyzer.syntaxical.TISyntaxAnalyzer;
+import javafx.util.Pair;
+import representation.ImageDraftman;
 
 @SuppressWarnings("serial")
 public class SpellCheckFrame extends JDialog implements ActionListener{
@@ -27,12 +32,16 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 	private String contexte;
 	private Object [] elements;
 	
+	private ArrayList<Pair<String,String>> syntaxResult;
 	private String fullText;
 
 
 	@SuppressWarnings("rawtypes")
 	private JComboBox liste;
 	private TISpellChecker spellCheck;
+	private TISyntaxAnalyzer synataxAnalyzer;
+	private ImageDraftman imageDraft;
+	private BufferedImage buffImage;
 	
 	public void spellCheckFrameExecute(){
 		text = new JTextField(10);
@@ -52,7 +61,19 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
+		synataxAnalyzer = new TISyntaxAnalyzer("cathie.prigent@uha.fr", "ahg5Awodu8ga");
+		synataxAnalyzer.launchAnalysis(fullText);
+		syntaxResult = synataxAnalyzer.getResult();
 		
+		imageDraft = new ImageDraftman();
+		imageDraft.createWhiteImage(fullText.length());
+		try {
+			imageDraft.draw(syntaxResult);
+			buffImage = imageDraft.getImg();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 
@@ -63,9 +84,7 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 		setTitle("Spell Checker");
 		setSize(300, 150);
 		setLocationRelativeTo(null);
-		setVisible(true);
 
-		setModal(true);
 		Container contentPane = getContentPane();
 		
 		JPanel elementsPanel = new JPanel();
@@ -118,6 +137,9 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
         contentPane.add(buttonPanel,BorderLayout.SOUTH);
         revalidate();
         repaint();
+        
+		setModal(true);
+		setVisible(true);
 	}
 
 	public void actionPerformed(ActionEvent evt) {
@@ -155,6 +177,26 @@ public class SpellCheckFrame extends JDialog implements ActionListener{
 
 	public void setFullText(String fullText) {
 		this.fullText = fullText;
+	}
+
+
+	public ArrayList<Pair<String,String>> getSyntaxResult() {
+		return syntaxResult;
+	}
+
+
+	public void setSyntaxResult(ArrayList<Pair<String,String>> syntaxResult) {
+		this.syntaxResult = syntaxResult;
+	}
+
+
+	public BufferedImage getBuffImage() {
+		return buffImage;
+	}
+
+
+	public void setBuffImage(BufferedImage buffImage) {
+		this.buffImage = buffImage;
 	}
 
 }

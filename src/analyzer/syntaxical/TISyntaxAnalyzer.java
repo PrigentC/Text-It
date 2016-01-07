@@ -29,7 +29,6 @@ public class TISyntaxAnalyzer {
 			
 			svgdText.add(p[0]);
 			result.put(p[0], p[1]);
-			System.out.println(result.get(p[0]));
 		}
 	}
 	

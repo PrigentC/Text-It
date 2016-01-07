@@ -4,20 +4,23 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JDialog;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 @SuppressWarnings("serial")
-public class AppWriteFrame extends JFrame implements ActionListener {
+public class AppWriteFrame extends JDialog implements ActionListener {
 	private JTextArea sourcePane = null;
 
 	private JButton jButton = null;
+	private String fullText;
+	private BufferedImage buffImg;
 	
 	public void openFrame() throws IOException{
 
@@ -25,8 +28,7 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 		setTitle("Write Text");
 		setSize(500, 400);
 		setLocationRelativeTo(null);
-		setVisible(true);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		//setDefaultCloseOperation(EXIT_ON_CLOSE);
 				
 		Container contentPane = getContentPane();
 	       
@@ -45,6 +47,9 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 
         // Add the button panel at the bottom of the JFrame
         contentPane.add(buttonPanel,BorderLayout.SOUTH);
+
+        setModal(true);
+        setVisible(true);
     }
 
     public void actionPerformed(ActionEvent evt) {
@@ -62,7 +67,26 @@ public class AppWriteFrame extends JFrame implements ActionListener {
 				spellFrame.setFullText(sourcePane.getText());
 				this.setVisible(false);
 				spellFrame.spellCheckFrameExecute();
+				
+				setFullText(spellFrame.getFullText());
+				setBuffImg(spellFrame.getBuffImage());
             }
         }
+	}
+
+	public String getFullText() {
+		return fullText;
+	}
+
+	public void setFullText(String fullTexte) {
+		this.fullText = fullTexte;
+	}
+
+	public BufferedImage getBuffImg() {
+		return buffImg;
+	}
+
+	public void setBuffImg(BufferedImage buffImg) {
+		this.buffImg = buffImg;
 	}
 }
